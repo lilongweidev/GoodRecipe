@@ -2,6 +2,8 @@ package com.goodrecipe.di
 
 import android.content.Context
 import androidx.room.Room
+import androidx.room.migration.Migration
+import androidx.sqlite.db.SupportSQLiteDatabase
 import com.goodrecipe.data.local.GoodRecipeDatabase
 import com.goodrecipe.data.local.dao.RecipeDao
 import com.goodrecipe.data.repository.RecipeRepository
@@ -18,6 +20,14 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object DatabaseModule {
 
+    private val MIGRATION_1_2 = object : Migration(1, 2) {
+        override fun migrate(database: SupportSQLiteDatabase) {
+            database.execSQL("ALTER TABLE recipes ADD COLUMN tags TEXT NOT NULL DEFAULT ''")
+            database.execSQL("ALTER TABLE recipes ADD COLUMN nutritionalNotes TEXT NOT NULL DEFAULT ''")
+            database.execSQL("ALTER TABLE recipes ADD COLUMN preparationTips TEXT NOT NULL DEFAULT ''")
+        }
+    }
+
     @Provides
     @Singleton
     fun provideDatabase(@ApplicationContext context: Context): GoodRecipeDatabase =
@@ -25,7 +35,7 @@ object DatabaseModule {
             context,
             GoodRecipeDatabase::class.java,
             GoodRecipeDatabase.DATABASE_NAME
-        ).build()
+        ).addMigrations(MIGRATION_1_2).build()
 
     @Provides
     @Singleton

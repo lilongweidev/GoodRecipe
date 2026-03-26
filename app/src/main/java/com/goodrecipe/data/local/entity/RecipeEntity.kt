@@ -16,5 +16,8 @@ data class RecipeEntity(
     val servings: Int,
     val imageUrl: String = "",
     val isFavorite: Boolean = false,
+    val tags: String = "",
+    val nutritionalNotes: String = "",
+    val preparationTips: String = "",
     val createdAt: Long = System.currentTimeMillis()
 )

@@ -65,6 +65,9 @@ private fun RecipeEntity.toDomain() = Recipe(
     servings = servings,
     imageUrl = imageUrl,
     isFavorite = isFavorite,
+    tags = tags.split("||").filter { it.isNotBlank() },
+    nutritionalNotes = nutritionalNotes,
+    preparationTips = preparationTips,
     createdAt = createdAt
 )
 
@@ -79,5 +82,8 @@ private fun Recipe.toEntity() = RecipeEntity(
     servings = servings,
     imageUrl = imageUrl,
     isFavorite = isFavorite,
+    tags = tags.joinToString("||"),
+    nutritionalNotes = nutritionalNotes,
+    preparationTips = preparationTips,
     createdAt = createdAt
 )

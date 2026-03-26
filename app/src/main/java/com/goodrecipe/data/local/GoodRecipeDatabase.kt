@@ -7,7 +7,7 @@ import com.goodrecipe.data.local.entity.RecipeEntity
 
 @Database(
     entities = [RecipeEntity::class],
-    version = 1,
+    version = 2,
     exportSchema = false
 )
 abstract class GoodRecipeDatabase : RoomDatabase() {

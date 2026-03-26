@@ -1,6 +1,8 @@
 package com.goodrecipe.ui.screens.detail
 
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material.icons.Icons
@@ -8,6 +10,8 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material.icons.outlined.FavoriteBorder
 import androidx.compose.material3.*
+import androidx.compose.material3.AssistChip
+import androidx.compose.material3.AssistChipDefaults
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -123,6 +127,12 @@ private fun RecipeDetailContent(recipe: Recipe, modifier: Modifier = Modifier) {
             }
         }
 
+        if (recipe.tags.isNotEmpty() || recipe.nutritionalNotes.isNotBlank() || recipe.preparationTips.isNotBlank()) {
+            item {
+                RecipeInfoSection(recipe = recipe)
+            }
+        }
+
         // Description
         if (recipe.description.isNotBlank()) {
             item {
@@ -187,6 +197,58 @@ private fun RecipeDetailContent(recipe: Recipe, modifier: Modifier = Modifier) {
         }
 
         item { Spacer(Modifier.height(32.dp)) }
+    }
+}
+
+@Composable
+private fun RecipeInfoSection(recipe: Recipe) {
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(vertical = 12.dp)
+    ) {
+        if (recipe.tags.isNotEmpty()) {
+            Text("标签", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
+            Spacer(Modifier.height(6.dp))
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .horizontalScroll(rememberScrollState()),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                recipe.tags.forEach { tag ->
+                    AssistChip(
+                        onClick = {},
+                        label = { Text(tag) },
+                        enabled = false,
+                        colors = AssistChipDefaults.assistChipColors(
+                            containerColor = MaterialTheme.colorScheme.secondaryContainer,
+                            labelColor = MaterialTheme.colorScheme.onSecondaryContainer
+                        )
+                    )
+                }
+            }
+        }
+
+        if (recipe.nutritionalNotes.isNotBlank()) {
+            Spacer(Modifier.height(12.dp))
+            Text("营养提示", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
+            Text(
+                text = recipe.nutritionalNotes,
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+        }
+
+        if (recipe.preparationTips.isNotBlank()) {
+            Spacer(Modifier.height(12.dp))
+            Text("准备建议", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
+            Text(
+                text = recipe.preparationTips,
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+        }
     }
 }
 

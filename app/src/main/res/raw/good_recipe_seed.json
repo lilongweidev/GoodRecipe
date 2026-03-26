@@ -1,0 +1,3922 @@
+[
+  {
+    "title": "阳光早餐 1",
+    "description": "早餐主题第 1 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 1"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 11,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/breakfast_1.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 1)"
+  },
+  {
+    "title": "阳光早餐 2",
+    "description": "早餐主题第 2 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 2"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 12,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/breakfast_2.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 2)"
+  },
+  {
+    "title": "阳光早餐 3",
+    "description": "早餐主题第 3 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 3"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 13,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/breakfast_3.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 3)"
+  },
+  {
+    "title": "阳光早餐 4",
+    "description": "早餐主题第 4 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 4"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 14,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/breakfast_4.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 4)"
+  },
+  {
+    "title": "阳光早餐 5",
+    "description": "早餐主题第 5 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 5"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 15,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/breakfast_5.jpg",
+    "isFavorite": true,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 5)"
+  },
+  {
+    "title": "阳光早餐 6",
+    "description": "早餐主题第 6 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 6"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 16,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/breakfast_6.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 6)"
+  },
+  {
+    "title": "阳光早餐 7",
+    "description": "早餐主题第 7 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 7"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 17,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/breakfast_7.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 7)"
+  },
+  {
+    "title": "阳光早餐 8",
+    "description": "早餐主题第 8 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 8"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 18,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/breakfast_8.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 8)"
+  },
+  {
+    "title": "阳光早餐 9",
+    "description": "早餐主题第 9 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 9"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 19,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/breakfast_9.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 9)"
+  },
+  {
+    "title": "阳光早餐 10",
+    "description": "早餐主题第 10 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 10"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 20,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/breakfast_10.jpg",
+    "isFavorite": true,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 10)"
+  },
+  {
+    "title": "阳光早餐 11",
+    "description": "早餐主题第 11 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 11"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 21,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/breakfast_11.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 11)"
+  },
+  {
+    "title": "阳光早餐 12",
+    "description": "早餐主题第 12 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 12"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 22,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/breakfast_12.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 12)"
+  },
+  {
+    "title": "阳光早餐 13",
+    "description": "早餐主题第 13 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 13"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 23,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/breakfast_13.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 13)"
+  },
+  {
+    "title": "阳光早餐 14",
+    "description": "早餐主题第 14 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 14"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 24,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/breakfast_14.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 14)"
+  },
+  {
+    "title": "阳光早餐 15",
+    "description": "早餐主题第 15 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 15"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/breakfast_15.jpg",
+    "isFavorite": true,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 15)"
+  },
+  {
+    "title": "阳光早餐 16",
+    "description": "早餐主题第 16 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 16"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 26,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/breakfast_16.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 16)"
+  },
+  {
+    "title": "阳光早餐 17",
+    "description": "早餐主题第 17 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 17"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 27,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/breakfast_17.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 17)"
+  },
+  {
+    "title": "阳光早餐 18",
+    "description": "早餐主题第 18 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 18"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 28,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/breakfast_18.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 18)"
+  },
+  {
+    "title": "阳光早餐 19",
+    "description": "早餐主题第 19 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 19"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 29,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/breakfast_19.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 19)"
+  },
+  {
+    "title": "阳光早餐 20",
+    "description": "早餐主题第 20 款，搭配清爽风味。",
+    "ingredients": [
+      "鸡蛋",
+      "牛奶",
+      "全麦面包",
+      "早餐专属材料 20"
+    ],
+    "steps": [
+      "将主要食材切好",
+      "烧热煎锅，加入少许油",
+      "煎至两面金黄即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 30,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/breakfast_20.jpg",
+    "isFavorite": true,
+    "tags": [
+      "清爽",
+      "快速",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "为一天提供稳定能量。 推荐搭配一杯温水。",
+    "preparationTips": "提前准备食材可缩短早晨时间。 (版本 20)"
+  },
+  {
+    "title": "午间能量 1",
+    "description": "午餐主题第 1 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 1"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 11,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/lunch_1.jpg",
+    "isFavorite": false,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 1)"
+  },
+  {
+    "title": "午间能量 2",
+    "description": "午餐主题第 2 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 2"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 12,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/lunch_2.jpg",
+    "isFavorite": false,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 2)"
+  },
+  {
+    "title": "午间能量 3",
+    "description": "午餐主题第 3 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 3"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 13,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/lunch_3.jpg",
+    "isFavorite": false,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 3)"
+  },
+  {
+    "title": "午间能量 4",
+    "description": "午餐主题第 4 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 4"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 14,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/lunch_4.jpg",
+    "isFavorite": false,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 4)"
+  },
+  {
+    "title": "午间能量 5",
+    "description": "午餐主题第 5 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 5"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 15,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/lunch_5.jpg",
+    "isFavorite": true,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 5)"
+  },
+  {
+    "title": "午间能量 6",
+    "description": "午餐主题第 6 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 6"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 16,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/lunch_6.jpg",
+    "isFavorite": false,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 6)"
+  },
+  {
+    "title": "午间能量 7",
+    "description": "午餐主题第 7 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 7"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 17,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/lunch_7.jpg",
+    "isFavorite": false,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 7)"
+  },
+  {
+    "title": "午间能量 8",
+    "description": "午餐主题第 8 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 8"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 18,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/lunch_8.jpg",
+    "isFavorite": false,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 8)"
+  },
+  {
+    "title": "午间能量 9",
+    "description": "午餐主题第 9 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 9"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 19,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/lunch_9.jpg",
+    "isFavorite": false,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 9)"
+  },
+  {
+    "title": "午间能量 10",
+    "description": "午餐主题第 10 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 10"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 20,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/lunch_10.jpg",
+    "isFavorite": true,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 10)"
+  },
+  {
+    "title": "午间能量 11",
+    "description": "午餐主题第 11 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 11"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 21,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/lunch_11.jpg",
+    "isFavorite": false,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 11)"
+  },
+  {
+    "title": "午间能量 12",
+    "description": "午餐主题第 12 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 12"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 22,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/lunch_12.jpg",
+    "isFavorite": false,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 12)"
+  },
+  {
+    "title": "午间能量 13",
+    "description": "午餐主题第 13 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 13"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 23,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/lunch_13.jpg",
+    "isFavorite": false,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 13)"
+  },
+  {
+    "title": "午间能量 14",
+    "description": "午餐主题第 14 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 14"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 24,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/lunch_14.jpg",
+    "isFavorite": false,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 14)"
+  },
+  {
+    "title": "午间能量 15",
+    "description": "午餐主题第 15 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 15"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/lunch_15.jpg",
+    "isFavorite": true,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 15)"
+  },
+  {
+    "title": "午间能量 16",
+    "description": "午餐主题第 16 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 16"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 26,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/lunch_16.jpg",
+    "isFavorite": false,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 16)"
+  },
+  {
+    "title": "午间能量 17",
+    "description": "午餐主题第 17 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 17"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 27,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/lunch_17.jpg",
+    "isFavorite": false,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 17)"
+  },
+  {
+    "title": "午间能量 18",
+    "description": "午餐主题第 18 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 18"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 28,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/lunch_18.jpg",
+    "isFavorite": false,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 18)"
+  },
+  {
+    "title": "午间能量 19",
+    "description": "午餐主题第 19 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 19"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 29,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/lunch_19.jpg",
+    "isFavorite": false,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 19)"
+  },
+  {
+    "title": "午间能量 20",
+    "description": "午餐主题第 20 款，搭配高蛋白风味。",
+    "ingredients": [
+      "鸡胸肉",
+      "糙米",
+      "蔬菜",
+      "午餐专属材料 20"
+    ],
+    "steps": [
+      "将鸡胸肉切块腌制",
+      "糙米提前泡水",
+      "与蔬菜一同翻炒或蒸熟",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "午餐",
+    "cookTimeMinutes": 30,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/lunch_20.jpg",
+    "isFavorite": true,
+    "tags": [
+      "高蛋白",
+      "低脂",
+      "平衡"
+    ],
+    "nutritionalNotes": "适合需要保持精力的午间时段。 推荐搭配一杯温水。",
+    "preparationTips": "用蒸的方式锁住水分。 (版本 20)"
+  },
+  {
+    "title": "夜间精致 1",
+    "description": "晚餐主题第 1 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 1"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 11,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/dinner_1.jpg",
+    "isFavorite": false,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 1)"
+  },
+  {
+    "title": "夜间精致 2",
+    "description": "晚餐主题第 2 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 2"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 12,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/dinner_2.jpg",
+    "isFavorite": false,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 2)"
+  },
+  {
+    "title": "夜间精致 3",
+    "description": "晚餐主题第 3 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 3"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 13,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/dinner_3.jpg",
+    "isFavorite": false,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 3)"
+  },
+  {
+    "title": "夜间精致 4",
+    "description": "晚餐主题第 4 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 4"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 14,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/dinner_4.jpg",
+    "isFavorite": false,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 4)"
+  },
+  {
+    "title": "夜间精致 5",
+    "description": "晚餐主题第 5 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 5"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 15,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/dinner_5.jpg",
+    "isFavorite": true,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 5)"
+  },
+  {
+    "title": "夜间精致 6",
+    "description": "晚餐主题第 6 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 6"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 16,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/dinner_6.jpg",
+    "isFavorite": false,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 6)"
+  },
+  {
+    "title": "夜间精致 7",
+    "description": "晚餐主题第 7 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 7"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 17,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/dinner_7.jpg",
+    "isFavorite": false,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 7)"
+  },
+  {
+    "title": "夜间精致 8",
+    "description": "晚餐主题第 8 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 8"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 18,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/dinner_8.jpg",
+    "isFavorite": false,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 8)"
+  },
+  {
+    "title": "夜间精致 9",
+    "description": "晚餐主题第 9 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 9"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 19,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/dinner_9.jpg",
+    "isFavorite": false,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 9)"
+  },
+  {
+    "title": "夜间精致 10",
+    "description": "晚餐主题第 10 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 10"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 20,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/dinner_10.jpg",
+    "isFavorite": true,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 10)"
+  },
+  {
+    "title": "夜间精致 11",
+    "description": "晚餐主题第 11 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 11"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 21,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/dinner_11.jpg",
+    "isFavorite": false,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 11)"
+  },
+  {
+    "title": "夜间精致 12",
+    "description": "晚餐主题第 12 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 12"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 22,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/dinner_12.jpg",
+    "isFavorite": false,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 12)"
+  },
+  {
+    "title": "夜间精致 13",
+    "description": "晚餐主题第 13 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 13"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 23,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/dinner_13.jpg",
+    "isFavorite": false,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 13)"
+  },
+  {
+    "title": "夜间精致 14",
+    "description": "晚餐主题第 14 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 14"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 24,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/dinner_14.jpg",
+    "isFavorite": false,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 14)"
+  },
+  {
+    "title": "夜间精致 15",
+    "description": "晚餐主题第 15 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 15"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/dinner_15.jpg",
+    "isFavorite": true,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 15)"
+  },
+  {
+    "title": "夜间精致 16",
+    "description": "晚餐主题第 16 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 16"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 26,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/dinner_16.jpg",
+    "isFavorite": false,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 16)"
+  },
+  {
+    "title": "夜间精致 17",
+    "description": "晚餐主题第 17 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 17"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 27,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/dinner_17.jpg",
+    "isFavorite": false,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 17)"
+  },
+  {
+    "title": "夜间精致 18",
+    "description": "晚餐主题第 18 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 18"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 28,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/dinner_18.jpg",
+    "isFavorite": false,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 18)"
+  },
+  {
+    "title": "夜间精致 19",
+    "description": "晚餐主题第 19 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 19"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 29,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/dinner_19.jpg",
+    "isFavorite": false,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 19)"
+  },
+  {
+    "title": "夜间精致 20",
+    "description": "晚餐主题第 20 款，搭配温和风味。",
+    "ingredients": [
+      "三文鱼",
+      "杏鲍菇",
+      "芝士",
+      "晚餐专属材料 20"
+    ],
+    "steps": [
+      "鱼肉稍微腌制",
+      "烤箱或平底锅加热",
+      "稍微烤/煎至熟即可",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 30,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/dinner_20.jpg",
+    "isFavorite": true,
+    "tags": [
+      "温和",
+      "养胃",
+      "蛋白质"
+    ],
+    "nutritionalNotes": "适合轻食但饱足感强的夜晚。 推荐搭配一杯温水。",
+    "preparationTips": "不宜过多调味。 (版本 20)"
+  },
+  {
+    "title": "甜蜜时刻 1",
+    "description": "甜点主题第 1 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 1"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 11,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/dessert_1.jpg",
+    "isFavorite": false,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 1)"
+  },
+  {
+    "title": "甜蜜时刻 2",
+    "description": "甜点主题第 2 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 2"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 12,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/dessert_2.jpg",
+    "isFavorite": false,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 2)"
+  },
+  {
+    "title": "甜蜜时刻 3",
+    "description": "甜点主题第 3 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 3"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 13,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/dessert_3.jpg",
+    "isFavorite": false,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 3)"
+  },
+  {
+    "title": "甜蜜时刻 4",
+    "description": "甜点主题第 4 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 4"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 14,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/dessert_4.jpg",
+    "isFavorite": false,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 4)"
+  },
+  {
+    "title": "甜蜜时刻 5",
+    "description": "甜点主题第 5 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 5"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 15,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/dessert_5.jpg",
+    "isFavorite": true,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 5)"
+  },
+  {
+    "title": "甜蜜时刻 6",
+    "description": "甜点主题第 6 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 6"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 16,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/dessert_6.jpg",
+    "isFavorite": false,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 6)"
+  },
+  {
+    "title": "甜蜜时刻 7",
+    "description": "甜点主题第 7 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 7"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 17,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/dessert_7.jpg",
+    "isFavorite": false,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 7)"
+  },
+  {
+    "title": "甜蜜时刻 8",
+    "description": "甜点主题第 8 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 8"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 18,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/dessert_8.jpg",
+    "isFavorite": false,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 8)"
+  },
+  {
+    "title": "甜蜜时刻 9",
+    "description": "甜点主题第 9 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 9"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 19,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/dessert_9.jpg",
+    "isFavorite": false,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 9)"
+  },
+  {
+    "title": "甜蜜时刻 10",
+    "description": "甜点主题第 10 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 10"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 20,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/dessert_10.jpg",
+    "isFavorite": true,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 10)"
+  },
+  {
+    "title": "甜蜜时刻 11",
+    "description": "甜点主题第 11 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 11"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 21,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/dessert_11.jpg",
+    "isFavorite": false,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 11)"
+  },
+  {
+    "title": "甜蜜时刻 12",
+    "description": "甜点主题第 12 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 12"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 22,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/dessert_12.jpg",
+    "isFavorite": false,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 12)"
+  },
+  {
+    "title": "甜蜜时刻 13",
+    "description": "甜点主题第 13 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 13"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 23,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/dessert_13.jpg",
+    "isFavorite": false,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 13)"
+  },
+  {
+    "title": "甜蜜时刻 14",
+    "description": "甜点主题第 14 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 14"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 24,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/dessert_14.jpg",
+    "isFavorite": false,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 14)"
+  },
+  {
+    "title": "甜蜜时刻 15",
+    "description": "甜点主题第 15 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 15"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/dessert_15.jpg",
+    "isFavorite": true,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 15)"
+  },
+  {
+    "title": "甜蜜时刻 16",
+    "description": "甜点主题第 16 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 16"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 26,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/dessert_16.jpg",
+    "isFavorite": false,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 16)"
+  },
+  {
+    "title": "甜蜜时刻 17",
+    "description": "甜点主题第 17 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 17"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 27,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/dessert_17.jpg",
+    "isFavorite": false,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 17)"
+  },
+  {
+    "title": "甜蜜时刻 18",
+    "description": "甜点主题第 18 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 18"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 28,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/dessert_18.jpg",
+    "isFavorite": false,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 18)"
+  },
+  {
+    "title": "甜蜜时刻 19",
+    "description": "甜点主题第 19 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 19"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 29,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/dessert_19.jpg",
+    "isFavorite": false,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 19)"
+  },
+  {
+    "title": "甜蜜时刻 20",
+    "description": "甜点主题第 20 款，搭配轻甜风味。",
+    "ingredients": [
+      "草莓",
+      "酸奶",
+      "燕麦",
+      "甜点专属材料 20"
+    ],
+    "steps": [
+      "将水果切块",
+      "混合酸奶及燕麦",
+      "冷藏后食用",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "甜点",
+    "cookTimeMinutes": 30,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/dessert_20.jpg",
+    "isFavorite": true,
+    "tags": [
+      "轻甜",
+      "水果",
+      "可提前准备"
+    ],
+    "nutritionalNotes": "适合饭后或下午茶轻松享用。 推荐搭配一杯温水。",
+    "preparationTips": "水果根据季节更换。 (版本 20)"
+  },
+  {
+    "title": "闲暇小咸 1",
+    "description": "小吃主题第 1 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 1"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 11,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/snack_1.jpg",
+    "isFavorite": false,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 1)"
+  },
+  {
+    "title": "闲暇小咸 2",
+    "description": "小吃主题第 2 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 2"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 12,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/snack_2.jpg",
+    "isFavorite": false,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 2)"
+  },
+  {
+    "title": "闲暇小咸 3",
+    "description": "小吃主题第 3 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 3"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 13,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/snack_3.jpg",
+    "isFavorite": false,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 3)"
+  },
+  {
+    "title": "闲暇小咸 4",
+    "description": "小吃主题第 4 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 4"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 14,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/snack_4.jpg",
+    "isFavorite": false,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 4)"
+  },
+  {
+    "title": "闲暇小咸 5",
+    "description": "小吃主题第 5 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 5"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 15,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/snack_5.jpg",
+    "isFavorite": true,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 5)"
+  },
+  {
+    "title": "闲暇小咸 6",
+    "description": "小吃主题第 6 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 6"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 16,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/snack_6.jpg",
+    "isFavorite": false,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 6)"
+  },
+  {
+    "title": "闲暇小咸 7",
+    "description": "小吃主题第 7 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 7"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 17,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/snack_7.jpg",
+    "isFavorite": false,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 7)"
+  },
+  {
+    "title": "闲暇小咸 8",
+    "description": "小吃主题第 8 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 8"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 18,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/snack_8.jpg",
+    "isFavorite": false,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 8)"
+  },
+  {
+    "title": "闲暇小咸 9",
+    "description": "小吃主题第 9 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 9"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 19,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/snack_9.jpg",
+    "isFavorite": false,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 9)"
+  },
+  {
+    "title": "闲暇小咸 10",
+    "description": "小吃主题第 10 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 10"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 20,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/snack_10.jpg",
+    "isFavorite": true,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 10)"
+  },
+  {
+    "title": "闲暇小咸 11",
+    "description": "小吃主题第 11 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 11"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 21,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/snack_11.jpg",
+    "isFavorite": false,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 11)"
+  },
+  {
+    "title": "闲暇小咸 12",
+    "description": "小吃主题第 12 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 12"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 22,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/snack_12.jpg",
+    "isFavorite": false,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 12)"
+  },
+  {
+    "title": "闲暇小咸 13",
+    "description": "小吃主题第 13 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 13"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 23,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/snack_13.jpg",
+    "isFavorite": false,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 13)"
+  },
+  {
+    "title": "闲暇小咸 14",
+    "description": "小吃主题第 14 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 14"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 24,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/snack_14.jpg",
+    "isFavorite": false,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 14)"
+  },
+  {
+    "title": "闲暇小咸 15",
+    "description": "小吃主题第 15 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 15"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/snack_15.jpg",
+    "isFavorite": true,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 15)"
+  },
+  {
+    "title": "闲暇小咸 16",
+    "description": "小吃主题第 16 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 16"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 26,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/snack_16.jpg",
+    "isFavorite": false,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 16)"
+  },
+  {
+    "title": "闲暇小咸 17",
+    "description": "小吃主题第 17 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 17"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 27,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/snack_17.jpg",
+    "isFavorite": false,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 17)"
+  },
+  {
+    "title": "闲暇小咸 18",
+    "description": "小吃主题第 18 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 18"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 28,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/snack_18.jpg",
+    "isFavorite": false,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 18)"
+  },
+  {
+    "title": "闲暇小咸 19",
+    "description": "小吃主题第 19 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 19"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 29,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/snack_19.jpg",
+    "isFavorite": false,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 19)"
+  },
+  {
+    "title": "闲暇小咸 20",
+    "description": "小吃主题第 20 款，搭配解馋风味。",
+    "ingredients": [
+      "玉米",
+      "芝士",
+      "黑胡椒",
+      "小吃专属材料 20"
+    ],
+    "steps": [
+      "玉米粒清洗",
+      "加调料拌匀",
+      "烤箱或锅热后烘烤",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "小吃",
+    "cookTimeMinutes": 30,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/snack_20.jpg",
+    "isFavorite": true,
+    "tags": [
+      "解馋",
+      "分享",
+      "香脆"
+    ],
+    "nutritionalNotes": "适合看剧或聚会共享。 推荐搭配一杯温水。",
+    "preparationTips": "提前腌制可以让味道更入味。 (版本 20)"
+  },
+  {
+    "title": "滋补汤 1",
+    "description": "汤品主题第 1 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 1"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 11,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/soup_1.jpg",
+    "isFavorite": false,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 1)"
+  },
+  {
+    "title": "滋补汤 2",
+    "description": "汤品主题第 2 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 2"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 12,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/soup_2.jpg",
+    "isFavorite": false,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 2)"
+  },
+  {
+    "title": "滋补汤 3",
+    "description": "汤品主题第 3 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 3"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 13,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/soup_3.jpg",
+    "isFavorite": false,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 3)"
+  },
+  {
+    "title": "滋补汤 4",
+    "description": "汤品主题第 4 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 4"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 14,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/soup_4.jpg",
+    "isFavorite": false,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 4)"
+  },
+  {
+    "title": "滋补汤 5",
+    "description": "汤品主题第 5 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 5"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 15,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/soup_5.jpg",
+    "isFavorite": true,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 5)"
+  },
+  {
+    "title": "滋补汤 6",
+    "description": "汤品主题第 6 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 6"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 16,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/soup_6.jpg",
+    "isFavorite": false,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 6)"
+  },
+  {
+    "title": "滋补汤 7",
+    "description": "汤品主题第 7 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 7"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 17,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/soup_7.jpg",
+    "isFavorite": false,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 7)"
+  },
+  {
+    "title": "滋补汤 8",
+    "description": "汤品主题第 8 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 8"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 18,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/soup_8.jpg",
+    "isFavorite": false,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 8)"
+  },
+  {
+    "title": "滋补汤 9",
+    "description": "汤品主题第 9 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 9"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 19,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/soup_9.jpg",
+    "isFavorite": false,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 9)"
+  },
+  {
+    "title": "滋补汤 10",
+    "description": "汤品主题第 10 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 10"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 20,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/soup_10.jpg",
+    "isFavorite": true,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 10)"
+  },
+  {
+    "title": "滋补汤 11",
+    "description": "汤品主题第 11 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 11"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 21,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/soup_11.jpg",
+    "isFavorite": false,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 11)"
+  },
+  {
+    "title": "滋补汤 12",
+    "description": "汤品主题第 12 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 12"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 22,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/soup_12.jpg",
+    "isFavorite": false,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 12)"
+  },
+  {
+    "title": "滋补汤 13",
+    "description": "汤品主题第 13 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 13"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 23,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/soup_13.jpg",
+    "isFavorite": false,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 13)"
+  },
+  {
+    "title": "滋补汤 14",
+    "description": "汤品主题第 14 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 14"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 24,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/soup_14.jpg",
+    "isFavorite": false,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 14)"
+  },
+  {
+    "title": "滋补汤 15",
+    "description": "汤品主题第 15 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 15"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/soup_15.jpg",
+    "isFavorite": true,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 15)"
+  },
+  {
+    "title": "滋补汤 16",
+    "description": "汤品主题第 16 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 16"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 26,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/soup_16.jpg",
+    "isFavorite": false,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 16)"
+  },
+  {
+    "title": "滋补汤 17",
+    "description": "汤品主题第 17 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 17"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 27,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/soup_17.jpg",
+    "isFavorite": false,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 17)"
+  },
+  {
+    "title": "滋补汤 18",
+    "description": "汤品主题第 18 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 18"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 28,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/soup_18.jpg",
+    "isFavorite": false,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 18)"
+  },
+  {
+    "title": "滋补汤 19",
+    "description": "汤品主题第 19 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 19"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 29,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/soup_19.jpg",
+    "isFavorite": false,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 19)"
+  },
+  {
+    "title": "滋补汤 20",
+    "description": "汤品主题第 20 款，搭配养胃风味。",
+    "ingredients": [
+      "排骨",
+      "萝卜",
+      "枸杞",
+      "汤品专属材料 20"
+    ],
+    "steps": [
+      "材料焯水",
+      "与香料一同炖煮",
+      "加盐调味",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 30,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/soup_20.jpg",
+    "isFavorite": true,
+    "tags": [
+      "养胃",
+      "滋补",
+      "低温慢炖"
+    ],
+    "nutritionalNotes": "充满暖意的家庭滋补。 推荐搭配一杯温水。",
+    "preparationTips": "用小火慢炖保留营养。 (版本 20)"
+  },
+  {
+    "title": "彩虹沙律 1",
+    "description": "沙拉主题第 1 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 1"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 11,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/salad_1.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 1)"
+  },
+  {
+    "title": "彩虹沙律 2",
+    "description": "沙拉主题第 2 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 2"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 12,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/salad_2.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 2)"
+  },
+  {
+    "title": "彩虹沙律 3",
+    "description": "沙拉主题第 3 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 3"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 13,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/salad_3.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 3)"
+  },
+  {
+    "title": "彩虹沙律 4",
+    "description": "沙拉主题第 4 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 4"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 14,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/salad_4.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 4)"
+  },
+  {
+    "title": "彩虹沙律 5",
+    "description": "沙拉主题第 5 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 5"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 15,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/salad_5.jpg",
+    "isFavorite": true,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 5)"
+  },
+  {
+    "title": "彩虹沙律 6",
+    "description": "沙拉主题第 6 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 6"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 16,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/salad_6.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 6)"
+  },
+  {
+    "title": "彩虹沙律 7",
+    "description": "沙拉主题第 7 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 7"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 17,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/salad_7.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 7)"
+  },
+  {
+    "title": "彩虹沙律 8",
+    "description": "沙拉主题第 8 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 8"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 18,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/salad_8.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 8)"
+  },
+  {
+    "title": "彩虹沙律 9",
+    "description": "沙拉主题第 9 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 9"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 19,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/salad_9.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 9)"
+  },
+  {
+    "title": "彩虹沙律 10",
+    "description": "沙拉主题第 10 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 10"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 20,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/salad_10.jpg",
+    "isFavorite": true,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 10)"
+  },
+  {
+    "title": "彩虹沙律 11",
+    "description": "沙拉主题第 11 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 11"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 21,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/salad_11.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 11)"
+  },
+  {
+    "title": "彩虹沙律 12",
+    "description": "沙拉主题第 12 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 12"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 22,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/salad_12.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 12)"
+  },
+  {
+    "title": "彩虹沙律 13",
+    "description": "沙拉主题第 13 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 13"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 23,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/salad_13.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 13)"
+  },
+  {
+    "title": "彩虹沙律 14",
+    "description": "沙拉主题第 14 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 14"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 24,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/salad_14.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 14)"
+  },
+  {
+    "title": "彩虹沙律 15",
+    "description": "沙拉主题第 15 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 15"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/salad_15.jpg",
+    "isFavorite": true,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 15)"
+  },
+  {
+    "title": "彩虹沙律 16",
+    "description": "沙拉主题第 16 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 16"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 26,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/salad_16.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 16)"
+  },
+  {
+    "title": "彩虹沙律 17",
+    "description": "沙拉主题第 17 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 17"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 27,
+    "servings": 2,
+    "imageUrl": "https://example.com/images/salad_17.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 17)"
+  },
+  {
+    "title": "彩虹沙律 18",
+    "description": "沙拉主题第 18 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 18"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 28,
+    "servings": 3,
+    "imageUrl": "https://example.com/images/salad_18.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 18)"
+  },
+  {
+    "title": "彩虹沙律 19",
+    "description": "沙拉主题第 19 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 19"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 29,
+    "servings": 4,
+    "imageUrl": "https://example.com/images/salad_19.jpg",
+    "isFavorite": false,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 19)"
+  },
+  {
+    "title": "彩虹沙律 20",
+    "description": "沙拉主题第 20 款，搭配清爽风味。",
+    "ingredients": [
+      "生菜",
+      "樱桃番茄",
+      "鳄梨",
+      "沙拉专属材料 20"
+    ],
+    "steps": [
+      "蔬菜洗净",
+      "切块摆盘",
+      "淋上酱汁",
+      "装盘时撒上香草或坚果。"
+    ],
+    "category": "沙拉",
+    "cookTimeMinutes": 30,
+    "servings": 1,
+    "imageUrl": "https://example.com/images/salad_20.jpg",
+    "isFavorite": true,
+    "tags": [
+      "清爽",
+      "低卡",
+      "健康"
+    ],
+    "nutritionalNotes": "下午/晚餐前的小轻快。 推荐搭配一杯温水。",
+    "preparationTips": "酱汁可自调为橄榄油加柠檬。 (版本 20)"
+  }
+]
