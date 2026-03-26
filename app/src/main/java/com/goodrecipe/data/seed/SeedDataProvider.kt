@@ -3,40 +3,50 @@ package com.goodrecipe.data.seed
 import android.content.Context
 import com.goodrecipe.R
 import com.goodrecipe.data.repository.Recipe
+import dagger.hilt.android.qualifiers.ApplicationContext
 import org.json.JSONArray
-import org.json.JSONException
 import org.json.JSONObject
+import javax.inject.Inject
+import javax.inject.Singleton
 
-object SeedDataProvider {
-
-    @Throws(JSONException::class)
-    fun loadRecipes(context: Context): List<Recipe> {
+@Singleton
+class SeedDataProvider @Inject constructor(
+    @ApplicationContext private val context: Context
+) {
+    fun loadRecipes(): List<Recipe> {
         val raw = context.resources.openRawResource(R.raw.good_recipe_seed)
-        val json = raw.bufferedReader().use { it.readText() }
-        val array = JSONArray(json)
-        return List(array.length()) { index -> array.getJSONObject(index).toRecipe() }
+        val content = raw.bufferedReader().use { it.readText() }
+        val jsonArray = JSONArray(content)
+        val recipes = mutableListOf<Recipe>()
+        for (index in 0 until jsonArray.length()) {
+            val recipeJson = jsonArray.getJSONObject(index)
+            recipes.add(parseRecipe(recipeJson))
+        }
+        return recipes
     }
 
-    private fun JSONObject.toRecipe() = Recipe(
-        title = optString("title", "未命名菜谱"),
-        description = optString("description", ""),
-        ingredients = optJSONArray("ingredients").toStringList(),
-        steps = optJSONArray("steps").toStringList(),
-        category = optString("category", ""),
-        cookTimeMinutes = optInt("cookTimeMinutes", 30),
-        servings = optInt("servings", 2),
-        imageUrl = optString("imageUrl", ""),
-        isFavorite = optBoolean("isFavorite", false),
-        tags = optJSONArray("tags").toStringList(),
-        nutritionalNotes = optString("nutritionalNotes", ""),
-        preparationTips = optString("preparationTips", "")
-    )
+    private fun parseRecipe(json: JSONObject): Recipe {
+        return Recipe(
+            title = json.optString("title"),
+            description = json.optString("description"),
+            ingredients = jsonArrayToList(json.optJSONArray("ingredients")),
+            steps = jsonArrayToList(json.optJSONArray("steps")),
+            category = json.optString("category"),
+            cookTimeMinutes = json.optInt("cookTimeMinutes"),
+            servings = json.optInt("servings"),
+            imageUrl = json.optString("imageUrl"),
+            isFavorite = json.optBoolean("isFavorite", false),
+            tags = jsonArrayToList(json.optJSONArray("tags")),
+            nutritionalNotes = json.optString("nutritionalNotes"),
+            preparationTips = json.optString("preparationTips")
+        )
+    }
 
-    private fun JSONArray?.toStringList(): List<String> {
-        if (this == null) return emptyList()
+    private fun jsonArrayToList(array: JSONArray?): List<String> {
+        if (array == null) return emptyList()
         val list = mutableListOf<String>()
-        for (i in 0 until length()) {
-            optString(i).takeIf { it.isNotBlank() }?.let(list::add)
+        for (i in 0 until array.length()) {
+            list.add(array.optString(i))
         }
         return list
     }
