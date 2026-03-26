@@ -1,6 +1,7 @@
 package com.goodrecipe.ui.screens.home
 
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
@@ -11,6 +12,8 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -29,6 +32,7 @@ fun HomeScreen(
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
 
     Scaffold(
+        containerColor = Color.Transparent,
         topBar = {
             TopAppBar(
                 title = {
@@ -39,20 +43,16 @@ fun HomeScreen(
                     )
                 },
                 actions = {
-                    IconButton(onClick = { viewModel.onToggleFavorites() }) {
+                    IconButton(onClick = { viewModel.onSync() }) {
                         Icon(
-                            imageVector = if (uiState.showFavoritesOnly)
-                                Icons.Filled.Favorite else Icons.Filled.FavoriteBorder,
-                            contentDescription = "收藏",
-                            tint = if (uiState.showFavoritesOnly)
-                                MaterialTheme.colorScheme.primary
-                            else
-                                MaterialTheme.colorScheme.onSurface
+                            imageVector = Icons.Filled.Sync,
+                            contentDescription = "同步",
+                            tint = MaterialTheme.colorScheme.primary
                         )
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = MaterialTheme.colorScheme.surface
+                    containerColor = Color.Transparent
                 )
             )
         },
@@ -64,64 +64,75 @@ fun HomeScreen(
             )
         }
     ) { padding ->
-        Column(
+        Box(
             modifier = Modifier
                 .fillMaxSize()
+                .background(
+                    Brush.verticalGradient(
+                        colors = listOf(
+                            MaterialTheme.colorScheme.background,
+                            MaterialTheme.colorScheme.surface
+                        )
+                    )
+                )
                 .padding(padding)
         ) {
-            // Search bar
-            SearchBar(
-                query = uiState.searchQuery,
-                onQueryChange = viewModel::onSearchQueryChange,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(horizontal = 16.dp, vertical = 8.dp)
-            )
+            Column(modifier = Modifier.fillMaxSize()) {
+                SearchBar(
+                    query = uiState.searchQuery,
+                    onQueryChange = viewModel::onSearchQueryChange,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp, vertical = 8.dp)
+                )
 
-            // Category chips
-            AnimatedVisibility(visible = uiState.searchQuery.isBlank()) {
-                LazyRow(
-                    contentPadding = PaddingValues(horizontal = 16.dp),
-                    horizontalArrangement = Arrangement.spacedBy(8.dp),
-                    modifier = Modifier.padding(bottom = 8.dp)
-                ) {
-                    items(RecipeCategory.entries) { category ->
-                        FilterChip(
-                            selected = uiState.selectedCategory == category,
-                            onClick = { viewModel.onCategorySelected(category) },
-                            label = { Text(category.displayName) }
-                        )
-                    }
-                }
-            }
-
-            // Recipe list
-            when {
-                uiState.isLoading -> {
-                    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                        CircularProgressIndicator()
-                    }
-                }
-                uiState.recipes.isEmpty() -> {
-                    EmptyState(
-                        message = if (uiState.showFavoritesOnly) "还没有收藏的菜谱"
-                        else "还没有菜谱，点击 + 添加一个吧！"
-                    )
-                }
-                else -> {
-                    LazyColumn(
-                        contentPadding = PaddingValues(16.dp),
-                        verticalArrangement = Arrangement.spacedBy(12.dp)
+                AnimatedVisibility(visible = uiState.searchQuery.isBlank()) {
+                    LazyRow(
+                        contentPadding = PaddingValues(horizontal = 16.dp),
+                        horizontalArrangement = Arrangement.spacedBy(8.dp),
+                        modifier = Modifier.padding(bottom = 8.dp)
                     ) {
-                        items(uiState.recipes, key = { it.id }) { recipe ->
-                            RecipeCard(
-                                recipe = recipe,
-                                onClick = { onRecipeClick(recipe.id) },
-                                onFavoriteClick = { viewModel.onToggleFavorite(recipe) },
-                                onDeleteClick = { viewModel.onDeleteRecipe(recipe) }
+                        items(RecipeCategory.entries) { category ->
+                            FilterChip(
+                                selected = uiState.selectedCategory == category,
+                                onClick = { viewModel.onCategorySelected(category) },
+                                label = { Text(category.displayName) },
+                                colors = FilterChipDefaults.filterChipColors(
+                                    selectedContainerColor = MaterialTheme.colorScheme.primaryContainer,
+                                    selectedLabelColor = MaterialTheme.colorScheme.onPrimaryContainer
+                                )
                             )
                         }
-                        item { Spacer(modifier = Modifier.height(80.dp)) }
+                    }
+                }
+
+                when {
+                    uiState.isLoading -> {
+                        Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                            CircularProgressIndicator(color = MaterialTheme.colorScheme.primary)
+                        }
+                    }
+                    uiState.recipes.isEmpty() -> {
+                        EmptyState(
+                            message = if (uiState.showFavoritesOnly) "还没有收藏的菜谱"
+                            else "还没有菜谱，点击 + 添加一个吧！"
+                        )
+                    }
+                    else -> {
+                        LazyColumn(
+                            contentPadding = PaddingValues(16.dp),
+                            verticalArrangement = Arrangement.spacedBy(12.dp)
+                        ) {
+                            items(uiState.recipes, key = { it.id }) { recipe ->
+                                RecipeCard(
+                                    recipe = recipe,
+                                    onClick = { onRecipeClick(recipe.id) },
+                                    onFavoriteClick = { viewModel.onToggleFavorite(recipe) },
+                                    onDeleteClick = { viewModel.onDeleteRecipe(recipe) }
+                                )
+                            }
+                            item { Spacer(modifier = Modifier.height(80.dp)) }
+                        }
                     }
                 }
             }
@@ -149,7 +160,13 @@ private fun SearchBar(
             }
         },
         singleLine = true,
-        shape = MaterialTheme.shapes.large
+        shape = MaterialTheme.shapes.large,
+        colors = OutlinedTextFieldDefaults.colors(
+            focusedBorderColor = MaterialTheme.colorScheme.primary,
+            unfocusedBorderColor = MaterialTheme.colorScheme.outlineVariant,
+            focusedContainerColor = MaterialTheme.colorScheme.surface,
+            unfocusedContainerColor = MaterialTheme.colorScheme.surface
+        )
     )
 }
 

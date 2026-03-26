@@ -5,36 +5,38 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
-val Orange400 = Color(0xFFFF7043)
-val Orange600 = Color(0xFFE64A19)
-val Orange100 = Color(0xFFFFCCBC)
-val Brown800 = Color(0xFF4E342E)
-val Cream50  = Color(0xFFFFF8F5)
+val OceanBlue = Color(0xFF2B7BFF)
+val DeepBlue = Color(0xFF0B1A3A)
+val BlueSurface = Color(0xFFF3F7FF)
+val BlueContainer = Color(0xFFDDE9FF)
+val BlueText = Color(0xFF0E1A2B)
 
 private val LightColorScheme = lightColorScheme(
-    primary = Orange400,
+    primary = OceanBlue,
     onPrimary = Color.White,
-    primaryContainer = Orange100,
-    onPrimaryContainer = Brown800,
-    secondary = Brown800,
+    primaryContainer = BlueContainer,
+    onPrimaryContainer = BlueText,
+    secondary = Color(0xFF2E5EA8),
     onSecondary = Color.White,
-    background = Cream50,
+    background = BlueSurface,
     surface = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
+    onBackground = BlueText,
+    onSurface = BlueText,
+    outlineVariant = Color(0xFFB9CCEE)
 )
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Orange400,
+    primary = OceanBlue,
     onPrimary = Color.White,
-    primaryContainer = Orange600,
+    primaryContainer = Color(0xFF14315F),
     onPrimaryContainer = Color.White,
-    secondary = Orange100,
-    onSecondary = Brown800,
-    background = Color(0xFF1A1210),
-    surface = Color(0xFF2C1F1A),
-    onBackground = Color(0xFFF5E6DF),
-    onSurface = Color(0xFFF5E6DF),
+    secondary = Color(0xFF84B0FF),
+    onSecondary = DeepBlue,
+    background = Color(0xFF071226),
+    surface = Color(0xFF0E1A33),
+    onBackground = Color(0xFFDDE8FF),
+    onSurface = Color(0xFFDDE8FF),
+    outlineVariant = Color(0xFF2A426A)
 )
 
 @Composable

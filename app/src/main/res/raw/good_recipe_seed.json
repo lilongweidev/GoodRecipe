@@ -1,4407 +1,1297 @@
 [
   {
-    "slug": "breakfast-golden-avocado-toast",
-    "title": "金黄牛油果水波蛋吐司",
-    "description": "金黄牛油果水波蛋吐司 以 全麦吐司 与 牛油果 为骨架，金黄 风味在平底锅 里慢慢渗出，和 黑胡椒 带来层次与 牛油果水波蛋吐司 的触感。",
+    "slug": "breakfast-congee-preserved-egg-pork",
+    "title": "皮蛋瘦肉粥",
+    "description": "皮蛋瘦肉粥 以 大米 与 皮蛋 为骨架，猪瘦肉 的鲜嫩在砂锅中慢慢熬出，绵滑醇厚的粥底带来温润饱足的 早餐 享受。",
     "ingredients": [
-      "全麦吐司",
-      "牛油果",
-      "鸡蛋",
-      "柠檬",
-      "橄榄油",
-      "黑胡椒",
-      "芝麻",
-      "枫糖"
+      "大米",
+      "皮蛋",
+      "猪瘦肉",
+      "姜丝",
+      "葱花",
+      "食盐",
+      "白胡椒粉",
+      "生抽",
+      "香油"
     ],
     "steps": [
-      "金黄 的 黑胡椒 与 枫糖 先抹在 全麦吐司 上，搭配 牛油果 和 鸡蛋。",
-      "用 平底锅 慢慢处理主材，让 牛油果水波蛋吐司 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 枫糖 或坚果完成。"
+      "大米洗净加少许香油拌匀，猪瘦肉切丝加盐、生抽腌制备用。",
+      "锅中加足量水烧开，下大米大火煮开转小火熬30分钟至粥底绵滑。",
+      "放入皮蛋块、肉丝和姜丝继续煮5分钟，加盐、白胡椒粉调味，出锅撒葱花。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 45,
+    "servings": 3,
+    "tags": [
+      "粥品",
+      "温润",
+      "经典"
+    ],
+    "nutritionalNotes": "大米易消化，皮蛋含矿物质，瘦肉补充优质蛋白，早晨食用养胃暖身。",
+    "preparationTips": "大米提前用香油腌制可让粥底更顺滑，熬粥期间顺时针搅拌防止粘底。",
+    "imageUrl": "https://example.com/images/breakfast-congee-preserved-egg-pork.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "breakfast-egg-fried-rice-cake",
+    "title": "鸡蛋煎年糕",
+    "description": "鸡蛋煎年糕 以 年糕 与 鸡蛋 为骨架，平底锅的温度让 年糕 外皮焦脆内里软糯，裹上蛋液的金黄外衣带来满足的 早餐 温度。",
+    "ingredients": [
+      "年糕",
+      "鸡蛋",
+      "食盐",
+      "生抽",
+      "食用油",
+      "白芝麻"
+    ],
+    "steps": [
+      "年糕切片，鸡蛋打散加盐搅匀备用。",
+      "平底锅刷油，下年糕片中火煎至两面微黄软化。",
+      "淋入蛋液包裹年糕，撒白芝麻，煎至蛋液凝固金黄，出锅淋少许生抽。"
     ],
     "category": "早餐",
     "cookTimeMinutes": 15,
-    "servings": 1,
-    "tags": [
-      "健康",
-      "轻盈",
-      "金黄"
-    ],
-    "nutritionalNotes": "全麦吐司 提供碳水，牛油果 带来健康脂肪，鸡蛋 补足蛋白。",
-    "preparationTips": "吐司烤至金黄再抹 牛油果，平底锅 上煎 鸡蛋 时用小火。",
-    "imageUrl": "https://example.com/images/breakfast-golden-avocado-toast.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "breakfast-golden-oat-banana-pancake",
-    "title": "金黄燕麦香蕉煎饼",
-    "description": "金黄燕麦香蕉煎饼 以 燕麦 与 香蕉 为骨架，金黄 风味在平底锅 里慢慢渗出，和 肉桂 带来层次与 燕麦香蕉煎饼 的触感。",
-    "ingredients": [
-      "燕麦",
-      "香蕉",
-      "鸡蛋",
-      "牛奶",
-      "香草粉",
-      "肉桂",
-      "枫糖"
-    ],
-    "steps": [
-      "金黄 的 肉桂 与 枫糖 先抹在 燕麦 上，搭配 香蕉 和 鸡蛋。",
-      "用 平底锅 慢慢处理主材，让 燕麦香蕉煎饼 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 枫糖 或坚果完成。"
-    ],
-    "category": "早餐",
-    "cookTimeMinutes": 20,
     "servings": 2,
     "tags": [
-      "高纤",
-      "天然甜",
-      "金黄"
+      "年糕",
+      "软糯",
+      "快手"
     ],
-    "nutritionalNotes": "燕麦 富含纤维，香蕉 让天然甜味，鸡蛋 补充蛋白。",
-    "preparationTips": "面糊不要过度搅拌，鸡蛋 以小火慢煎出金边。",
-    "imageUrl": "https://example.com/images/breakfast-golden-oat-banana-pancake.jpg",
+    "nutritionalNotes": "年糕提供碳水化合物，鸡蛋补充蛋白质，热量适中适合早餐食用。",
+    "preparationTips": "年糕片厚薄均匀才能受热一致，蛋液淋入后不要立即翻动。",
+    "imageUrl": "https://example.com/images/breakfast-egg-fried-rice-cake.jpg",
     "isFavorite": false
   },
   {
-    "slug": "breakfast-golden-mushroom-frittata",
-    "title": "金黄蘑菇烤蛋蛋饼",
-    "description": "金黄蘑菇烤蛋蛋饼 以 鸡蛋 与 蘑菇 为骨架，金黄 风味在烤箱 里慢慢渗出，和 黑胡椒 带来层次与 蘑菇烤蛋蛋饼 的触感。",
+    "slug": "breakfast-fried-rice-yangzhou",
+    "title": "扬州炒饭",
+    "description": "扬州炒饭 以 隔夜米饭 为底，虾仁、火腿、鸡蛋 在锅中翻飞，粒粒分明的米饭裹上金黄蛋液，是既能当 早餐 又能当主食的 经典 炒饭。",
     "ingredients": [
+      "隔夜米饭",
       "鸡蛋",
-      "蘑菇",
-      "洋葱",
-      "奶油",
-      "欧芹",
-      "奶酪",
-      "枫糖"
+      "虾仁",
+      "火腿",
+      "青豆",
+      "胡萝卜",
+      "葱花",
+      "食盐",
+      "生抽",
+      "食用油"
     ],
     "steps": [
-      "金黄 的 黑胡椒 与 枫糖 先抹在 鸡蛋 上，搭配 蘑菇 和 洋葱。",
-      "用 烤箱 慢慢处理主材，让 蘑菇烤蛋蛋饼 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 枫糖 或坚果完成。"
+      "鸡蛋打散，虾仁去虾线，火腿和胡萝卜切丁备用。",
+      "热锅下油，先炒鸡蛋至嫩滑，加虾仁、火腿丁、胡萝卜丁翻炒。",
+      "倒入隔夜米饭大火翻炒至粒粒分明，加青豆、盐、生抽调味，撒葱花出锅。"
     ],
     "category": "早餐",
     "cookTimeMinutes": 15,
-    "servings": 1,
-    "tags": [
-      "高蛋白",
-      "暖胃",
-      "金黄"
-    ],
-    "nutritionalNotes": "鸡蛋 与 蘑菇 协作，洋葱 补充植物纤维。",
-    "preparationTips": "先把 蘑菇 与 洋葱 炒至上色，再倒入 鸡蛋 混合烘烤。",
-    "imageUrl": "https://example.com/images/breakfast-golden-mushroom-frittata.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "breakfast-golden-ricotta-toast",
-    "title": "金黄蜂蜜瑞可塔吐司",
-    "description": "金黄蜂蜜瑞可塔吐司 以 瑞可塔 与 吐司 为骨架，金黄 风味在烤箱 里慢慢渗出，和 柠檬皮 带来层次与 蜂蜜瑞可塔吐司 的触感。",
-    "ingredients": [
-      "瑞可塔",
-      "吐司",
-      "蜂蜜",
-      "柠檬皮",
-      "坚果碎",
-      "枫糖"
-    ],
-    "steps": [
-      "金黄 的 柠檬皮 与 枫糖 先抹在 瑞可塔 上，搭配 吐司 和 蜂蜜。",
-      "用 烤箱 慢慢处理主材，让 蜂蜜瑞可塔吐司 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 枫糖 或坚果完成。"
-    ],
-    "category": "早餐",
-    "cookTimeMinutes": 10,
     "servings": 2,
     "tags": [
-      "甜点感",
-      "聚会",
-      "金黄"
+      "炒饭",
+      "经典",
+      "快手"
     ],
-    "nutritionalNotes": "瑞可塔 与 吐司 提供蛋白与碳水，蜂蜜 为天然甜。",
-    "preparationTips": "吐司烤香后抹厚层瑞可塔，淋上 蜂蜜 再撒 柠檬皮。",
-    "imageUrl": "https://example.com/images/breakfast-golden-ricotta-toast.jpg",
+    "nutritionalNotes": "米饭提供碳水，虾仁补充蛋白质与钙质，蔬菜丰富维生素摄入。",
+    "preparationTips": "隔夜饭水分少更易炒散，全程大火翻炒保证锅气和米粒分明。",
+    "imageUrl": "https://example.com/images/breakfast-fried-rice-yangzhou.jpg",
     "isFavorite": false
   },
   {
-    "slug": "breakfast-golden-tomato-tofu",
-    "title": "金黄番茄煎豆腐",
-    "description": "金黄番茄煎豆腐 以 豆腐 与 番茄 为骨架，金黄 风味在煎锅 里慢慢渗出，和 香草 带来层次与 番茄煎豆腐 的触感。",
+    "slug": "breakfast-rice-noodle-roll",
+    "title": "猪肠粉",
+    "description": "猪肠粉 以 米浆 薄铺蒸出，包裹 虾米 与 葱花，淋上 生抽 与 甜酱 的组合，嫩滑透亮的粉皮是广式 早茶 中最温柔的 早餐 记忆。",
     "ingredients": [
-      "豆腐",
-      "番茄",
-      "香草",
-      "橄榄油",
-      "芝士",
+      "粘米粉",
+      "澄粉",
+      "虾米",
+      "葱花",
+      "食用油",
+      "生抽",
+      "甜面酱",
+      "芝麻"
+    ],
+    "steps": [
+      "粘米粉与澄粉混合加水调成米浆，静置30分钟备用。",
+      "蒸盘刷油，倒入薄层米浆，撒上虾米和葱花，蒸2分钟至凝固。",
+      "用刮板将粉皮卷起装盘，淋上生抽、甜面酱，撒芝麻即可。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 25,
+    "servings": 2,
+    "tags": [
+      "广式",
+      "早茶",
+      "嫩滑"
+    ],
+    "nutritionalNotes": "米粉易消化，虾米补充钙质与蛋白质，低脂清淡适合早晨肠胃。",
+    "preparationTips": "米浆厚薄要均匀，蒸制时间不可过长否则粉皮变硬，趁热卷起更顺滑。",
+    "imageUrl": "https://example.com/images/breakfast-rice-noodle-roll.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "breakfast-scallion-pancake",
+    "title": "葱油饼",
+    "description": "葱油饼 以 面粉 与 葱花 为骨架，猪油 的香气在平底锅里慢慢渗出，层层酥脆的外皮包裹着 葱香 与 面香，是街头巷尾最熟悉的 早餐 记忆。",
+    "ingredients": [
+      "面粉",
+      "葱花",
+      "猪油",
+      "食盐",
+      "热水",
+      "食用油"
+    ],
+    "steps": [
+      "面粉加热水和成软面团，醒发20分钟后擀成薄片。",
+      "面片上均匀涂抹猪油，撒上盐和葱花，卷起后盘成圆饼再擀平。",
+      "平底锅刷油，中小火煎至两面金黄酥脆即可出锅。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 30,
+    "servings": 2,
+    "tags": [
+      "面食",
+      "葱香",
+      "酥脆"
+    ],
+    "nutritionalNotes": "面粉提供碳水化合物，葱花富含维生素C与挥发性抗菌物质。",
+    "preparationTips": "面团要充分醒发才柔软，煎制时用中小火慢煎保持层次酥脆。",
+    "imageUrl": "https://example.com/images/breakfast-scallion-pancake.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "breakfast-sesame-paste-noodles",
+    "title": "芝麻酱拌面",
+    "description": "芝麻酱拌面 以 手擀面 为底，浓郁的 芝麻酱 与 黄瓜丝 相拌，加上 辣油 与 醋 的点缀，香浓顺滑的 早餐 碗，简单却令人满足。",
+    "ingredients": [
+      "手擀面",
+      "芝麻酱",
+      "黄瓜",
+      "大蒜",
+      "生抽",
       "醋",
-      "枫糖"
+      "辣椒油",
+      "香油",
+      "食盐",
+      "葱花"
     ],
     "steps": [
-      "金黄 的 香草 与 枫糖 先抹在 豆腐 上，搭配 番茄 和 香草。",
-      "用 煎锅 慢慢处理主材，让 番茄煎豆腐 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 枫糖 或坚果完成。"
+      "芝麻酱加温水、生抽、醋、盐顺时针搅拌至顺滑备用，大蒜压泥。",
+      "手擀面煮熟过凉水，黄瓜切细丝备用。",
+      "面条沥干装碗，铺上黄瓜丝，浇上芝麻酱和蒜泥，淋辣椒油，撒葱花拌匀即可。"
     ],
     "category": "早餐",
     "cookTimeMinutes": 15,
-    "servings": 1,
+    "servings": 2,
     "tags": [
-      "清爽",
-      "低脂",
-      "金黄"
+      "面食",
+      "芝麻香",
+      "快手"
     ],
-    "nutritionalNotes": "豆腐 蛋白质丰富，番茄 的番茄酸甜与 香草 清香。",
-    "preparationTips": "豆腐先煎至微脆，再盖上 番茄 与 香草 小火焖至入味。",
-    "imageUrl": "https://example.com/images/breakfast-golden-tomato-tofu.jpg",
+    "nutritionalNotes": "芝麻酱富含钙质与不饱和脂肪酸，手擀面提供碳水能量，黄瓜补充水分。",
+    "preparationTips": "芝麻酱用温水而非冷水稀释更顺滑，面条过凉水口感更爽弹。",
+    "imageUrl": "https://example.com/images/breakfast-sesame-paste-noodles.jpg",
     "isFavorite": false
   },
   {
-    "slug": "breakfast-herbal-avocado-toast",
-    "title": "草本牛油果水波蛋吐司",
-    "description": "草本牛油果水波蛋吐司 以 全麦吐司 与 牛油果 为骨架，草本 风味在平底锅 里慢慢渗出，和 黑胡椒 带来层次与 牛油果水波蛋吐司 的触感。",
+    "slug": "breakfast-shaomai",
+    "title": "糯米烧麦",
+    "description": "糯米烧麦 以 糯米 为内馅，混入 香菇 与 腊肠，外皮薄透花边敞开，蒸出的香气糯而不腻，是广式 早茶 点心中最受欢迎的 早餐 主角。",
     "ingredients": [
-      "全麦吐司",
-      "牛油果",
-      "鸡蛋",
-      "柠檬",
-      "橄榄油",
-      "黑胡椒",
-      "芝麻",
-      "香草"
+      "糯米",
+      "烧麦皮",
+      "香菇",
+      "腊肠",
+      "生抽",
+      "蚝油",
+      "香油",
+      "葱花",
+      "食用油"
     ],
     "steps": [
-      "草本 的 黑胡椒 与 香草 先抹在 全麦吐司 上，搭配 牛油果 和 鸡蛋。",
-      "用 平底锅 慢慢处理主材，让 牛油果水波蛋吐司 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 香草 或坚果完成。"
+      "糯米提前浸泡4小时，上锅蒸熟备用；香菇泡发切丁，腊肠切丁炒香。",
+      "糯米饭加香菇丁、腊肠丁、生抽、蚝油、香油拌匀成馅料。",
+      "烧麦皮包入馅料捏成形，上蒸锅大火蒸8分钟，出锅撒葱花。"
     ],
     "category": "早餐",
-    "cookTimeMinutes": 15,
-    "servings": 1,
-    "tags": [
-      "健康",
-      "轻盈",
-      "草本"
-    ],
-    "nutritionalNotes": "全麦吐司 提供碳水，牛油果 带来健康脂肪，鸡蛋 补足蛋白。",
-    "preparationTips": "吐司烤至金黄再抹 牛油果，平底锅 上煎 鸡蛋 时用小火。",
-    "imageUrl": "https://example.com/images/breakfast-herbal-avocado-toast.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "breakfast-herbal-oat-banana-pancake",
-    "title": "草本燕麦香蕉煎饼",
-    "description": "草本燕麦香蕉煎饼 以 燕麦 与 香蕉 为骨架，草本 风味在平底锅 里慢慢渗出，和 肉桂 带来层次与 燕麦香蕉煎饼 的触感。",
-    "ingredients": [
-      "燕麦",
-      "香蕉",
-      "鸡蛋",
-      "牛奶",
-      "香草粉",
-      "肉桂",
-      "香草"
-    ],
-    "steps": [
-      "草本 的 肉桂 与 香草 先抹在 燕麦 上，搭配 香蕉 和 鸡蛋。",
-      "用 平底锅 慢慢处理主材，让 燕麦香蕉煎饼 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 香草 或坚果完成。"
-    ],
-    "category": "早餐",
-    "cookTimeMinutes": 20,
-    "servings": 2,
-    "tags": [
-      "高纤",
-      "天然甜",
-      "草本"
-    ],
-    "nutritionalNotes": "燕麦 富含纤维，香蕉 让天然甜味，鸡蛋 补充蛋白。",
-    "preparationTips": "面糊不要过度搅拌，鸡蛋 以小火慢煎出金边。",
-    "imageUrl": "https://example.com/images/breakfast-herbal-oat-banana-pancake.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "breakfast-herbal-mushroom-frittata",
-    "title": "草本蘑菇烤蛋蛋饼",
-    "description": "草本蘑菇烤蛋蛋饼 以 鸡蛋 与 蘑菇 为骨架，草本 风味在烤箱 里慢慢渗出，和 黑胡椒 带来层次与 蘑菇烤蛋蛋饼 的触感。",
-    "ingredients": [
-      "鸡蛋",
-      "蘑菇",
-      "洋葱",
-      "奶油",
-      "欧芹",
-      "奶酪",
-      "香草"
-    ],
-    "steps": [
-      "草本 的 黑胡椒 与 香草 先抹在 鸡蛋 上，搭配 蘑菇 和 洋葱。",
-      "用 烤箱 慢慢处理主材，让 蘑菇烤蛋蛋饼 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 香草 或坚果完成。"
-    ],
-    "category": "早餐",
-    "cookTimeMinutes": 15,
-    "servings": 1,
-    "tags": [
-      "高蛋白",
-      "暖胃",
-      "草本"
-    ],
-    "nutritionalNotes": "鸡蛋 与 蘑菇 协作，洋葱 补充植物纤维。",
-    "preparationTips": "先把 蘑菇 与 洋葱 炒至上色，再倒入 鸡蛋 混合烘烤。",
-    "imageUrl": "https://example.com/images/breakfast-herbal-mushroom-frittata.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "breakfast-herbal-ricotta-toast",
-    "title": "草本蜂蜜瑞可塔吐司",
-    "description": "草本蜂蜜瑞可塔吐司 以 瑞可塔 与 吐司 为骨架，草本 风味在烤箱 里慢慢渗出，和 柠檬皮 带来层次与 蜂蜜瑞可塔吐司 的触感。",
-    "ingredients": [
-      "瑞可塔",
-      "吐司",
-      "蜂蜜",
-      "柠檬皮",
-      "坚果碎",
-      "香草"
-    ],
-    "steps": [
-      "草本 的 柠檬皮 与 香草 先抹在 瑞可塔 上，搭配 吐司 和 蜂蜜。",
-      "用 烤箱 慢慢处理主材，让 蜂蜜瑞可塔吐司 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 香草 或坚果完成。"
-    ],
-    "category": "早餐",
-    "cookTimeMinutes": 10,
-    "servings": 2,
-    "tags": [
-      "甜点感",
-      "聚会",
-      "草本"
-    ],
-    "nutritionalNotes": "瑞可塔 与 吐司 提供蛋白与碳水，蜂蜜 为天然甜。",
-    "preparationTips": "吐司烤香后抹厚层瑞可塔，淋上 蜂蜜 再撒 柠檬皮。",
-    "imageUrl": "https://example.com/images/breakfast-herbal-ricotta-toast.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "breakfast-herbal-tomato-tofu",
-    "title": "草本番茄煎豆腐",
-    "description": "草本番茄煎豆腐 以 豆腐 与 番茄 为骨架，草本 风味在煎锅 里慢慢渗出，和 香草 带来层次与 番茄煎豆腐 的触感。",
-    "ingredients": [
-      "豆腐",
-      "番茄",
-      "香草",
-      "橄榄油",
-      "芝士",
-      "醋"
-    ],
-    "steps": [
-      "草本 的 香草 与 香草 先抹在 豆腐 上，搭配 番茄 和 香草。",
-      "用 煎锅 慢慢处理主材，让 番茄煎豆腐 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 香草 或坚果完成。"
-    ],
-    "category": "早餐",
-    "cookTimeMinutes": 15,
-    "servings": 1,
-    "tags": [
-      "清爽",
-      "低脂",
-      "草本"
-    ],
-    "nutritionalNotes": "豆腐 蛋白质丰富，番茄 的番茄酸甜与 香草 清香。",
-    "preparationTips": "豆腐先煎至微脆，再盖上 番茄 与 香草 小火焖至入味。",
-    "imageUrl": "https://example.com/images/breakfast-herbal-tomato-tofu.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "breakfast-sweet-avocado-toast",
-    "title": "香甜牛油果水波蛋吐司",
-    "description": "香甜牛油果水波蛋吐司 以 全麦吐司 与 牛油果 为骨架，香甜 风味在平底锅 里慢慢渗出，和 黑胡椒 带来层次与 牛油果水波蛋吐司 的触感。",
-    "ingredients": [
-      "全麦吐司",
-      "牛油果",
-      "鸡蛋",
-      "柠檬",
-      "橄榄油",
-      "黑胡椒",
-      "芝麻",
-      "果酱"
-    ],
-    "steps": [
-      "香甜 的 黑胡椒 与 果酱 先抹在 全麦吐司 上，搭配 牛油果 和 鸡蛋。",
-      "用 平底锅 慢慢处理主材，让 牛油果水波蛋吐司 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 果酱 或坚果完成。"
-    ],
-    "category": "早餐",
-    "cookTimeMinutes": 15,
-    "servings": 1,
-    "tags": [
-      "健康",
-      "轻盈",
-      "甜香"
-    ],
-    "nutritionalNotes": "全麦吐司 提供碳水，牛油果 带来健康脂肪，鸡蛋 补足蛋白。",
-    "preparationTips": "吐司烤至金黄再抹 牛油果，平底锅 上煎 鸡蛋 时用小火。",
-    "imageUrl": "https://example.com/images/breakfast-sweet-avocado-toast.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "breakfast-sweet-oat-banana-pancake",
-    "title": "香甜燕麦香蕉煎饼",
-    "description": "香甜燕麦香蕉煎饼 以 燕麦 与 香蕉 为骨架，香甜 风味在平底锅 里慢慢渗出，和 肉桂 带来层次与 燕麦香蕉煎饼 的触感。",
-    "ingredients": [
-      "燕麦",
-      "香蕉",
-      "鸡蛋",
-      "牛奶",
-      "香草粉",
-      "肉桂",
-      "果酱"
-    ],
-    "steps": [
-      "香甜 的 肉桂 与 果酱 先抹在 燕麦 上，搭配 香蕉 和 鸡蛋。",
-      "用 平底锅 慢慢处理主材，让 燕麦香蕉煎饼 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 果酱 或坚果完成。"
-    ],
-    "category": "早餐",
-    "cookTimeMinutes": 20,
-    "servings": 2,
-    "tags": [
-      "高纤",
-      "天然甜",
-      "甜香"
-    ],
-    "nutritionalNotes": "燕麦 富含纤维，香蕉 让天然甜味，鸡蛋 补充蛋白。",
-    "preparationTips": "面糊不要过度搅拌，鸡蛋 以小火慢煎出金边。",
-    "imageUrl": "https://example.com/images/breakfast-sweet-oat-banana-pancake.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "breakfast-sweet-mushroom-frittata",
-    "title": "香甜蘑菇烤蛋蛋饼",
-    "description": "香甜蘑菇烤蛋蛋饼 以 鸡蛋 与 蘑菇 为骨架，香甜 风味在烤箱 里慢慢渗出，和 黑胡椒 带来层次与 蘑菇烤蛋蛋饼 的触感。",
-    "ingredients": [
-      "鸡蛋",
-      "蘑菇",
-      "洋葱",
-      "奶油",
-      "欧芹",
-      "奶酪",
-      "果酱"
-    ],
-    "steps": [
-      "香甜 的 黑胡椒 与 果酱 先抹在 鸡蛋 上，搭配 蘑菇 和 洋葱。",
-      "用 烤箱 慢慢处理主材，让 蘑菇烤蛋蛋饼 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 果酱 或坚果完成。"
-    ],
-    "category": "早餐",
-    "cookTimeMinutes": 15,
-    "servings": 1,
-    "tags": [
-      "高蛋白",
-      "暖胃",
-      "甜香"
-    ],
-    "nutritionalNotes": "鸡蛋 与 蘑菇 协作，洋葱 补充植物纤维。",
-    "preparationTips": "先把 蘑菇 与 洋葱 炒至上色，再倒入 鸡蛋 混合烘烤。",
-    "imageUrl": "https://example.com/images/breakfast-sweet-mushroom-frittata.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "breakfast-sweet-ricotta-toast",
-    "title": "香甜蜂蜜瑞可塔吐司",
-    "description": "香甜蜂蜜瑞可塔吐司 以 瑞可塔 与 吐司 为骨架，香甜 风味在烤箱 里慢慢渗出，和 柠檬皮 带来层次与 蜂蜜瑞可塔吐司 的触感。",
-    "ingredients": [
-      "瑞可塔",
-      "吐司",
-      "蜂蜜",
-      "柠檬皮",
-      "坚果碎",
-      "果酱"
-    ],
-    "steps": [
-      "香甜 的 柠檬皮 与 果酱 先抹在 瑞可塔 上，搭配 吐司 和 蜂蜜。",
-      "用 烤箱 慢慢处理主材，让 蜂蜜瑞可塔吐司 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 果酱 或坚果完成。"
-    ],
-    "category": "早餐",
-    "cookTimeMinutes": 10,
-    "servings": 2,
-    "tags": [
-      "甜点感",
-      "聚会",
-      "甜香"
-    ],
-    "nutritionalNotes": "瑞可塔 与 吐司 提供蛋白与碳水，蜂蜜 为天然甜。",
-    "preparationTips": "吐司烤香后抹厚层瑞可塔，淋上 蜂蜜 再撒 柠檬皮。",
-    "imageUrl": "https://example.com/images/breakfast-sweet-ricotta-toast.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "breakfast-sweet-tomato-tofu",
-    "title": "香甜番茄煎豆腐",
-    "description": "香甜番茄煎豆腐 以 豆腐 与 番茄 为骨架，香甜 风味在煎锅 里慢慢渗出，和 香草 带来层次与 番茄煎豆腐 的触感。",
-    "ingredients": [
-      "豆腐",
-      "番茄",
-      "香草",
-      "橄榄油",
-      "芝士",
-      "醋",
-      "果酱"
-    ],
-    "steps": [
-      "香甜 的 香草 与 果酱 先抹在 豆腐 上，搭配 番茄 和 香草。",
-      "用 煎锅 慢慢处理主材，让 番茄煎豆腐 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 果酱 或坚果完成。"
-    ],
-    "category": "早餐",
-    "cookTimeMinutes": 15,
-    "servings": 1,
-    "tags": [
-      "清爽",
-      "低脂",
-      "甜香"
-    ],
-    "nutritionalNotes": "豆腐 蛋白质丰富，番茄 的番茄酸甜与 香草 清香。",
-    "preparationTips": "豆腐先煎至微脆，再盖上 番茄 与 香草 小火焖至入味。",
-    "imageUrl": "https://example.com/images/breakfast-sweet-tomato-tofu.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "breakfast-spicy-avocado-toast",
-    "title": "微辣牛油果水波蛋吐司",
-    "description": "微辣牛油果水波蛋吐司 以 全麦吐司 与 牛油果 为骨架，微辣 风味在平底锅 里慢慢渗出，和 黑胡椒 带来层次与 牛油果水波蛋吐司 的触感。",
-    "ingredients": [
-      "全麦吐司",
-      "牛油果",
-      "鸡蛋",
-      "柠檬",
-      "橄榄油",
-      "黑胡椒",
-      "芝麻",
-      "辣椒片"
-    ],
-    "steps": [
-      "微辣 的 黑胡椒 与 辣椒片 先抹在 全麦吐司 上，搭配 牛油果 和 鸡蛋。",
-      "用 平底锅 慢慢处理主材，让 牛油果水波蛋吐司 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 辣椒片 或坚果完成。"
-    ],
-    "category": "早餐",
-    "cookTimeMinutes": 15,
-    "servings": 1,
-    "tags": [
-      "健康",
-      "轻盈",
-      "微辣"
-    ],
-    "nutritionalNotes": "全麦吐司 提供碳水，牛油果 带来健康脂肪，鸡蛋 补足蛋白。",
-    "preparationTips": "吐司烤至金黄再抹 牛油果，平底锅 上煎 鸡蛋 时用小火。",
-    "imageUrl": "https://example.com/images/breakfast-spicy-avocado-toast.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "breakfast-spicy-oat-banana-pancake",
-    "title": "微辣燕麦香蕉煎饼",
-    "description": "微辣燕麦香蕉煎饼 以 燕麦 与 香蕉 为骨架，微辣 风味在平底锅 里慢慢渗出，和 肉桂 带来层次与 燕麦香蕉煎饼 的触感。",
-    "ingredients": [
-      "燕麦",
-      "香蕉",
-      "鸡蛋",
-      "牛奶",
-      "香草粉",
-      "肉桂",
-      "辣椒片"
-    ],
-    "steps": [
-      "微辣 的 肉桂 与 辣椒片 先抹在 燕麦 上，搭配 香蕉 和 鸡蛋。",
-      "用 平底锅 慢慢处理主材，让 燕麦香蕉煎饼 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 辣椒片 或坚果完成。"
-    ],
-    "category": "早餐",
-    "cookTimeMinutes": 20,
-    "servings": 2,
-    "tags": [
-      "高纤",
-      "天然甜",
-      "微辣"
-    ],
-    "nutritionalNotes": "燕麦 富含纤维，香蕉 让天然甜味，鸡蛋 补充蛋白。",
-    "preparationTips": "面糊不要过度搅拌，鸡蛋 以小火慢煎出金边。",
-    "imageUrl": "https://example.com/images/breakfast-spicy-oat-banana-pancake.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "breakfast-spicy-mushroom-frittata",
-    "title": "微辣蘑菇烤蛋蛋饼",
-    "description": "微辣蘑菇烤蛋蛋饼 以 鸡蛋 与 蘑菇 为骨架，微辣 风味在烤箱 里慢慢渗出，和 黑胡椒 带来层次与 蘑菇烤蛋蛋饼 的触感。",
-    "ingredients": [
-      "鸡蛋",
-      "蘑菇",
-      "洋葱",
-      "奶油",
-      "欧芹",
-      "奶酪",
-      "辣椒片"
-    ],
-    "steps": [
-      "微辣 的 黑胡椒 与 辣椒片 先抹在 鸡蛋 上，搭配 蘑菇 和 洋葱。",
-      "用 烤箱 慢慢处理主材，让 蘑菇烤蛋蛋饼 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 辣椒片 或坚果完成。"
-    ],
-    "category": "早餐",
-    "cookTimeMinutes": 15,
-    "servings": 1,
-    "tags": [
-      "高蛋白",
-      "暖胃",
-      "微辣"
-    ],
-    "nutritionalNotes": "鸡蛋 与 蘑菇 协作，洋葱 补充植物纤维。",
-    "preparationTips": "先把 蘑菇 与 洋葱 炒至上色，再倒入 鸡蛋 混合烘烤。",
-    "imageUrl": "https://example.com/images/breakfast-spicy-mushroom-frittata.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "breakfast-spicy-ricotta-toast",
-    "title": "微辣蜂蜜瑞可塔吐司",
-    "description": "微辣蜂蜜瑞可塔吐司 以 瑞可塔 与 吐司 为骨架，微辣 风味在烤箱 里慢慢渗出，和 柠檬皮 带来层次与 蜂蜜瑞可塔吐司 的触感。",
-    "ingredients": [
-      "瑞可塔",
-      "吐司",
-      "蜂蜜",
-      "柠檬皮",
-      "坚果碎",
-      "辣椒片"
-    ],
-    "steps": [
-      "微辣 的 柠檬皮 与 辣椒片 先抹在 瑞可塔 上，搭配 吐司 和 蜂蜜。",
-      "用 烤箱 慢慢处理主材，让 蜂蜜瑞可塔吐司 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 辣椒片 或坚果完成。"
-    ],
-    "category": "早餐",
-    "cookTimeMinutes": 10,
-    "servings": 2,
-    "tags": [
-      "甜点感",
-      "聚会",
-      "微辣"
-    ],
-    "nutritionalNotes": "瑞可塔 与 吐司 提供蛋白与碳水，蜂蜜 为天然甜。",
-    "preparationTips": "吐司烤香后抹厚层瑞可塔，淋上 蜂蜜 再撒 柠檬皮。",
-    "imageUrl": "https://example.com/images/breakfast-spicy-ricotta-toast.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "breakfast-spicy-tomato-tofu",
-    "title": "微辣番茄煎豆腐",
-    "description": "微辣番茄煎豆腐 以 豆腐 与 番茄 为骨架，微辣 风味在煎锅 里慢慢渗出，和 香草 带来层次与 番茄煎豆腐 的触感。",
-    "ingredients": [
-      "豆腐",
-      "番茄",
-      "香草",
-      "橄榄油",
-      "芝士",
-      "醋",
-      "辣椒片"
-    ],
-    "steps": [
-      "微辣 的 香草 与 辣椒片 先抹在 豆腐 上，搭配 番茄 和 香草。",
-      "用 煎锅 慢慢处理主材，让 番茄煎豆腐 的香气渗透。",
-      "装盘后再滴几滴柠檬或香草，撒上 辣椒片 或坚果完成。"
-    ],
-    "category": "早餐",
-    "cookTimeMinutes": 15,
-    "servings": 1,
-    "tags": [
-      "清爽",
-      "低脂",
-      "微辣"
-    ],
-    "nutritionalNotes": "豆腐 蛋白质丰富，番茄 的番茄酸甜与 香草 清香。",
-    "preparationTips": "豆腐先煎至微脆，再盖上 番茄 与 香草 小火焖至入味。",
-    "imageUrl": "https://example.com/images/breakfast-spicy-tomato-tofu.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-honey-lemon-garlic-chicken",
-    "title": "蜜香柠香蒜烤鸡",
-    "description": "蜜香柠香蒜烤鸡 以 鸡胸肉 与 柠檬 为骨架，蜜汁 风味在烤箱 里慢慢渗出，和 迷迭香 带来层次与 柠香蒜烤鸡 的触感。",
-    "ingredients": [
-      "鸡胸肉",
-      "柠檬",
-      "大蒜",
-      "橄榄油",
-      "迷迭香",
-      "黑胡椒",
-      "海盐",
-      "蜂蜜"
-    ],
-    "steps": [
-      "蜜香 的调味与 迷迭香 先抹在 鸡胸肉 表面，再把 蜂蜜 轻抹进缝隙腌 15 分钟。",
-      "加热 烤箱，将 鸡胸肉 与 柠檬 一起烹饪，让 柠香蒜烤鸡 很好释放肉汁。",
-      "出锅前撒上 大蒜 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 30,
-    "servings": 2,
-    "tags": [
-      "高蛋白",
-      "低脂",
-      "甜香"
-    ],
-    "nutritionalNotes": "鸡胸肉 低脂高蛋白，柠檬 的柠香与 大蒜 的蒜香让整体清爽不腻。",
-    "preparationTips": "先用 迷迭香 将 鸡胸肉 腌 15 分钟，再用 烤箱 慢烤可锁住肉汁。",
-    "imageUrl": "https://example.com/images/lunch-honey-lemon-garlic-chicken.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-honey-cream-mushroom-pasta",
-    "title": "蜜香奶油野菌意面",
-    "description": "蜜香奶油野菌意面 以 意大利面 与 野生蘑菇 为骨架，蜜汁 风味在煮锅 里慢慢渗出，和 黑胡椒 带来层次与 奶油野菌意面 的触感。",
-    "ingredients": [
-      "意大利面",
-      "野生蘑菇",
-      "帕玛森",
-      "黄油",
-      "淡奶油",
-      "大蒜",
-      "欧芹",
-      "白葡萄酒",
-      "蜂蜜"
-    ],
-    "steps": [
-      "蜜香 的调味与 黑胡椒 先抹在 意大利面 表面，再把 蜂蜜 轻抹进缝隙腌 15 分钟。",
-      "加热 煮锅，将 意大利面 与 野生蘑菇 一起烹饪，让 奶油野菌意面 很好释放肉汁。",
-      "出锅前撒上 帕玛森 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 25,
-    "servings": 2,
-    "tags": [
-      "奶香",
-      "舒适",
-      "甜香"
-    ],
-    "nutritionalNotes": "意大利面 提供碳水，野生蘑菇 与 帕玛森 补充膳食纤维与钙，适合中午补能。",
-    "preparationTips": "煮 意大利面 时保留 1 杯面汤，后与酱汁拌匀可防止分离。",
-    "imageUrl": "https://example.com/images/lunch-honey-cream-mushroom-pasta.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-honey-mexican-beef-bowl",
-    "title": "蜜香墨西哥牛肉玉米碗",
-    "description": "蜜香墨西哥牛肉玉米碗 以 碎牛肉 与 玉米 为骨架，蜜汁 风味在煎锅 里慢慢渗出，和 孜然粉 带来层次与 墨西哥牛肉玉米碗 的触感。",
-    "ingredients": [
-      "碎牛肉",
-      "玉米粒",
-      "黑豆",
-      "洋葱",
-      "红椒",
-      "鳄梨",
-      "切达芝士",
-      "酸奶油",
-      "蜂蜜"
-    ],
-    "steps": [
-      "蜜香 的调味与 孜然粉 先抹在 碎牛肉 表面，再把 蜂蜜 轻抹进缝隙腌 15 分钟。",
-      "加热 煎锅，将 碎牛肉 与 玉米 一起烹饪，让 墨西哥牛肉玉米碗 很好释放肉汁。",
-      "出锅前撒上 鳄梨 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 30,
-    "servings": 2,
-    "tags": [
-      "异国",
-      "高蛋白",
-      "甜香"
-    ],
-    "nutritionalNotes": "碎牛肉 与 玉米 提供蛋白与纤维，鳄梨 补充健康脂肪。",
-    "preparationTips": "煎 碎牛肉 时火候要略焦，加入 孜然粉 后再与 玉米 拌匀更香。",
-    "imageUrl": "https://example.com/images/lunch-honey-mexican-beef-bowl.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-honey-mediterranean-quinoa",
-    "title": "蜜香地中海烤菜藜麦",
-    "description": "蜜香地中海烤菜藜麦 以 藜麦 与 彩椒 为骨架，蜜汁 风味在烤盘 里慢慢渗出，和 牛至 带来层次与 地中海烤菜藜麦 的触感。",
-    "ingredients": [
-      "藜麦",
-      "彩椒",
-      "樱桃番茄",
-      "茄子",
-      "橄榄油",
-      "柠檬",
-      "羊乳酪",
-      "烤南瓜籽",
-      "蜂蜜"
-    ],
-    "steps": [
-      "蜜香 的调味与 牛至 先抹在 藜麦 表面，再把 蜂蜜 轻抹进缝隙腌 15 分钟。",
-      "加热 烤盘，将 藜麦 与 彩椒 一起烹饪，让 地中海烤菜藜麦 很好释放肉汁。",
-      "出锅前撒上 樱桃番茄 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 35,
-    "servings": 2,
-    "tags": [
-      "植物蛋白",
-      "清爽",
-      "甜香"
-    ],
-    "nutritionalNotes": "藜麦 提供完整蛋白，彩椒 与 樱桃番茄 补充抗氧化与维生素。",
-    "preparationTips": "先把蔬菜烤至微焦，再与 藜麦 拌匀，最后挤入柠檬提亮。",
-    "imageUrl": "https://example.com/images/lunch-honey-mediterranean-quinoa.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-honey-spiced-tomato-pork",
-    "title": "蜜香香料番茄炖猪肉",
-    "description": "蜜香香料番茄炖猪肉 以 猪肩肉 与 番茄 为骨架，蜜汁 风味在炖锅 里慢慢渗出，和 肉桂 带来层次与 香料番茄炖猪肉 的触感。",
-    "ingredients": [
-      "猪肩肉",
-      "番茄罐头",
-      "洋葱",
-      "红椒",
-      "蒜",
-      "红酒",
-      "香叶",
-      "胡萝卜",
-      "蜂蜜"
-    ],
-    "steps": [
-      "蜜香 的调味与 肉桂 先抹在 猪肩肉 表面，再把 蜂蜜 轻抹进缝隙腌 15 分钟。",
-      "加热 炖锅，将 猪肩肉 与 番茄 一起烹饪，让 香料番茄炖猪肉 很好释放肉汁。",
-      "出锅前撒上 洋葱 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 90,
-    "servings": 4,
-    "tags": [
-      "慢炖",
-      "家常",
-      "甜香"
-    ],
-    "nutritionalNotes": "猪肩肉 富含胶原蛋白，番茄 与 洋葱 给汤汁带来天然酸甜。",
-    "preparationTips": "先煎 猪肩肉 上色后再放入 炖锅 慢炖，最后调入 肉桂 层次更丰富。",
-    "imageUrl": "https://example.com/images/lunch-honey-spiced-tomato-pork.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-smoked-lemon-garlic-chicken",
-    "title": "烟熏柠香蒜烤鸡",
-    "description": "烟熏柠香蒜烤鸡 以 鸡胸肉 与 柠檬 为骨架，烟熏 风味在烤箱 里慢慢渗出，和 迷迭香 带来层次与 柠香蒜烤鸡 的触感。",
-    "ingredients": [
-      "鸡胸肉",
-      "柠檬",
-      "大蒜",
-      "橄榄油",
-      "迷迭香",
-      "黑胡椒",
-      "海盐",
-      "熏红椒粉"
-    ],
-    "steps": [
-      "烟熏 的调味与 迷迭香 先抹在 鸡胸肉 表面，再把 熏红椒粉 轻抹进缝隙腌 15 分钟。",
-      "加热 烤箱，将 鸡胸肉 与 柠檬 一起烹饪，让 柠香蒜烤鸡 很好释放肉汁。",
-      "出锅前撒上 大蒜 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 30,
-    "servings": 2,
-    "tags": [
-      "高蛋白",
-      "低脂",
-      "烟熏"
-    ],
-    "nutritionalNotes": "鸡胸肉 低脂高蛋白，柠檬 的柠香与 大蒜 的蒜香让整体清爽不腻。",
-    "preparationTips": "先用 迷迭香 将 鸡胸肉 腌 15 分钟，再用 烤箱 慢烤可锁住肉汁。",
-    "imageUrl": "https://example.com/images/lunch-smoked-lemon-garlic-chicken.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-smoked-cream-mushroom-pasta",
-    "title": "烟熏奶油野菌意面",
-    "description": "烟熏奶油野菌意面 以 意大利面 与 野生蘑菇 为骨架，烟熏 风味在煮锅 里慢慢渗出，和 黑胡椒 带来层次与 奶油野菌意面 的触感。",
-    "ingredients": [
-      "意大利面",
-      "野生蘑菇",
-      "帕玛森",
-      "黄油",
-      "淡奶油",
-      "大蒜",
-      "欧芹",
-      "白葡萄酒",
-      "熏红椒粉"
-    ],
-    "steps": [
-      "烟熏 的调味与 黑胡椒 先抹在 意大利面 表面，再把 熏红椒粉 轻抹进缝隙腌 15 分钟。",
-      "加热 煮锅，将 意大利面 与 野生蘑菇 一起烹饪，让 奶油野菌意面 很好释放肉汁。",
-      "出锅前撒上 帕玛森 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 25,
-    "servings": 2,
-    "tags": [
-      "奶香",
-      "舒适",
-      "烟熏"
-    ],
-    "nutritionalNotes": "意大利面 提供碳水，野生蘑菇 与 帕玛森 补充膳食纤维与钙，适合中午补能。",
-    "preparationTips": "煮 意大利面 时保留 1 杯面汤，后与酱汁拌匀可防止分离。",
-    "imageUrl": "https://example.com/images/lunch-smoked-cream-mushroom-pasta.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-smoked-mexican-beef-bowl",
-    "title": "烟熏墨西哥牛肉玉米碗",
-    "description": "烟熏墨西哥牛肉玉米碗 以 碎牛肉 与 玉米 为骨架，烟熏 风味在煎锅 里慢慢渗出，和 孜然粉 带来层次与 墨西哥牛肉玉米碗 的触感。",
-    "ingredients": [
-      "碎牛肉",
-      "玉米粒",
-      "黑豆",
-      "洋葱",
-      "红椒",
-      "鳄梨",
-      "切达芝士",
-      "酸奶油",
-      "熏红椒粉"
-    ],
-    "steps": [
-      "烟熏 的调味与 孜然粉 先抹在 碎牛肉 表面，再把 熏红椒粉 轻抹进缝隙腌 15 分钟。",
-      "加热 煎锅，将 碎牛肉 与 玉米 一起烹饪，让 墨西哥牛肉玉米碗 很好释放肉汁。",
-      "出锅前撒上 鳄梨 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 30,
-    "servings": 2,
-    "tags": [
-      "异国",
-      "高蛋白",
-      "烟熏"
-    ],
-    "nutritionalNotes": "碎牛肉 与 玉米 提供蛋白与纤维，鳄梨 补充健康脂肪。",
-    "preparationTips": "煎 碎牛肉 时火候要略焦，加入 孜然粉 后再与 玉米 拌匀更香。",
-    "imageUrl": "https://example.com/images/lunch-smoked-mexican-beef-bowl.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-smoked-mediterranean-quinoa",
-    "title": "烟熏地中海烤菜藜麦",
-    "description": "烟熏地中海烤菜藜麦 以 藜麦 与 彩椒 为骨架，烟熏 风味在烤盘 里慢慢渗出，和 牛至 带来层次与 地中海烤菜藜麦 的触感。",
-    "ingredients": [
-      "藜麦",
-      "彩椒",
-      "樱桃番茄",
-      "茄子",
-      "橄榄油",
-      "柠檬",
-      "羊乳酪",
-      "烤南瓜籽",
-      "熏红椒粉"
-    ],
-    "steps": [
-      "烟熏 的调味与 牛至 先抹在 藜麦 表面，再把 熏红椒粉 轻抹进缝隙腌 15 分钟。",
-      "加热 烤盘，将 藜麦 与 彩椒 一起烹饪，让 地中海烤菜藜麦 很好释放肉汁。",
-      "出锅前撒上 樱桃番茄 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 35,
-    "servings": 2,
-    "tags": [
-      "植物蛋白",
-      "清爽",
-      "烟熏"
-    ],
-    "nutritionalNotes": "藜麦 提供完整蛋白，彩椒 与 樱桃番茄 补充抗氧化与维生素。",
-    "preparationTips": "先把蔬菜烤至微焦，再与 藜麦 拌匀，最后挤入柠檬提亮。",
-    "imageUrl": "https://example.com/images/lunch-smoked-mediterranean-quinoa.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-smoked-spiced-tomato-pork",
-    "title": "烟熏香料番茄炖猪肉",
-    "description": "烟熏香料番茄炖猪肉 以 猪肩肉 与 番茄 为骨架，烟熏 风味在炖锅 里慢慢渗出，和 肉桂 带来层次与 香料番茄炖猪肉 的触感。",
-    "ingredients": [
-      "猪肩肉",
-      "番茄罐头",
-      "洋葱",
-      "红椒",
-      "蒜",
-      "红酒",
-      "香叶",
-      "胡萝卜",
-      "熏红椒粉"
-    ],
-    "steps": [
-      "烟熏 的调味与 肉桂 先抹在 猪肩肉 表面，再把 熏红椒粉 轻抹进缝隙腌 15 分钟。",
-      "加热 炖锅，将 猪肩肉 与 番茄 一起烹饪，让 香料番茄炖猪肉 很好释放肉汁。",
-      "出锅前撒上 洋葱 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 90,
-    "servings": 4,
-    "tags": [
-      "慢炖",
-      "家常",
-      "烟熏"
-    ],
-    "nutritionalNotes": "猪肩肉 富含胶原蛋白，番茄 与 洋葱 给汤汁带来天然酸甜。",
-    "preparationTips": "先煎 猪肩肉 上色后再放入 炖锅 慢炖，最后调入 肉桂 层次更丰富。",
-    "imageUrl": "https://example.com/images/lunch-smoked-spiced-tomato-pork.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-citrus-lemon-garlic-chicken",
-    "title": "柠爽柠香蒜烤鸡",
-    "description": "柠爽柠香蒜烤鸡 以 鸡胸肉 与 柠檬 为骨架，柠香 风味在烤箱 里慢慢渗出，和 迷迭香 带来层次与 柠香蒜烤鸡 的触感。",
-    "ingredients": [
-      "鸡胸肉",
-      "柠檬",
-      "大蒜",
-      "橄榄油",
-      "迷迭香",
-      "黑胡椒",
-      "海盐",
-      "柚子皮"
-    ],
-    "steps": [
-      "柠爽 的调味与 迷迭香 先抹在 鸡胸肉 表面，再把 柚子皮 轻抹进缝隙腌 15 分钟。",
-      "加热 烤箱，将 鸡胸肉 与 柠檬 一起烹饪，让 柠香蒜烤鸡 很好释放肉汁。",
-      "出锅前撒上 大蒜 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 30,
-    "servings": 2,
-    "tags": [
-      "高蛋白",
-      "低脂",
-      "清爽"
-    ],
-    "nutritionalNotes": "鸡胸肉 低脂高蛋白，柠檬 的柠香与 大蒜 的蒜香让整体清爽不腻。",
-    "preparationTips": "先用 迷迭香 将 鸡胸肉 腌 15 分钟，再用 烤箱 慢烤可锁住肉汁。",
-    "imageUrl": "https://example.com/images/lunch-citrus-lemon-garlic-chicken.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-citrus-cream-mushroom-pasta",
-    "title": "柠爽奶油野菌意面",
-    "description": "柠爽奶油野菌意面 以 意大利面 与 野生蘑菇 为骨架，柠香 风味在煮锅 里慢慢渗出，和 黑胡椒 带来层次与 奶油野菌意面 的触感。",
-    "ingredients": [
-      "意大利面",
-      "野生蘑菇",
-      "帕玛森",
-      "黄油",
-      "淡奶油",
-      "大蒜",
-      "欧芹",
-      "白葡萄酒",
-      "柚子皮"
-    ],
-    "steps": [
-      "柠爽 的调味与 黑胡椒 先抹在 意大利面 表面，再把 柚子皮 轻抹进缝隙腌 15 分钟。",
-      "加热 煮锅，将 意大利面 与 野生蘑菇 一起烹饪，让 奶油野菌意面 很好释放肉汁。",
-      "出锅前撒上 帕玛森 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 25,
-    "servings": 2,
-    "tags": [
-      "奶香",
-      "舒适",
-      "清爽"
-    ],
-    "nutritionalNotes": "意大利面 提供碳水，野生蘑菇 与 帕玛森 补充膳食纤维与钙，适合中午补能。",
-    "preparationTips": "煮 意大利面 时保留 1 杯面汤，后与酱汁拌匀可防止分离。",
-    "imageUrl": "https://example.com/images/lunch-citrus-cream-mushroom-pasta.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-citrus-mexican-beef-bowl",
-    "title": "柠爽墨西哥牛肉玉米碗",
-    "description": "柠爽墨西哥牛肉玉米碗 以 碎牛肉 与 玉米 为骨架，柠香 风味在煎锅 里慢慢渗出，和 孜然粉 带来层次与 墨西哥牛肉玉米碗 的触感。",
-    "ingredients": [
-      "碎牛肉",
-      "玉米粒",
-      "黑豆",
-      "洋葱",
-      "红椒",
-      "鳄梨",
-      "切达芝士",
-      "酸奶油",
-      "柚子皮"
-    ],
-    "steps": [
-      "柠爽 的调味与 孜然粉 先抹在 碎牛肉 表面，再把 柚子皮 轻抹进缝隙腌 15 分钟。",
-      "加热 煎锅，将 碎牛肉 与 玉米 一起烹饪，让 墨西哥牛肉玉米碗 很好释放肉汁。",
-      "出锅前撒上 鳄梨 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 30,
-    "servings": 2,
-    "tags": [
-      "异国",
-      "高蛋白",
-      "清爽"
-    ],
-    "nutritionalNotes": "碎牛肉 与 玉米 提供蛋白与纤维，鳄梨 补充健康脂肪。",
-    "preparationTips": "煎 碎牛肉 时火候要略焦，加入 孜然粉 后再与 玉米 拌匀更香。",
-    "imageUrl": "https://example.com/images/lunch-citrus-mexican-beef-bowl.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-citrus-mediterranean-quinoa",
-    "title": "柠爽地中海烤菜藜麦",
-    "description": "柠爽地中海烤菜藜麦 以 藜麦 与 彩椒 为骨架，柠香 风味在烤盘 里慢慢渗出，和 牛至 带来层次与 地中海烤菜藜麦 的触感。",
-    "ingredients": [
-      "藜麦",
-      "彩椒",
-      "樱桃番茄",
-      "茄子",
-      "橄榄油",
-      "柠檬",
-      "羊乳酪",
-      "烤南瓜籽",
-      "柚子皮"
-    ],
-    "steps": [
-      "柠爽 的调味与 牛至 先抹在 藜麦 表面，再把 柚子皮 轻抹进缝隙腌 15 分钟。",
-      "加热 烤盘，将 藜麦 与 彩椒 一起烹饪，让 地中海烤菜藜麦 很好释放肉汁。",
-      "出锅前撒上 樱桃番茄 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 35,
-    "servings": 2,
-    "tags": [
-      "植物蛋白",
-      "清爽"
-    ],
-    "nutritionalNotes": "藜麦 提供完整蛋白，彩椒 与 樱桃番茄 补充抗氧化与维生素。",
-    "preparationTips": "先把蔬菜烤至微焦，再与 藜麦 拌匀，最后挤入柠檬提亮。",
-    "imageUrl": "https://example.com/images/lunch-citrus-mediterranean-quinoa.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-citrus-spiced-tomato-pork",
-    "title": "柠爽香料番茄炖猪肉",
-    "description": "柠爽香料番茄炖猪肉 以 猪肩肉 与 番茄 为骨架，柠香 风味在炖锅 里慢慢渗出，和 肉桂 带来层次与 香料番茄炖猪肉 的触感。",
-    "ingredients": [
-      "猪肩肉",
-      "番茄罐头",
-      "洋葱",
-      "红椒",
-      "蒜",
-      "红酒",
-      "香叶",
-      "胡萝卜",
-      "柚子皮"
-    ],
-    "steps": [
-      "柠爽 的调味与 肉桂 先抹在 猪肩肉 表面，再把 柚子皮 轻抹进缝隙腌 15 分钟。",
-      "加热 炖锅，将 猪肩肉 与 番茄 一起烹饪，让 香料番茄炖猪肉 很好释放肉汁。",
-      "出锅前撒上 洋葱 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 90,
-    "servings": 4,
-    "tags": [
-      "慢炖",
-      "家常",
-      "清爽"
-    ],
-    "nutritionalNotes": "猪肩肉 富含胶原蛋白，番茄 与 洋葱 给汤汁带来天然酸甜。",
-    "preparationTips": "先煎 猪肩肉 上色后再放入 炖锅 慢炖，最后调入 肉桂 层次更丰富。",
-    "imageUrl": "https://example.com/images/lunch-citrus-spiced-tomato-pork.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-spicy-lemon-garlic-chicken",
-    "title": "香辣柠香蒜烤鸡",
-    "description": "香辣柠香蒜烤鸡 以 鸡胸肉 与 柠檬 为骨架，香辣 风味在烤箱 里慢慢渗出，和 迷迭香 带来层次与 柠香蒜烤鸡 的触感。",
-    "ingredients": [
-      "鸡胸肉",
-      "柠檬",
-      "大蒜",
-      "橄榄油",
-      "迷迭香",
-      "黑胡椒",
-      "海盐",
-      "辣椒酱"
-    ],
-    "steps": [
-      "香辣 的调味与 迷迭香 先抹在 鸡胸肉 表面，再把 辣椒酱 轻抹进缝隙腌 15 分钟。",
-      "加热 烤箱，将 鸡胸肉 与 柠檬 一起烹饪，让 柠香蒜烤鸡 很好释放肉汁。",
-      "出锅前撒上 大蒜 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 30,
-    "servings": 2,
-    "tags": [
-      "高蛋白",
-      "低脂",
-      "辣味"
-    ],
-    "nutritionalNotes": "鸡胸肉 低脂高蛋白，柠檬 的柠香与 大蒜 的蒜香让整体清爽不腻。",
-    "preparationTips": "先用 迷迭香 将 鸡胸肉 腌 15 分钟，再用 烤箱 慢烤可锁住肉汁。",
-    "imageUrl": "https://example.com/images/lunch-spicy-lemon-garlic-chicken.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-spicy-cream-mushroom-pasta",
-    "title": "香辣奶油野菌意面",
-    "description": "香辣奶油野菌意面 以 意大利面 与 野生蘑菇 为骨架，香辣 风味在煮锅 里慢慢渗出，和 黑胡椒 带来层次与 奶油野菌意面 的触感。",
-    "ingredients": [
-      "意大利面",
-      "野生蘑菇",
-      "帕玛森",
-      "黄油",
-      "淡奶油",
-      "大蒜",
-      "欧芹",
-      "白葡萄酒",
-      "辣椒酱"
-    ],
-    "steps": [
-      "香辣 的调味与 黑胡椒 先抹在 意大利面 表面，再把 辣椒酱 轻抹进缝隙腌 15 分钟。",
-      "加热 煮锅，将 意大利面 与 野生蘑菇 一起烹饪，让 奶油野菌意面 很好释放肉汁。",
-      "出锅前撒上 帕玛森 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 25,
-    "servings": 2,
-    "tags": [
-      "奶香",
-      "舒适",
-      "辣味"
-    ],
-    "nutritionalNotes": "意大利面 提供碳水，野生蘑菇 与 帕玛森 补充膳食纤维与钙，适合中午补能。",
-    "preparationTips": "煮 意大利面 时保留 1 杯面汤，后与酱汁拌匀可防止分离。",
-    "imageUrl": "https://example.com/images/lunch-spicy-cream-mushroom-pasta.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-spicy-mexican-beef-bowl",
-    "title": "香辣墨西哥牛肉玉米碗",
-    "description": "香辣墨西哥牛肉玉米碗 以 碎牛肉 与 玉米 为骨架，香辣 风味在煎锅 里慢慢渗出，和 孜然粉 带来层次与 墨西哥牛肉玉米碗 的触感。",
-    "ingredients": [
-      "碎牛肉",
-      "玉米粒",
-      "黑豆",
-      "洋葱",
-      "红椒",
-      "鳄梨",
-      "切达芝士",
-      "酸奶油",
-      "辣椒酱"
-    ],
-    "steps": [
-      "香辣 的调味与 孜然粉 先抹在 碎牛肉 表面，再把 辣椒酱 轻抹进缝隙腌 15 分钟。",
-      "加热 煎锅，将 碎牛肉 与 玉米 一起烹饪，让 墨西哥牛肉玉米碗 很好释放肉汁。",
-      "出锅前撒上 鳄梨 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 30,
-    "servings": 2,
-    "tags": [
-      "异国",
-      "高蛋白",
-      "辣味"
-    ],
-    "nutritionalNotes": "碎牛肉 与 玉米 提供蛋白与纤维，鳄梨 补充健康脂肪。",
-    "preparationTips": "煎 碎牛肉 时火候要略焦，加入 孜然粉 后再与 玉米 拌匀更香。",
-    "imageUrl": "https://example.com/images/lunch-spicy-mexican-beef-bowl.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-spicy-mediterranean-quinoa",
-    "title": "香辣地中海烤菜藜麦",
-    "description": "香辣地中海烤菜藜麦 以 藜麦 与 彩椒 为骨架，香辣 风味在烤盘 里慢慢渗出，和 牛至 带来层次与 地中海烤菜藜麦 的触感。",
-    "ingredients": [
-      "藜麦",
-      "彩椒",
-      "樱桃番茄",
-      "茄子",
-      "橄榄油",
-      "柠檬",
-      "羊乳酪",
-      "烤南瓜籽",
-      "辣椒酱"
-    ],
-    "steps": [
-      "香辣 的调味与 牛至 先抹在 藜麦 表面，再把 辣椒酱 轻抹进缝隙腌 15 分钟。",
-      "加热 烤盘，将 藜麦 与 彩椒 一起烹饪，让 地中海烤菜藜麦 很好释放肉汁。",
-      "出锅前撒上 樱桃番茄 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 35,
-    "servings": 2,
-    "tags": [
-      "植物蛋白",
-      "清爽",
-      "辣味"
-    ],
-    "nutritionalNotes": "藜麦 提供完整蛋白，彩椒 与 樱桃番茄 补充抗氧化与维生素。",
-    "preparationTips": "先把蔬菜烤至微焦，再与 藜麦 拌匀，最后挤入柠檬提亮。",
-    "imageUrl": "https://example.com/images/lunch-spicy-mediterranean-quinoa.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "lunch-spicy-spiced-tomato-pork",
-    "title": "香辣香料番茄炖猪肉",
-    "description": "香辣香料番茄炖猪肉 以 猪肩肉 与 番茄 为骨架，香辣 风味在炖锅 里慢慢渗出，和 肉桂 带来层次与 香料番茄炖猪肉 的触感。",
-    "ingredients": [
-      "猪肩肉",
-      "番茄罐头",
-      "洋葱",
-      "红椒",
-      "蒜",
-      "红酒",
-      "香叶",
-      "胡萝卜",
-      "辣椒酱"
-    ],
-    "steps": [
-      "香辣 的调味与 肉桂 先抹在 猪肩肉 表面，再把 辣椒酱 轻抹进缝隙腌 15 分钟。",
-      "加热 炖锅，将 猪肩肉 与 番茄 一起烹饪，让 香料番茄炖猪肉 很好释放肉汁。",
-      "出锅前撒上 洋葱 与香草，搭配柠檬或香醋拌匀即可。"
-    ],
-    "category": "午餐",
-    "cookTimeMinutes": 90,
-    "servings": 4,
-    "tags": [
-      "慢炖",
-      "家常",
-      "辣味"
-    ],
-    "nutritionalNotes": "猪肩肉 富含胶原蛋白，番茄 与 洋葱 给汤汁带来天然酸甜。",
-    "preparationTips": "先煎 猪肩肉 上色后再放入 炖锅 慢炖，最后调入 肉桂 层次更丰富。",
-    "imageUrl": "https://example.com/images/lunch-spicy-spiced-tomato-pork.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dinner-slow-braise-red-wine-braise-beef",
-    "title": "慢炖红酒炖牛腩",
-    "description": "慢炖红酒炖牛腩 以 牛腩 与 红酒 为骨架，慢炖 风味在慢炖锅 里慢慢渗出，和 香叶 带来层次与 红酒炖牛腩 的触感。",
-    "ingredients": [
-      "牛腩",
-      "红酒",
-      "胡萝卜",
-      "洋葱",
-      "西芹",
-      "番茄酱",
-      "香叶",
-      "牛高汤"
-    ],
-    "steps": [
-      "慢炖 的调味与 香叶 先与 牛腩 结合，确保 红酒 在表皮渗入香气。",
-      "将 牛腩 与 红酒 放入 慢炖锅，维持中低温让 红酒炖牛腩 充分融合。",
-      "出锅前将 胡萝卜 与柠檬或香草点缀，搭配酒香或烤汁享用。"
-    ],
-    "category": "晚餐",
-    "cookTimeMinutes": 120,
-    "servings": 4,
-    "tags": [
-      "暖胃",
-      "浓郁",
-      "慢火"
-    ],
-    "nutritionalNotes": "牛腩 含铁量高，搭配 红酒 的多酚与 胡萝卜 的纤维适合晚餐补血。",
-    "preparationTips": "先高温煎 牛腩 再入 慢炖锅 与 香叶 慢炖，留意液体不要干掉。",
-    "imageUrl": "https://example.com/images/dinner-slow-braise-red-wine-braise-beef.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dinner-slow-braise-coconut-curry-shrimp",
-    "title": "慢炖椰香咖喱虾",
-    "description": "慢炖椰香咖喱虾 以 大虾 与 椰奶 为骨架，慢炖 风味在煎锅 里慢慢渗出，和 姜 带来层次与 椰香咖喱虾 的触感。",
-    "ingredients": [
-      "大虾",
-      "椰奶",
-      "咖喱酱",
-      "洋葱",
-      "姜",
-      "青柠",
-      "辣椒",
-      "香菜",
-      "红酒"
-    ],
-    "steps": [
-      "慢炖 的调味与 姜 先与 大虾 结合，确保 红酒 在表皮渗入香气。",
-      "将 大虾 与 椰奶 放入 煎锅，维持中低温让 椰香咖喱虾 充分融合。",
-      "出锅前将 咖喱酱 与柠檬或香草点缀，搭配酒香或烤汁享用。"
-    ],
-    "category": "晚餐",
-    "cookTimeMinutes": 30,
-    "servings": 2,
-    "tags": [
-      "椰香",
-      "异域",
-      "慢火"
-    ],
-    "nutritionalNotes": "大虾 提供优质蛋白，椰奶 的脂肪让咖喱更顺滑，咖喱酱 补充香料。",
-    "preparationTips": "先炒香姜蒜与 咖喱酱，再加入 大虾 与 椰奶 轻煮，保留虾的弹性。",
-    "imageUrl": "https://example.com/images/dinner-slow-braise-coconut-curry-shrimp.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dinner-slow-braise-pepper-lamb-chops",
-    "title": "慢炖铁板黑椒羊排",
-    "description": "慢炖铁板黑椒羊排 以 羊排 与 黑胡椒 为骨架，慢炖 风味在铁板 里慢慢渗出，和 黑胡椒 带来层次与 铁板黑椒羊排 的触感。",
-    "ingredients": [
-      "羊排",
-      "黑胡椒粒",
-      "蒜",
-      "迷迭香",
-      "橄榄油",
-      "牛油",
-      "红酒醋",
-      "红酒"
-    ],
-    "steps": [
-      "慢炖 的调味与 黑胡椒 先与 羊排 结合，确保 红酒 在表皮渗入香气。",
-      "将 羊排 与 黑胡椒 放入 铁板，维持中低温让 铁板黑椒羊排 充分融合。",
-      "出锅前将 蒜 与柠檬或香草点缀，搭配酒香或烤汁享用。"
-    ],
-    "category": "晚餐",
-    "cookTimeMinutes": 20,
-    "servings": 2,
-    "tags": [
-      "聚餐",
-      "厚切",
-      "慢火"
-    ],
-    "nutritionalNotes": "羊排 含优质脂肪与蛋白，黑胡椒 和 蒜 提供香气与暖感。",
-    "preparationTips": "先撒入粗磨 黑胡椒，中火煎 羊排 保留粉红，再以 铁板 复热出汁。",
-    "imageUrl": "https://example.com/images/dinner-slow-braise-pepper-lamb-chops.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dinner-slow-braise-korean-spicy-pork-belly",
-    "title": "慢炖韩式辣酱五花",
-    "description": "慢炖韩式辣酱五花 以 五花肉 与 韩式辣酱 为骨架，慢炖 风味在炒锅 里慢慢渗出，和 韩式辣酱 带来层次与 韩式辣酱五花 的触感。",
-    "ingredients": [
-      "五花肉",
-      "韩式辣酱",
-      "洋葱",
-      "蒜",
-      "白芝麻",
-      "蜂蜜",
-      "葱",
-      "红酒"
-    ],
-    "steps": [
-      "慢炖 的调味与 韩式辣酱 先与 五花肉 结合，确保 红酒 在表皮渗入香气。",
-      "将 五花肉 与 韩式辣酱 放入 炒锅，维持中低温让 韩式辣酱五花 充分融合。",
-      "出锅前将 白芝麻 与柠檬或香草点缀，搭配酒香或烤汁享用。"
-    ],
-    "category": "晚餐",
     "cookTimeMinutes": 35,
     "servings": 3,
     "tags": [
-      "辣味",
-      "下饭",
-      "慢火"
+      "广式",
+      "糯米",
+      "早茶"
     ],
-    "nutritionalNotes": "五花肉 的油脂搭配 韩式辣酱 的甜辣，白芝麻 增加香气与口感。",
-    "preparationTips": "先把 五花肉 脂肪煎出，再加入 韩式辣酱 小火慢炖收汁，最后撒 白芝麻。",
-    "imageUrl": "https://example.com/images/dinner-slow-braise-korean-spicy-pork-belly.jpg",
+    "nutritionalNotes": "糯米提供碳水能量，香菇含多糖类抗氧化物质，腊肠增香提鲜。",
+    "preparationTips": "糯米要充分浸泡确保蒸透，馅料调味稍咸因为烧麦皮本身无味。",
+    "imageUrl": "https://example.com/images/breakfast-shaomai.jpg",
     "isFavorite": false
   },
   {
-    "slug": "dinner-slow-braise-citrus-baked-cod",
-    "title": "慢炖香柠烤鳕鱼",
-    "description": "慢炖香柠烤鳕鱼 以 鳕鱼 与 柠檬 为骨架，慢炖 风味在烤箱 里慢慢渗出，和 香草 带来层次与 香柠烤鳕鱼 的触感。",
+    "slug": "breakfast-soy-milk-fried-dough",
+    "title": "豆浆油条",
+    "description": "豆浆油条 以 黄豆 慢磨成浆，搭配 油条 的酥脆金黄，一浓一脆的完美组合，是中国人最深入骨髓的 早餐 情怀。",
     "ingredients": [
-      "鳕鱼",
-      "柠檬",
-      "香草",
-      "橄榄油",
-      "奶油",
-      "白葡萄酒",
-      "粗盐",
-      "红酒"
+      "黄豆",
+      "清水",
+      "白糖",
+      "面粉",
+      "酵母",
+      "小苏打",
+      "食盐",
+      "食用油"
     ],
     "steps": [
-      "慢炖 的调味与 香草 先与 鳕鱼 结合，确保 红酒 在表皮渗入香气。",
-      "将 鳕鱼 与 柠檬 放入 烤箱，维持中低温让 香柠烤鳕鱼 充分融合。",
-      "出锅前将 香草 与柠檬或香草点缀，搭配酒香或烤汁享用。"
+      "黄豆提前浸泡一夜，加水用豆浆机打磨过滤，煮沸后加糖调味。",
+      "面粉加酵母、小苏打、盐和水揉成面团，醒发一夜后拉成长条。",
+      "油锅烧至180度，下油条面坯炸至两面金黄膨胀，捞出沥油搭配豆浆享用。"
     ],
-    "category": "晚餐",
-    "cookTimeMinutes": 25,
+    "category": "早餐",
+    "cookTimeMinutes": 40,
     "servings": 2,
     "tags": [
-      "清爽",
-      "海鲜",
-      "慢火"
+      "经典",
+      "传统",
+      "豆香"
     ],
-    "nutritionalNotes": "鳕鱼 是低脂蛋白，柠檬 与 香草 提供酸度与香气。",
-    "preparationTips": "中途淋一次融化奶油，柠檬 的汁液更平均渗入。",
-    "imageUrl": "https://example.com/images/dinner-slow-braise-citrus-baked-cod.jpg",
+    "nutritionalNotes": "黄豆富含大豆蛋白与异黄酮，油条提供碳水能量，经典早餐搭配营养互补。",
+    "preparationTips": "油条面团要充分醒发，油温要足够高才能让油条快速膨胀蓬松。",
+    "imageUrl": "https://example.com/images/breakfast-soy-milk-fried-dough.jpg",
     "isFavorite": false
   },
   {
-    "slug": "dinner-caramel-red-wine-braise-beef",
-    "title": "焦香红酒炖牛腩",
-    "description": "焦香红酒炖牛腩 以 牛腩 与 红酒 为骨架，焦香 风味在慢炖锅 里慢慢渗出，和 香叶 带来层次与 红酒炖牛腩 的触感。",
+    "slug": "breakfast-steamed-bun-meat",
+    "title": "猪肉大葱包子",
+    "description": "猪肉大葱包子 以 发面 包裹 猪肉大葱 馅料，蒸笼的热气将 面香 与 肉香 徐徐融合，皮薄馅足、暄软饱满的 北方 早餐 代表。",
     "ingredients": [
-      "牛腩",
-      "红酒",
-      "胡萝卜",
-      "洋葱",
-      "西芹",
-      "番茄酱",
-      "香叶",
-      "牛高汤",
-      "焦糖"
-    ],
-    "steps": [
-      "焦香 的调味与 香叶 先与 牛腩 结合，确保 焦糖 在表皮渗入香气。",
-      "将 牛腩 与 红酒 放入 慢炖锅，维持中低温让 红酒炖牛腩 充分融合。",
-      "出锅前将 胡萝卜 与柠檬或香草点缀，搭配酒香或烤汁享用。"
-    ],
-    "category": "晚餐",
-    "cookTimeMinutes": 120,
-    "servings": 4,
-    "tags": [
-      "暖胃",
-      "浓郁",
-      "焦香"
-    ],
-    "nutritionalNotes": "牛腩 含铁量高，搭配 红酒 的多酚与 胡萝卜 的纤维适合晚餐补血。",
-    "preparationTips": "先高温煎 牛腩 再入 慢炖锅 与 香叶 慢炖，留意液体不要干掉。",
-    "imageUrl": "https://example.com/images/dinner-caramel-red-wine-braise-beef.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dinner-caramel-coconut-curry-shrimp",
-    "title": "焦香椰香咖喱虾",
-    "description": "焦香椰香咖喱虾 以 大虾 与 椰奶 为骨架，焦香 风味在煎锅 里慢慢渗出，和 姜 带来层次与 椰香咖喱虾 的触感。",
-    "ingredients": [
-      "大虾",
-      "椰奶",
-      "咖喱酱",
-      "洋葱",
+      "面粉",
+      "酵母",
+      "猪肉馅",
+      "大葱",
       "姜",
-      "青柠",
-      "辣椒",
-      "香菜",
-      "焦糖"
+      "生抽",
+      "老抽",
+      "香油",
+      "食盐",
+      "花椒水"
     ],
     "steps": [
-      "焦香 的调味与 姜 先与 大虾 结合，确保 焦糖 在表皮渗入香气。",
-      "将 大虾 与 椰奶 放入 煎锅，维持中低温让 椰香咖喱虾 充分融合。",
-      "出锅前将 咖喱酱 与柠檬或香草点缀，搭配酒香或烤汁享用。"
+      "面粉加酵母和温水揉成面团，醒发至两倍大备用。",
+      "猪肉馅加生抽、老抽、盐、姜末、花椒水顺时针搅打上劲，加大葱末和香油拌匀。",
+      "面团排气分剂，擀皮包入肉馅捏成包子，醒发15分钟后蒸锅大火蒸15分钟。"
     ],
-    "category": "晚餐",
-    "cookTimeMinutes": 30,
-    "servings": 2,
-    "tags": [
-      "椰香",
-      "异域",
-      "焦香"
-    ],
-    "nutritionalNotes": "大虾 提供优质蛋白，椰奶 的脂肪让咖喱更顺滑，咖喱酱 补充香料。",
-    "preparationTips": "先炒香姜蒜与 咖喱酱，再加入 大虾 与 椰奶 轻煮，保留虾的弹性。",
-    "imageUrl": "https://example.com/images/dinner-caramel-coconut-curry-shrimp.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dinner-caramel-pepper-lamb-chops",
-    "title": "焦香铁板黑椒羊排",
-    "description": "焦香铁板黑椒羊排 以 羊排 与 黑胡椒 为骨架，焦香 风味在铁板 里慢慢渗出，和 黑胡椒 带来层次与 铁板黑椒羊排 的触感。",
-    "ingredients": [
-      "羊排",
-      "黑胡椒粒",
-      "蒜",
-      "迷迭香",
-      "橄榄油",
-      "牛油",
-      "红酒醋",
-      "焦糖"
-    ],
-    "steps": [
-      "焦香 的调味与 黑胡椒 先与 羊排 结合，确保 焦糖 在表皮渗入香气。",
-      "将 羊排 与 黑胡椒 放入 铁板，维持中低温让 铁板黑椒羊排 充分融合。",
-      "出锅前将 蒜 与柠檬或香草点缀，搭配酒香或烤汁享用。"
-    ],
-    "category": "晚餐",
-    "cookTimeMinutes": 20,
-    "servings": 2,
-    "tags": [
-      "聚餐",
-      "厚切",
-      "焦香"
-    ],
-    "nutritionalNotes": "羊排 含优质脂肪与蛋白，黑胡椒 和 蒜 提供香气与暖感。",
-    "preparationTips": "先撒入粗磨 黑胡椒，中火煎 羊排 保留粉红，再以 铁板 复热出汁。",
-    "imageUrl": "https://example.com/images/dinner-caramel-pepper-lamb-chops.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dinner-caramel-korean-spicy-pork-belly",
-    "title": "焦香韩式辣酱五花",
-    "description": "焦香韩式辣酱五花 以 五花肉 与 韩式辣酱 为骨架，焦香 风味在炒锅 里慢慢渗出，和 韩式辣酱 带来层次与 韩式辣酱五花 的触感。",
-    "ingredients": [
-      "五花肉",
-      "韩式辣酱",
-      "洋葱",
-      "蒜",
-      "白芝麻",
-      "蜂蜜",
-      "葱",
-      "焦糖"
-    ],
-    "steps": [
-      "焦香 的调味与 韩式辣酱 先与 五花肉 结合，确保 焦糖 在表皮渗入香气。",
-      "将 五花肉 与 韩式辣酱 放入 炒锅，维持中低温让 韩式辣酱五花 充分融合。",
-      "出锅前将 白芝麻 与柠檬或香草点缀，搭配酒香或烤汁享用。"
-    ],
-    "category": "晚餐",
-    "cookTimeMinutes": 35,
-    "servings": 3,
-    "tags": [
-      "辣味",
-      "下饭",
-      "焦香"
-    ],
-    "nutritionalNotes": "五花肉 的油脂搭配 韩式辣酱 的甜辣，白芝麻 增加香气与口感。",
-    "preparationTips": "先把 五花肉 脂肪煎出，再加入 韩式辣酱 小火慢炖收汁，最后撒 白芝麻。",
-    "imageUrl": "https://example.com/images/dinner-caramel-korean-spicy-pork-belly.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dinner-caramel-citrus-baked-cod",
-    "title": "焦香香柠烤鳕鱼",
-    "description": "焦香香柠烤鳕鱼 以 鳕鱼 与 柠檬 为骨架，焦香 风味在烤箱 里慢慢渗出，和 香草 带来层次与 香柠烤鳕鱼 的触感。",
-    "ingredients": [
-      "鳕鱼",
-      "柠檬",
-      "香草",
-      "橄榄油",
-      "奶油",
-      "白葡萄酒",
-      "粗盐",
-      "焦糖"
-    ],
-    "steps": [
-      "焦香 的调味与 香草 先与 鳕鱼 结合，确保 焦糖 在表皮渗入香气。",
-      "将 鳕鱼 与 柠檬 放入 烤箱，维持中低温让 香柠烤鳕鱼 充分融合。",
-      "出锅前将 香草 与柠檬或香草点缀，搭配酒香或烤汁享用。"
-    ],
-    "category": "晚餐",
-    "cookTimeMinutes": 25,
-    "servings": 2,
-    "tags": [
-      "清爽",
-      "海鲜",
-      "焦香"
-    ],
-    "nutritionalNotes": "鳕鱼 是低脂蛋白，柠檬 与 香草 提供酸度与香气。",
-    "preparationTips": "中途淋一次融化奶油，柠檬 的汁液更平均渗入。",
-    "imageUrl": "https://example.com/images/dinner-caramel-citrus-baked-cod.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dinner-herb-red-wine-braise-beef",
-    "title": "香草红酒炖牛腩",
-    "description": "香草红酒炖牛腩 以 牛腩 与 红酒 为骨架，香草 风味在慢炖锅 里慢慢渗出，和 香叶 带来层次与 红酒炖牛腩 的触感。",
-    "ingredients": [
-      "牛腩",
-      "红酒",
-      "胡萝卜",
-      "洋葱",
-      "西芹",
-      "番茄酱",
-      "香叶",
-      "牛高汤",
-      "百里香"
-    ],
-    "steps": [
-      "香草 的调味与 香叶 先与 牛腩 结合，确保 百里香 在表皮渗入香气。",
-      "将 牛腩 与 红酒 放入 慢炖锅，维持中低温让 红酒炖牛腩 充分融合。",
-      "出锅前将 胡萝卜 与柠檬或香草点缀，搭配酒香或烤汁享用。"
-    ],
-    "category": "晚餐",
-    "cookTimeMinutes": 120,
+    "category": "早餐",
+    "cookTimeMinutes": 90,
     "servings": 4,
     "tags": [
-      "暖胃",
-      "浓郁",
-      "香草"
+      "面食",
+      "北方",
+      "蒸制"
     ],
-    "nutritionalNotes": "牛腩 含铁量高，搭配 红酒 的多酚与 胡萝卜 的纤维适合晚餐补血。",
-    "preparationTips": "先高温煎 牛腩 再入 慢炖锅 与 香叶 慢炖，留意液体不要干掉。",
-    "imageUrl": "https://example.com/images/dinner-herb-red-wine-braise-beef.jpg",
+    "nutritionalNotes": "猪肉提供蛋白质与铁质，大葱含有机硫化物具有杀菌功效，面粉提供碳水能量。",
+    "preparationTips": "肉馅加花椒水分次搅打更嫩滑，蒸好后焖2分钟再开盖避免塌皮。",
+    "imageUrl": "https://example.com/images/breakfast-steamed-bun-meat.jpg",
     "isFavorite": false
   },
   {
-    "slug": "dinner-herb-coconut-curry-shrimp",
-    "title": "香草椰香咖喱虾",
-    "description": "香草椰香咖喱虾 以 大虾 与 椰奶 为骨架，香草 风味在煎锅 里慢慢渗出，和 姜 带来层次与 椰香咖喱虾 的触感。",
+    "slug": "breakfast-steamed-egg-custard",
+    "title": "蒸水蛋",
+    "description": "蒸水蛋 以 鸡蛋 为骨架，温水调匀后上蒸笼，细腻如豆腐的质地与 生抽 香油 点缀的酱汁，是清晨最温柔的 早餐 呵护。",
     "ingredients": [
-      "大虾",
-      "椰奶",
-      "咖喱酱",
-      "洋葱",
-      "姜",
-      "青柠",
-      "辣椒",
-      "香菜",
-      "百里香"
-    ],
-    "steps": [
-      "香草 的调味与 姜 先与 大虾 结合，确保 百里香 在表皮渗入香气。",
-      "将 大虾 与 椰奶 放入 煎锅，维持中低温让 椰香咖喱虾 充分融合。",
-      "出锅前将 咖喱酱 与柠檬或香草点缀，搭配酒香或烤汁享用。"
-    ],
-    "category": "晚餐",
-    "cookTimeMinutes": 30,
-    "servings": 2,
-    "tags": [
-      "椰香",
-      "异域",
-      "香草"
-    ],
-    "nutritionalNotes": "大虾 提供优质蛋白，椰奶 的脂肪让咖喱更顺滑，咖喱酱 补充香料。",
-    "preparationTips": "先炒香姜蒜与 咖喱酱，再加入 大虾 与 椰奶 轻煮，保留虾的弹性。",
-    "imageUrl": "https://example.com/images/dinner-herb-coconut-curry-shrimp.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dinner-herb-pepper-lamb-chops",
-    "title": "香草铁板黑椒羊排",
-    "description": "香草铁板黑椒羊排 以 羊排 与 黑胡椒 为骨架，香草 风味在铁板 里慢慢渗出，和 黑胡椒 带来层次与 铁板黑椒羊排 的触感。",
-    "ingredients": [
-      "羊排",
-      "黑胡椒粒",
-      "蒜",
-      "迷迭香",
-      "橄榄油",
-      "牛油",
-      "红酒醋",
-      "百里香"
-    ],
-    "steps": [
-      "香草 的调味与 黑胡椒 先与 羊排 结合，确保 百里香 在表皮渗入香气。",
-      "将 羊排 与 黑胡椒 放入 铁板，维持中低温让 铁板黑椒羊排 充分融合。",
-      "出锅前将 蒜 与柠檬或香草点缀，搭配酒香或烤汁享用。"
-    ],
-    "category": "晚餐",
-    "cookTimeMinutes": 20,
-    "servings": 2,
-    "tags": [
-      "聚餐",
-      "厚切",
-      "香草"
-    ],
-    "nutritionalNotes": "羊排 含优质脂肪与蛋白，黑胡椒 和 蒜 提供香气与暖感。",
-    "preparationTips": "先撒入粗磨 黑胡椒，中火煎 羊排 保留粉红，再以 铁板 复热出汁。",
-    "imageUrl": "https://example.com/images/dinner-herb-pepper-lamb-chops.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dinner-herb-korean-spicy-pork-belly",
-    "title": "香草韩式辣酱五花",
-    "description": "香草韩式辣酱五花 以 五花肉 与 韩式辣酱 为骨架，香草 风味在炒锅 里慢慢渗出，和 韩式辣酱 带来层次与 韩式辣酱五花 的触感。",
-    "ingredients": [
-      "五花肉",
-      "韩式辣酱",
-      "洋葱",
-      "蒜",
-      "白芝麻",
-      "蜂蜜",
-      "葱",
-      "百里香"
-    ],
-    "steps": [
-      "香草 的调味与 韩式辣酱 先与 五花肉 结合，确保 百里香 在表皮渗入香气。",
-      "将 五花肉 与 韩式辣酱 放入 炒锅，维持中低温让 韩式辣酱五花 充分融合。",
-      "出锅前将 白芝麻 与柠檬或香草点缀，搭配酒香或烤汁享用。"
-    ],
-    "category": "晚餐",
-    "cookTimeMinutes": 35,
-    "servings": 3,
-    "tags": [
-      "辣味",
-      "下饭",
-      "香草"
-    ],
-    "nutritionalNotes": "五花肉 的油脂搭配 韩式辣酱 的甜辣，白芝麻 增加香气与口感。",
-    "preparationTips": "先把 五花肉 脂肪煎出，再加入 韩式辣酱 小火慢炖收汁，最后撒 白芝麻。",
-    "imageUrl": "https://example.com/images/dinner-herb-korean-spicy-pork-belly.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dinner-herb-citrus-baked-cod",
-    "title": "香草香柠烤鳕鱼",
-    "description": "香草香柠烤鳕鱼 以 鳕鱼 与 柠檬 为骨架，香草 风味在烤箱 里慢慢渗出，和 香草 带来层次与 香柠烤鳕鱼 的触感。",
-    "ingredients": [
-      "鳕鱼",
-      "柠檬",
-      "香草",
-      "橄榄油",
-      "奶油",
-      "白葡萄酒",
-      "粗盐",
-      "百里香"
-    ],
-    "steps": [
-      "香草 的调味与 香草 先与 鳕鱼 结合，确保 百里香 在表皮渗入香气。",
-      "将 鳕鱼 与 柠檬 放入 烤箱，维持中低温让 香柠烤鳕鱼 充分融合。",
-      "出锅前将 香草 与柠檬或香草点缀，搭配酒香或烤汁享用。"
-    ],
-    "category": "晚餐",
-    "cookTimeMinutes": 25,
-    "servings": 2,
-    "tags": [
-      "清爽",
-      "海鲜",
-      "香草"
-    ],
-    "nutritionalNotes": "鳕鱼 是低脂蛋白，柠檬 与 香草 提供酸度与香气。",
-    "preparationTips": "中途淋一次融化奶油，柠檬 的汁液更平均渗入。",
-    "imageUrl": "https://example.com/images/dinner-herb-citrus-baked-cod.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dinner-crispy-red-wine-braise-beef",
-    "title": "酥脆红酒炖牛腩",
-    "description": "酥脆红酒炖牛腩 以 牛腩 与 红酒 为骨架，酥皮 风味在慢炖锅 里慢慢渗出，和 香叶 带来层次与 红酒炖牛腩 的触感。",
-    "ingredients": [
-      "牛腩",
-      "红酒",
-      "胡萝卜",
-      "洋葱",
-      "西芹",
-      "番茄酱",
-      "香叶",
-      "牛高汤",
-      "面包屑"
-    ],
-    "steps": [
-      "酥脆 的调味与 香叶 先与 牛腩 结合，确保 面包屑 在表皮渗入香气。",
-      "将 牛腩 与 红酒 放入 慢炖锅，维持中低温让 红酒炖牛腩 充分融合。",
-      "出锅前将 胡萝卜 与柠檬或香草点缀，搭配酒香或烤汁享用。"
-    ],
-    "category": "晚餐",
-    "cookTimeMinutes": 120,
-    "servings": 4,
-    "tags": [
-      "暖胃",
-      "浓郁",
-      "酥脆"
-    ],
-    "nutritionalNotes": "牛腩 含铁量高，搭配 红酒 的多酚与 胡萝卜 的纤维适合晚餐补血。",
-    "preparationTips": "先高温煎 牛腩 再入 慢炖锅 与 香叶 慢炖，留意液体不要干掉。",
-    "imageUrl": "https://example.com/images/dinner-crispy-red-wine-braise-beef.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dinner-crispy-coconut-curry-shrimp",
-    "title": "酥脆椰香咖喱虾",
-    "description": "酥脆椰香咖喱虾 以 大虾 与 椰奶 为骨架，酥皮 风味在煎锅 里慢慢渗出，和 姜 带来层次与 椰香咖喱虾 的触感。",
-    "ingredients": [
-      "大虾",
-      "椰奶",
-      "咖喱酱",
-      "洋葱",
-      "姜",
-      "青柠",
-      "辣椒",
-      "香菜",
-      "面包屑"
-    ],
-    "steps": [
-      "酥脆 的调味与 姜 先与 大虾 结合，确保 面包屑 在表皮渗入香气。",
-      "将 大虾 与 椰奶 放入 煎锅，维持中低温让 椰香咖喱虾 充分融合。",
-      "出锅前将 咖喱酱 与柠檬或香草点缀，搭配酒香或烤汁享用。"
-    ],
-    "category": "晚餐",
-    "cookTimeMinutes": 30,
-    "servings": 2,
-    "tags": [
-      "椰香",
-      "异域",
-      "酥脆"
-    ],
-    "nutritionalNotes": "大虾 提供优质蛋白，椰奶 的脂肪让咖喱更顺滑，咖喱酱 补充香料。",
-    "preparationTips": "先炒香姜蒜与 咖喱酱，再加入 大虾 与 椰奶 轻煮，保留虾的弹性。",
-    "imageUrl": "https://example.com/images/dinner-crispy-coconut-curry-shrimp.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dinner-crispy-pepper-lamb-chops",
-    "title": "酥脆铁板黑椒羊排",
-    "description": "酥脆铁板黑椒羊排 以 羊排 与 黑胡椒 为骨架，酥皮 风味在铁板 里慢慢渗出，和 黑胡椒 带来层次与 铁板黑椒羊排 的触感。",
-    "ingredients": [
-      "羊排",
-      "黑胡椒粒",
-      "蒜",
-      "迷迭香",
-      "橄榄油",
-      "牛油",
-      "红酒醋",
-      "面包屑"
-    ],
-    "steps": [
-      "酥脆 的调味与 黑胡椒 先与 羊排 结合，确保 面包屑 在表皮渗入香气。",
-      "将 羊排 与 黑胡椒 放入 铁板，维持中低温让 铁板黑椒羊排 充分融合。",
-      "出锅前将 蒜 与柠檬或香草点缀，搭配酒香或烤汁享用。"
-    ],
-    "category": "晚餐",
-    "cookTimeMinutes": 20,
-    "servings": 2,
-    "tags": [
-      "聚餐",
-      "厚切",
-      "酥脆"
-    ],
-    "nutritionalNotes": "羊排 含优质脂肪与蛋白，黑胡椒 和 蒜 提供香气与暖感。",
-    "preparationTips": "先撒入粗磨 黑胡椒，中火煎 羊排 保留粉红，再以 铁板 复热出汁。",
-    "imageUrl": "https://example.com/images/dinner-crispy-pepper-lamb-chops.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dinner-crispy-korean-spicy-pork-belly",
-    "title": "酥脆韩式辣酱五花",
-    "description": "酥脆韩式辣酱五花 以 五花肉 与 韩式辣酱 为骨架，酥皮 风味在炒锅 里慢慢渗出，和 韩式辣酱 带来层次与 韩式辣酱五花 的触感。",
-    "ingredients": [
-      "五花肉",
-      "韩式辣酱",
-      "洋葱",
-      "蒜",
-      "白芝麻",
-      "蜂蜜",
-      "葱",
-      "面包屑"
-    ],
-    "steps": [
-      "酥脆 的调味与 韩式辣酱 先与 五花肉 结合，确保 面包屑 在表皮渗入香气。",
-      "将 五花肉 与 韩式辣酱 放入 炒锅，维持中低温让 韩式辣酱五花 充分融合。",
-      "出锅前将 白芝麻 与柠檬或香草点缀，搭配酒香或烤汁享用。"
-    ],
-    "category": "晚餐",
-    "cookTimeMinutes": 35,
-    "servings": 3,
-    "tags": [
-      "辣味",
-      "下饭",
-      "酥脆"
-    ],
-    "nutritionalNotes": "五花肉 的油脂搭配 韩式辣酱 的甜辣，白芝麻 增加香气与口感。",
-    "preparationTips": "先把 五花肉 脂肪煎出，再加入 韩式辣酱 小火慢炖收汁，最后撒 白芝麻。",
-    "imageUrl": "https://example.com/images/dinner-crispy-korean-spicy-pork-belly.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dinner-crispy-citrus-baked-cod",
-    "title": "酥脆香柠烤鳕鱼",
-    "description": "酥脆香柠烤鳕鱼 以 鳕鱼 与 柠檬 为骨架，酥皮 风味在烤箱 里慢慢渗出，和 香草 带来层次与 香柠烤鳕鱼 的触感。",
-    "ingredients": [
-      "鳕鱼",
-      "柠檬",
-      "香草",
-      "橄榄油",
-      "奶油",
-      "白葡萄酒",
-      "粗盐",
-      "面包屑"
-    ],
-    "steps": [
-      "酥脆 的调味与 香草 先与 鳕鱼 结合，确保 面包屑 在表皮渗入香气。",
-      "将 鳕鱼 与 柠檬 放入 烤箱，维持中低温让 香柠烤鳕鱼 充分融合。",
-      "出锅前将 香草 与柠檬或香草点缀，搭配酒香或烤汁享用。"
-    ],
-    "category": "晚餐",
-    "cookTimeMinutes": 25,
-    "servings": 2,
-    "tags": [
-      "清爽",
-      "海鲜",
-      "酥脆"
-    ],
-    "nutritionalNotes": "鳕鱼 是低脂蛋白，柠檬 与 香草 提供酸度与香气。",
-    "preparationTips": "中途淋一次融化奶油，柠檬 的汁液更平均渗入。",
-    "imageUrl": "https://example.com/images/dinner-crispy-citrus-baked-cod.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-silky-caramel-pudding",
-    "title": "绵密焦糖布丁",
-    "description": "绵密焦糖布丁 以 牛奶 与 鸡蛋 为骨架，绵密 风味在蒸锅 里慢慢渗出，和 香草 带来层次与 焦糖布丁 的触感。",
-    "ingredients": [
-      "牛奶",
       "鸡蛋",
-      "糖",
-      "香草豆荚",
-      "淡奶油",
-      "玉米淀粉"
-    ],
-    "steps": [
-      "绵密 的香气与 香草 与 牛奶 和 鸡蛋 搅匀，缓缓加入 玉米淀粉 让甜味柔和。",
-      "依据 蒸锅 或冷藏流程处理，避免 焦糖布丁 产生气泡。",
-      "完成后撒上 糖 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 40,
-    "servings": 4,
-    "tags": [
-      "经典",
-      "顺滑",
-      "丝滑"
-    ],
-    "nutritionalNotes": "牛奶 与 鸡蛋 提供钙与蛋白，糖 造就焦香。",
-    "preparationTips": "小火蒸可避免气泡，冷藏后再倒扣让焦糖更亮。",
-    "imageUrl": "https://example.com/images/dessert-silky-caramel-pudding.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-silky-lemon-tart",
-    "title": "绵密柠檬挞",
-    "description": "绵密柠檬挞 以 黄油 与 柠檬 为骨架，绵密 风味在烤箱 里慢慢渗出，和 柠檬皮 带来层次与 柠檬挞 的触感。",
-    "ingredients": [
-      "黄油",
-      "高筋面粉",
-      "糖粉",
-      "柠檬",
-      "鸡蛋",
-      "淡奶油",
-      "玉米淀粉"
-    ],
-    "steps": [
-      "绵密 的香气与 柠檬皮 与 黄油 和 柠檬 搅匀，缓缓加入 玉米淀粉 让甜味柔和。",
-      "依据 烤箱 或冷藏流程处理，避免 柠檬挞 产生气泡。",
-      "完成后撒上 鸡蛋 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 35,
-    "servings": 6,
-    "tags": [
-      "清新",
-      "茶点",
-      "丝滑"
-    ],
-    "nutritionalNotes": "黄油 与 柠檬 让塔皮酥脆，鸡蛋 的酸度点亮味蕾。",
-    "preparationTips": "烤前用叉子叉洞后铺烘豆定型，可保持塔皮形状。",
-    "imageUrl": "https://example.com/images/dessert-silky-lemon-tart.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-silky-earl-grey-mousse",
-    "title": "绵密伯爵奶冻慕斯",
-    "description": "绵密伯爵奶冻慕斯 以 伯爵茶 与 奶酪 为骨架，绵密 风味在冷藏 里慢慢渗出，和 蜂蜜 带来层次与 伯爵奶冻慕斯 的触感。",
-    "ingredients": [
-      "伯爵茶",
-      "奶酪",
-      "淡奶油",
-      "吉利丁",
-      "蜂蜜",
-      "柠檬皮",
-      "玉米淀粉"
-    ],
-    "steps": [
-      "绵密 的香气与 蜂蜜 与 伯爵茶 和 奶酪 搅匀，缓缓加入 玉米淀粉 让甜味柔和。",
-      "依据 冷藏 或冷藏流程处理，避免 伯爵奶冻慕斯 产生气泡。",
-      "完成后撒上 淡奶油 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 20,
-    "servings": 4,
-    "tags": [
-      "优雅",
-      "茶香",
-      "丝滑"
-    ],
-    "nutritionalNotes": "奶酪 与 淡奶油 提供奶香，伯爵茶 带来抗氧化。",
-    "preparationTips": "茶汤泡浓后冷却再拌入奶酪以防苦涩。",
-    "imageUrl": "https://example.com/images/dessert-silky-earl-grey-mousse.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-silky-black-sesame-panna-cotta",
-    "title": "绵密黑芝麻奶冻",
-    "description": "绵密黑芝麻奶冻 以 黑芝麻 与 牛奶 为骨架，绵密 风味在冰箱 里慢慢渗出，和 黑芝麻 带来层次与 黑芝麻奶冻 的触感。",
-    "ingredients": [
-      "黑芝麻",
-      "牛奶",
-      "吉利丁",
-      "糖",
-      "香草",
-      "椰奶",
-      "玉米淀粉"
-    ],
-    "steps": [
-      "绵密 的香气与 黑芝麻 与 黑芝麻 和 牛奶 搅匀，缓缓加入 玉米淀粉 让甜味柔和。",
-      "依据 冰箱 或冷藏流程处理，避免 黑芝麻奶冻 产生气泡。",
-      "完成后撒上 吉利丁 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 15,
-    "servings": 4,
-    "tags": [
-      "养生",
-      "黑色料理",
-      "丝滑"
-    ],
-    "nutritionalNotes": "黑芝麻 富含钙铁，牛奶 融合椰奶让质地顺滑。",
-    "preparationTips": "将 黑芝麻 研磨细腻再过筛，可避免颗粒感。",
-    "imageUrl": "https://example.com/images/dessert-silky-black-sesame-panna-cotta.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-silky-raspberry-mille-feuille",
-    "title": "绵密覆盆子千层",
-    "description": "绵密覆盆子千层 以 酥皮 与 覆盆子 为骨架，绵密 风味在烤箱 里慢慢渗出，和 糖粉 带来层次与 覆盆子千层 的触感。",
-    "ingredients": [
-      "酥皮",
-      "覆盆子",
-      "香草卡仕达",
-      "糖粉",
-      "柠檬皮",
-      "玉米淀粉"
-    ],
-    "steps": [
-      "绵密 的香气与 糖粉 与 酥皮 和 覆盆子 搅匀，缓缓加入 玉米淀粉 让甜味柔和。",
-      "依据 烤箱 或冷藏流程处理，避免 覆盆子千层 产生气泡。",
-      "完成后撒上 香草卡仕达 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 30,
-    "servings": 4,
-    "tags": [
-      "典雅",
-      "层次",
-      "丝滑"
-    ],
-    "nutritionalNotes": "香草卡仕达 有蛋白与钙，覆盆子 带来酸度，酥皮 口感脆。",
-    "preparationTips": "烤酥皮时用重物压着防鼓起，出炉后趁热切块再夹奶油。",
-    "imageUrl": "https://example.com/images/dessert-silky-raspberry-mille-feuille.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-airy-caramel-pudding",
-    "title": "轻盈焦糖布丁",
-    "description": "轻盈焦糖布丁 以 牛奶 与 鸡蛋 为骨架，轻盈 风味在蒸锅 里慢慢渗出，和 香草 带来层次与 焦糖布丁 的触感。",
-    "ingredients": [
-      "牛奶",
-      "鸡蛋",
-      "糖",
-      "香草豆荚",
-      "淡奶油",
-      "蛋白"
-    ],
-    "steps": [
-      "轻盈 的香气与 香草 与 牛奶 和 鸡蛋 搅匀，缓缓加入 蛋白 让甜味柔和。",
-      "依据 蒸锅 或冷藏流程处理，避免 焦糖布丁 产生气泡。",
-      "完成后撒上 糖 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 40,
-    "servings": 4,
-    "tags": [
-      "经典",
-      "顺滑",
-      "轻盈"
-    ],
-    "nutritionalNotes": "牛奶 与 鸡蛋 提供钙与蛋白，糖 造就焦香。",
-    "preparationTips": "小火蒸可避免气泡，冷藏后再倒扣让焦糖更亮。",
-    "imageUrl": "https://example.com/images/dessert-airy-caramel-pudding.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-airy-lemon-tart",
-    "title": "轻盈柠檬挞",
-    "description": "轻盈柠檬挞 以 黄油 与 柠檬 为骨架，轻盈 风味在烤箱 里慢慢渗出，和 柠檬皮 带来层次与 柠檬挞 的触感。",
-    "ingredients": [
-      "黄油",
-      "高筋面粉",
-      "糖粉",
-      "柠檬",
-      "鸡蛋",
-      "淡奶油",
-      "蛋白"
-    ],
-    "steps": [
-      "轻盈 的香气与 柠檬皮 与 黄油 和 柠檬 搅匀，缓缓加入 蛋白 让甜味柔和。",
-      "依据 烤箱 或冷藏流程处理，避免 柠檬挞 产生气泡。",
-      "完成后撒上 鸡蛋 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 35,
-    "servings": 6,
-    "tags": [
-      "清新",
-      "茶点",
-      "轻盈"
-    ],
-    "nutritionalNotes": "黄油 与 柠檬 让塔皮酥脆，鸡蛋 的酸度点亮味蕾。",
-    "preparationTips": "烤前用叉子叉洞后铺烘豆定型，可保持塔皮形状。",
-    "imageUrl": "https://example.com/images/dessert-airy-lemon-tart.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-airy-earl-grey-mousse",
-    "title": "轻盈伯爵奶冻慕斯",
-    "description": "轻盈伯爵奶冻慕斯 以 伯爵茶 与 奶酪 为骨架，轻盈 风味在冷藏 里慢慢渗出，和 蜂蜜 带来层次与 伯爵奶冻慕斯 的触感。",
-    "ingredients": [
-      "伯爵茶",
-      "奶酪",
-      "淡奶油",
-      "吉利丁",
-      "蜂蜜",
-      "柠檬皮",
-      "蛋白"
-    ],
-    "steps": [
-      "轻盈 的香气与 蜂蜜 与 伯爵茶 和 奶酪 搅匀，缓缓加入 蛋白 让甜味柔和。",
-      "依据 冷藏 或冷藏流程处理，避免 伯爵奶冻慕斯 产生气泡。",
-      "完成后撒上 淡奶油 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 20,
-    "servings": 4,
-    "tags": [
-      "优雅",
-      "茶香",
-      "轻盈"
-    ],
-    "nutritionalNotes": "奶酪 与 淡奶油 提供奶香，伯爵茶 带来抗氧化。",
-    "preparationTips": "茶汤泡浓后冷却再拌入奶酪以防苦涩。",
-    "imageUrl": "https://example.com/images/dessert-airy-earl-grey-mousse.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-airy-black-sesame-panna-cotta",
-    "title": "轻盈黑芝麻奶冻",
-    "description": "轻盈黑芝麻奶冻 以 黑芝麻 与 牛奶 为骨架，轻盈 风味在冰箱 里慢慢渗出，和 黑芝麻 带来层次与 黑芝麻奶冻 的触感。",
-    "ingredients": [
-      "黑芝麻",
-      "牛奶",
-      "吉利丁",
-      "糖",
-      "香草",
-      "椰奶",
-      "蛋白"
-    ],
-    "steps": [
-      "轻盈 的香气与 黑芝麻 与 黑芝麻 和 牛奶 搅匀，缓缓加入 蛋白 让甜味柔和。",
-      "依据 冰箱 或冷藏流程处理，避免 黑芝麻奶冻 产生气泡。",
-      "完成后撒上 吉利丁 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 15,
-    "servings": 4,
-    "tags": [
-      "养生",
-      "黑色料理",
-      "轻盈"
-    ],
-    "nutritionalNotes": "黑芝麻 富含钙铁，牛奶 融合椰奶让质地顺滑。",
-    "preparationTips": "将 黑芝麻 研磨细腻再过筛，可避免颗粒感。",
-    "imageUrl": "https://example.com/images/dessert-airy-black-sesame-panna-cotta.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-airy-raspberry-mille-feuille",
-    "title": "轻盈覆盆子千层",
-    "description": "轻盈覆盆子千层 以 酥皮 与 覆盆子 为骨架，轻盈 风味在烤箱 里慢慢渗出，和 糖粉 带来层次与 覆盆子千层 的触感。",
-    "ingredients": [
-      "酥皮",
-      "覆盆子",
-      "香草卡仕达",
-      "糖粉",
-      "柠檬皮",
-      "蛋白"
-    ],
-    "steps": [
-      "轻盈 的香气与 糖粉 与 酥皮 和 覆盆子 搅匀，缓缓加入 蛋白 让甜味柔和。",
-      "依据 烤箱 或冷藏流程处理，避免 覆盆子千层 产生气泡。",
-      "完成后撒上 香草卡仕达 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 30,
-    "servings": 4,
-    "tags": [
-      "典雅",
-      "层次",
-      "轻盈"
-    ],
-    "nutritionalNotes": "香草卡仕达 有蛋白与钙，覆盆子 带来酸度，酥皮 口感脆。",
-    "preparationTips": "烤酥皮时用重物压着防鼓起，出炉后趁热切块再夹奶油。",
-    "imageUrl": "https://example.com/images/dessert-airy-raspberry-mille-feuille.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-caramelized-caramel-pudding",
-    "title": "焦糖焦糖布丁",
-    "description": "焦糖焦糖布丁 以 牛奶 与 鸡蛋 为骨架，焦糖 风味在蒸锅 里慢慢渗出，和 香草 带来层次与 焦糖布丁 的触感。",
-    "ingredients": [
-      "牛奶",
-      "鸡蛋",
-      "糖",
-      "香草豆荚",
-      "淡奶油",
-      "焦糖酱"
-    ],
-    "steps": [
-      "焦糖 的香气与 香草 与 牛奶 和 鸡蛋 搅匀，缓缓加入 焦糖酱 让甜味柔和。",
-      "依据 蒸锅 或冷藏流程处理，避免 焦糖布丁 产生气泡。",
-      "完成后撒上 糖 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 40,
-    "servings": 4,
-    "tags": [
-      "经典",
-      "顺滑",
-      "焦糖"
-    ],
-    "nutritionalNotes": "牛奶 与 鸡蛋 提供钙与蛋白，糖 造就焦香。",
-    "preparationTips": "小火蒸可避免气泡，冷藏后再倒扣让焦糖更亮。",
-    "imageUrl": "https://example.com/images/dessert-caramelized-caramel-pudding.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-caramelized-lemon-tart",
-    "title": "焦糖柠檬挞",
-    "description": "焦糖柠檬挞 以 黄油 与 柠檬 为骨架，焦糖 风味在烤箱 里慢慢渗出，和 柠檬皮 带来层次与 柠檬挞 的触感。",
-    "ingredients": [
-      "黄油",
-      "高筋面粉",
-      "糖粉",
-      "柠檬",
-      "鸡蛋",
-      "淡奶油",
-      "焦糖酱"
-    ],
-    "steps": [
-      "焦糖 的香气与 柠檬皮 与 黄油 和 柠檬 搅匀，缓缓加入 焦糖酱 让甜味柔和。",
-      "依据 烤箱 或冷藏流程处理，避免 柠檬挞 产生气泡。",
-      "完成后撒上 鸡蛋 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 35,
-    "servings": 6,
-    "tags": [
-      "清新",
-      "茶点",
-      "焦糖"
-    ],
-    "nutritionalNotes": "黄油 与 柠檬 让塔皮酥脆，鸡蛋 的酸度点亮味蕾。",
-    "preparationTips": "烤前用叉子叉洞后铺烘豆定型，可保持塔皮形状。",
-    "imageUrl": "https://example.com/images/dessert-caramelized-lemon-tart.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-caramelized-earl-grey-mousse",
-    "title": "焦糖伯爵奶冻慕斯",
-    "description": "焦糖伯爵奶冻慕斯 以 伯爵茶 与 奶酪 为骨架，焦糖 风味在冷藏 里慢慢渗出，和 蜂蜜 带来层次与 伯爵奶冻慕斯 的触感。",
-    "ingredients": [
-      "伯爵茶",
-      "奶酪",
-      "淡奶油",
-      "吉利丁",
-      "蜂蜜",
-      "柠檬皮",
-      "焦糖酱"
-    ],
-    "steps": [
-      "焦糖 的香气与 蜂蜜 与 伯爵茶 和 奶酪 搅匀，缓缓加入 焦糖酱 让甜味柔和。",
-      "依据 冷藏 或冷藏流程处理，避免 伯爵奶冻慕斯 产生气泡。",
-      "完成后撒上 淡奶油 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 20,
-    "servings": 4,
-    "tags": [
-      "优雅",
-      "茶香",
-      "焦糖"
-    ],
-    "nutritionalNotes": "奶酪 与 淡奶油 提供奶香，伯爵茶 带来抗氧化。",
-    "preparationTips": "茶汤泡浓后冷却再拌入奶酪以防苦涩。",
-    "imageUrl": "https://example.com/images/dessert-caramelized-earl-grey-mousse.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-caramelized-black-sesame-panna-cotta",
-    "title": "焦糖黑芝麻奶冻",
-    "description": "焦糖黑芝麻奶冻 以 黑芝麻 与 牛奶 为骨架，焦糖 风味在冰箱 里慢慢渗出，和 黑芝麻 带来层次与 黑芝麻奶冻 的触感。",
-    "ingredients": [
-      "黑芝麻",
-      "牛奶",
-      "吉利丁",
-      "糖",
-      "香草",
-      "椰奶",
-      "焦糖酱"
-    ],
-    "steps": [
-      "焦糖 的香气与 黑芝麻 与 黑芝麻 和 牛奶 搅匀，缓缓加入 焦糖酱 让甜味柔和。",
-      "依据 冰箱 或冷藏流程处理，避免 黑芝麻奶冻 产生气泡。",
-      "完成后撒上 吉利丁 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 15,
-    "servings": 4,
-    "tags": [
-      "养生",
-      "黑色料理",
-      "焦糖"
-    ],
-    "nutritionalNotes": "黑芝麻 富含钙铁，牛奶 融合椰奶让质地顺滑。",
-    "preparationTips": "将 黑芝麻 研磨细腻再过筛，可避免颗粒感。",
-    "imageUrl": "https://example.com/images/dessert-caramelized-black-sesame-panna-cotta.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-caramelized-raspberry-mille-feuille",
-    "title": "焦糖覆盆子千层",
-    "description": "焦糖覆盆子千层 以 酥皮 与 覆盆子 为骨架，焦糖 风味在烤箱 里慢慢渗出，和 糖粉 带来层次与 覆盆子千层 的触感。",
-    "ingredients": [
-      "酥皮",
-      "覆盆子",
-      "香草卡仕达",
-      "糖粉",
-      "柠檬皮",
-      "焦糖酱"
-    ],
-    "steps": [
-      "焦糖 的香气与 糖粉 与 酥皮 和 覆盆子 搅匀，缓缓加入 焦糖酱 让甜味柔和。",
-      "依据 烤箱 或冷藏流程处理，避免 覆盆子千层 产生气泡。",
-      "完成后撒上 香草卡仕达 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 30,
-    "servings": 4,
-    "tags": [
-      "典雅",
-      "层次",
-      "焦糖"
-    ],
-    "nutritionalNotes": "香草卡仕达 有蛋白与钙，覆盆子 带来酸度，酥皮 口感脆。",
-    "preparationTips": "烤酥皮时用重物压着防鼓起，出炉后趁热切块再夹奶油。",
-    "imageUrl": "https://example.com/images/dessert-caramelized-raspberry-mille-feuille.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-lychee-caramel-pudding",
-    "title": "荔枝焦糖布丁",
-    "description": "荔枝焦糖布丁 以 牛奶 与 鸡蛋 为骨架，荔枝 风味在蒸锅 里慢慢渗出，和 香草 带来层次与 焦糖布丁 的触感。",
-    "ingredients": [
-      "牛奶",
-      "鸡蛋",
-      "糖",
-      "香草豆荚",
-      "淡奶油",
-      "荔枝糖浆"
-    ],
-    "steps": [
-      "荔枝 的香气与 香草 与 牛奶 和 鸡蛋 搅匀，缓缓加入 荔枝糖浆 让甜味柔和。",
-      "依据 蒸锅 或冷藏流程处理，避免 焦糖布丁 产生气泡。",
-      "完成后撒上 糖 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 40,
-    "servings": 4,
-    "tags": [
-      "经典",
-      "顺滑",
-      "果香"
-    ],
-    "nutritionalNotes": "牛奶 与 鸡蛋 提供钙与蛋白，糖 造就焦香。",
-    "preparationTips": "小火蒸可避免气泡，冷藏后再倒扣让焦糖更亮。",
-    "imageUrl": "https://example.com/images/dessert-lychee-caramel-pudding.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-lychee-lemon-tart",
-    "title": "荔枝柠檬挞",
-    "description": "荔枝柠檬挞 以 黄油 与 柠檬 为骨架，荔枝 风味在烤箱 里慢慢渗出，和 柠檬皮 带来层次与 柠檬挞 的触感。",
-    "ingredients": [
-      "黄油",
-      "高筋面粉",
-      "糖粉",
-      "柠檬",
-      "鸡蛋",
-      "淡奶油",
-      "荔枝糖浆"
-    ],
-    "steps": [
-      "荔枝 的香气与 柠檬皮 与 黄油 和 柠檬 搅匀，缓缓加入 荔枝糖浆 让甜味柔和。",
-      "依据 烤箱 或冷藏流程处理，避免 柠檬挞 产生气泡。",
-      "完成后撒上 鸡蛋 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 35,
-    "servings": 6,
-    "tags": [
-      "清新",
-      "茶点",
-      "果香"
-    ],
-    "nutritionalNotes": "黄油 与 柠檬 让塔皮酥脆，鸡蛋 的酸度点亮味蕾。",
-    "preparationTips": "烤前用叉子叉洞后铺烘豆定型，可保持塔皮形状。",
-    "imageUrl": "https://example.com/images/dessert-lychee-lemon-tart.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-lychee-earl-grey-mousse",
-    "title": "荔枝伯爵奶冻慕斯",
-    "description": "荔枝伯爵奶冻慕斯 以 伯爵茶 与 奶酪 为骨架，荔枝 风味在冷藏 里慢慢渗出，和 蜂蜜 带来层次与 伯爵奶冻慕斯 的触感。",
-    "ingredients": [
-      "伯爵茶",
-      "奶酪",
-      "淡奶油",
-      "吉利丁",
-      "蜂蜜",
-      "柠檬皮",
-      "荔枝糖浆"
-    ],
-    "steps": [
-      "荔枝 的香气与 蜂蜜 与 伯爵茶 和 奶酪 搅匀，缓缓加入 荔枝糖浆 让甜味柔和。",
-      "依据 冷藏 或冷藏流程处理，避免 伯爵奶冻慕斯 产生气泡。",
-      "完成后撒上 淡奶油 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 20,
-    "servings": 4,
-    "tags": [
-      "优雅",
-      "茶香",
-      "果香"
-    ],
-    "nutritionalNotes": "奶酪 与 淡奶油 提供奶香，伯爵茶 带来抗氧化。",
-    "preparationTips": "茶汤泡浓后冷却再拌入奶酪以防苦涩。",
-    "imageUrl": "https://example.com/images/dessert-lychee-earl-grey-mousse.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-lychee-black-sesame-panna-cotta",
-    "title": "荔枝黑芝麻奶冻",
-    "description": "荔枝黑芝麻奶冻 以 黑芝麻 与 牛奶 为骨架，荔枝 风味在冰箱 里慢慢渗出，和 黑芝麻 带来层次与 黑芝麻奶冻 的触感。",
-    "ingredients": [
-      "黑芝麻",
-      "牛奶",
-      "吉利丁",
-      "糖",
-      "香草",
-      "椰奶",
-      "荔枝糖浆"
-    ],
-    "steps": [
-      "荔枝 的香气与 黑芝麻 与 黑芝麻 和 牛奶 搅匀，缓缓加入 荔枝糖浆 让甜味柔和。",
-      "依据 冰箱 或冷藏流程处理，避免 黑芝麻奶冻 产生气泡。",
-      "完成后撒上 吉利丁 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 15,
-    "servings": 4,
-    "tags": [
-      "养生",
-      "黑色料理",
-      "果香"
-    ],
-    "nutritionalNotes": "黑芝麻 富含钙铁，牛奶 融合椰奶让质地顺滑。",
-    "preparationTips": "将 黑芝麻 研磨细腻再过筛，可避免颗粒感。",
-    "imageUrl": "https://example.com/images/dessert-lychee-black-sesame-panna-cotta.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "dessert-lychee-raspberry-mille-feuille",
-    "title": "荔枝覆盆子千层",
-    "description": "荔枝覆盆子千层 以 酥皮 与 覆盆子 为骨架，荔枝 风味在烤箱 里慢慢渗出，和 糖粉 带来层次与 覆盆子千层 的触感。",
-    "ingredients": [
-      "酥皮",
-      "覆盆子",
-      "香草卡仕达",
-      "糖粉",
-      "柠檬皮",
-      "荔枝糖浆"
-    ],
-    "steps": [
-      "荔枝 的香气与 糖粉 与 酥皮 和 覆盆子 搅匀，缓缓加入 荔枝糖浆 让甜味柔和。",
-      "依据 烤箱 或冷藏流程处理，避免 覆盆子千层 产生气泡。",
-      "完成后撒上 香草卡仕达 与糖粉，冷藏定形后再分份。"
-    ],
-    "category": "甜点",
-    "cookTimeMinutes": 30,
-    "servings": 4,
-    "tags": [
-      "典雅",
-      "层次",
-      "果香"
-    ],
-    "nutritionalNotes": "香草卡仕达 有蛋白与钙，覆盆子 带来酸度，酥皮 口感脆。",
-    "preparationTips": "烤酥皮时用重物压着防鼓起，出炉后趁热切块再夹奶油。",
-    "imageUrl": "https://example.com/images/dessert-lychee-raspberry-mille-feuille.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "snack-szechuan-rosemary-nuts",
-    "title": "花椒迷迭香烤坚果",
-    "description": "花椒迷迭香烤坚果 以 坚果 与 迷迭香 为骨架，麻香 风味在烤箱 里慢慢渗出，和 迷迭香 带来层次与 迷迭香烤坚果 的触感。",
-    "ingredients": [
-      "核桃",
-      "杏仁",
-      "腰果",
-      "迷迭香",
-      "海盐",
-      "橄榄油",
-      "蜂蜜",
-      "花椒粉"
-    ],
-    "steps": [
-      "花椒 的香料与 迷迭香 夹在 坚果 与 迷迭香 上，花椒粉 让层次更丰富。",
-      "把 海盐 加入，用 烤箱 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
-    ],
-    "category": "小吃",
-    "cookTimeMinutes": 20,
-    "servings": 4,
-    "tags": [
-      "健康",
-      "可携带",
-      "麻辣"
-    ],
-    "nutritionalNotes": "坚果 提供健康油脂，搭配 迷迭香 抗氧化与 海盐 让口感立体。",
-    "preparationTips": "烤至香气四溢再撒盐，可让表面略带脆。",
-    "imageUrl": "https://example.com/images/snack-szechuan-rosemary-nuts.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "snack-szechuan-spiced-tofu-bites",
-    "title": "花椒椒盐豆腐干",
-    "description": "花椒椒盐豆腐干 以 豆腐干 与 花椒 为骨架，麻香 风味在煎锅 里慢慢渗出，和 花椒 带来层次与 椒盐豆腐干 的触感。",
-    "ingredients": [
-      "豆腐干",
-      "花椒",
-      "辣椒粉",
-      "五香粉",
+      "温水",
+      "食盐",
       "生抽",
       "香油",
-      "花椒粉"
+      "葱花"
     ],
     "steps": [
-      "花椒 的香料与 花椒 夹在 豆腐干 与 花椒 上，花椒粉 让层次更丰富。",
-      "把 辣椒 加入，用 煎锅 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
+      "鸡蛋打散，加1.5倍温水和少许盐搅匀，过筛去除气泡。",
+      "碗口覆盖保鲜膜，上蒸锅中小火蒸12分钟至凝固嫩滑。",
+      "揭开保鲜膜，淋上生抽和香油，撒葱花即可。"
     ],
-    "category": "小吃",
-    "cookTimeMinutes": 15,
-    "servings": 3,
-    "tags": [
-      "下酒",
-      "麻辣"
-    ],
-    "nutritionalNotes": "豆腐干 富含植物蛋白，花椒 与 辣椒 增添麻辣刺激。",
-    "preparationTips": "煎前先挤干水分，撒 花椒 让香料贴合。",
-    "imageUrl": "https://example.com/images/snack-szechuan-spiced-tofu-bites.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "snack-szechuan-smoked-cheese-tomato",
-    "title": "花椒烟熏奶酪番茄",
-    "description": "花椒烟熏奶酪番茄 以 樱桃番茄 与 烟熏奶酪 为骨架，麻香 风味在烤箱 里慢慢渗出，和 黑胡椒 带来层次与 烟熏奶酪番茄 的触感。",
-    "ingredients": [
-      "樱桃番茄",
-      "烟熏奶酪",
-      "罗勒",
-      "黑胡椒",
-      "橄榄油",
-      "香醋",
-      "花椒粉"
-    ],
-    "steps": [
-      "花椒 的香料与 黑胡椒 夹在 樱桃番茄 与 烟熏奶酪 上，花椒粉 让层次更丰富。",
-      "把 香草 加入，用 烤箱 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
-    ],
-    "category": "小吃",
-    "cookTimeMinutes": 10,
-    "servings": 4,
-    "tags": [
-      "精致",
-      "开胃",
-      "麻辣"
-    ],
-    "nutritionalNotes": "烟熏奶酪 与 樱桃番茄 搭配让脂肪与维生素互补，香草 提香。",
-    "preparationTips": "微烤后淋橄榄油与香醋，趁热撒 黑胡椒 提味。",
-    "imageUrl": "https://example.com/images/snack-szechuan-smoked-cheese-tomato.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "snack-szechuan-sesame-nori-roll",
-    "title": "花椒芝麻海苔卷",
-    "description": "花椒芝麻海苔卷 以 海苔 与 芝麻 为骨架，麻香 风味在卷制 里慢慢渗出，和 芝麻 带来层次与 芝麻海苔卷 的触感。",
-    "ingredients": [
-      "海苔片",
-      "白芝麻",
-      "小黄瓜",
-      "胡萝卜丝",
-      "醋",
-      "酱油",
-      "花椒粉"
-    ],
-    "steps": [
-      "花椒 的香料与 芝麻 夹在 海苔 与 芝麻 上，花椒粉 让层次更丰富。",
-      "把 小黄瓜 加入，用 卷制 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
-    ],
-    "category": "小吃",
-    "cookTimeMinutes": 10,
+    "category": "早餐",
+    "cookTimeMinutes": 18,
     "servings": 2,
     "tags": [
-      "轻食",
-      "爽脆",
-      "麻辣"
+      "蒸制",
+      "嫩滑",
+      "清淡"
     ],
-    "nutritionalNotes": "海苔 富含微量元素，芝麻 与 小黄瓜 增添咀嚼感。",
-    "preparationTips": "醋略腌小黄瓜，卷制时用湿布按紧可防散。",
-    "imageUrl": "https://example.com/images/snack-szechuan-sesame-nori-roll.jpg",
+    "nutritionalNotes": "鸡蛋含优质蛋白与卵磷脂，蒸制方式保留营养，易消化适合各年龄段。",
+    "preparationTips": "蛋液过筛是关键，蒸制时中小火慢蒸避免表面起泡，覆膜防止水蒸气滴落。",
+    "imageUrl": "https://example.com/images/breakfast-steamed-egg-custard.jpg",
     "isFavorite": false
   },
   {
-    "slug": "snack-szechuan-curry-eel-chips",
-    "title": "花椒咖喱鳗鱼薄片",
-    "description": "花椒咖喱鳗鱼薄片 以 鳗鱼 与 咖喱粉 为骨架，麻香 风味在烤箱 里慢慢渗出，和 咖喱粉 带来层次与 咖喱鳗鱼薄片 的触感。",
+    "slug": "homestyle-braised-pork-belly",
+    "title": "红烧肉",
+    "description": "红烧肉 以 五花肉 为核心，冰糖 炒出焦糖色，配以 生抽 与 料酒 慢炖入味，肥而不腻、入口即化的 经典 江南 风味。",
     "ingredients": [
-      "鳗鱼片",
-      "咖喱粉",
-      "椰片",
-      "盐",
-      "黑胡椒",
-      "柠檬",
-      "花椒粉"
+      "五花肉",
+      "冰糖",
+      "生抽",
+      "老抽",
+      "料酒",
+      "八角",
+      "桂皮",
+      "姜",
+      "葱"
     ],
     "steps": [
-      "花椒 的香料与 咖喱粉 夹在 鳗鱼 与 咖喱粉 上，花椒粉 让层次更丰富。",
-      "把 椰片 加入，用 烤箱 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
+      "五花肉切块焯水去腥，捞出沥干备用。",
+      "锅中放冰糖小火炒至琥珀色，放入肉块翻炒上色。",
+      "加入生抽、老抽、料酒及香料，注水没过肉块，大火烧开转小火炖40分钟，大火收汁。"
     ],
-    "category": "小吃",
-    "cookTimeMinutes": 20,
-    "servings": 3,
-    "tags": [
-      "创意",
-      "香脆",
-      "麻辣"
-    ],
-    "nutritionalNotes": "鳗鱼 提供欧米伽-3，咖喱粉 与 椰片 加强香气与食感。",
-    "preparationTips": "薄片先刷油再撒 咖喱粉，高温快速烤脆。",
-    "imageUrl": "https://example.com/images/snack-szechuan-curry-eel-chips.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "snack-cheesy-rosemary-nuts",
-    "title": "奶酪迷迭香烤坚果",
-    "description": "奶酪迷迭香烤坚果 以 坚果 与 迷迭香 为骨架，奶香 风味在烤箱 里慢慢渗出，和 迷迭香 带来层次与 迷迭香烤坚果 的触感。",
-    "ingredients": [
-      "核桃",
-      "杏仁",
-      "腰果",
-      "迷迭香",
-      "海盐",
-      "橄榄油",
-      "蜂蜜",
-      "帕玛森"
-    ],
-    "steps": [
-      "奶酪 的香料与 迷迭香 夹在 坚果 与 迷迭香 上，帕玛森 让层次更丰富。",
-      "把 海盐 加入，用 烤箱 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
-    ],
-    "category": "小吃",
-    "cookTimeMinutes": 20,
+    "category": "中餐",
+    "cookTimeMinutes": 60,
     "servings": 4,
     "tags": [
-      "健康",
-      "可携带",
-      "奶香"
+      "慢炖",
+      "下饭",
+      "经典"
     ],
-    "nutritionalNotes": "坚果 提供健康油脂，搭配 迷迭香 抗氧化与 海盐 让口感立体。",
-    "preparationTips": "烤至香气四溢再撒盐，可让表面略带脆。",
-    "imageUrl": "https://example.com/images/snack-cheesy-rosemary-nuts.jpg",
+    "nutritionalNotes": "五花肉富含脂肪与蛋白质，适量食用提供能量，搭配蔬菜更均衡。",
+    "preparationTips": "炒糖色时火不宜过大，颜色变深立即下肉，收汁时不断翻动防止粘锅。",
+    "imageUrl": "https://example.com/images/homestyle-braised-pork-belly.jpg",
     "isFavorite": false
   },
   {
-    "slug": "snack-cheesy-spiced-tofu-bites",
-    "title": "奶酪椒盐豆腐干",
-    "description": "奶酪椒盐豆腐干 以 豆腐干 与 花椒 为骨架，奶香 风味在煎锅 里慢慢渗出，和 花椒 带来层次与 椒盐豆腐干 的触感。",
+    "slug": "homestyle-fish-fragrant-eggplant",
+    "title": "鱼香茄子",
+    "description": "鱼香茄子 以 茄子 为主角，豆瓣酱 与 姜蒜 爆出鱼香风味，酸甜咸辣交织，软糯入味的 川式 素菜经典。",
     "ingredients": [
-      "豆腐干",
-      "花椒",
-      "辣椒粉",
-      "五香粉",
+      "茄子",
+      "豆瓣酱",
+      "大蒜",
+      "姜",
+      "葱",
       "生抽",
-      "香油",
-      "帕玛森"
+      "醋",
+      "白糖",
+      "淀粉",
+      "食用油"
     ],
     "steps": [
-      "奶酪 的香料与 花椒 夹在 豆腐干 与 花椒 上，帕玛森 让层次更丰富。",
-      "把 辣椒 加入，用 煎锅 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
+      "茄子切条，撒盐腌出水分后挤干，下油锅炸至金黄捞出。",
+      "锅留底油，爆香姜蒜和豆瓣酱，调入生抽、醋、白糖炒匀。",
+      "放入茄子翻炒入味，勾薄芡收汁，出锅前撒上葱花。"
     ],
-    "category": "小吃",
-    "cookTimeMinutes": 15,
+    "category": "中餐",
+    "cookTimeMinutes": 25,
     "servings": 3,
     "tags": [
-      "下酒",
+      "川菜",
+      "素菜",
+      "下饭"
+    ],
+    "nutritionalNotes": "茄子富含花青素与膳食纤维，热量较低适合控制体重。",
+    "preparationTips": "茄子腌盐后挤水可减少吸油量，油温要高才能炸出金黄外皮。",
+    "imageUrl": "https://example.com/images/homestyle-fish-fragrant-eggplant.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "homestyle-garlic-pork-slices",
+    "title": "蒜泥白肉",
+    "description": "蒜泥白肉 以 五花肉 薄切为底，浇上 蒜泥 与 红油 调制的酱汁，鲜香麻辣、爽而不腻，是夏日餐桌上的 川式 凉菜代表。",
+    "ingredients": [
+      "五花肉",
+      "大蒜",
+      "红油",
+      "生抽",
+      "醋",
+      "白糖",
+      "葱",
+      "姜",
+      "花椒",
+      "黄瓜"
+    ],
+    "steps": [
+      "五花肉冷水下锅，加葱姜花椒煮熟，捞出冷却后切薄片。",
+      "大蒜捣成泥，加生抽、醋、白糖、红油调成酱汁。",
+      "黄瓜切丝垫底，码上肉片，浇上蒜泥红油汁，撒葱花即可。"
+    ],
+    "category": "中餐",
+    "cookTimeMinutes": 30,
+    "servings": 3,
+    "tags": [
+      "川菜",
+      "凉菜",
+      "蒜香"
+    ],
+    "nutritionalNotes": "大蒜具有杀菌抗氧化功效，五花肉提供蛋白质与脂肪。",
+    "preparationTips": "肉煮好后放凉再切更薄更整齐，蒜泥现捣风味更浓郁。",
+    "imageUrl": "https://example.com/images/homestyle-garlic-pork-slices.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "homestyle-kung-pao-chicken",
+    "title": "宫保鸡丁",
+    "description": "宫保鸡丁 以 鸡胸肉 与 花生米 为骨架，干辣椒 与 花椒 的香辣风味爆炒而成，酸甜麻辣层次分明的 川式 经典。",
+    "ingredients": [
+      "鸡胸肉",
+      "花生米",
+      "干辣椒",
+      "花椒",
+      "黄瓜",
+      "生抽",
+      "醋",
+      "白糖",
+      "淀粉",
+      "蒜",
+      "姜"
+    ],
+    "steps": [
+      "鸡胸肉切丁，加生抽、淀粉腌制10分钟；调好酸甜汁备用。",
+      "热锅下油，爆香干辣椒和花椒，放入鸡丁大火翻炒至变色。",
+      "倒入黄瓜丁和花生米，淋入调好的酱汁快速翻炒均匀出锅。"
+    ],
+    "category": "中餐",
+    "cookTimeMinutes": 25,
+    "servings": 3,
+    "tags": [
+      "川菜",
+      "酸甜辣",
+      "下饭"
+    ],
+    "nutritionalNotes": "鸡胸肉高蛋白低脂肪，花生米富含不饱和脂肪酸。",
+    "preparationTips": "花生米提前炸酥，最后放入保持酥脆口感；大火快炒锁住鸡肉嫩度。",
+    "imageUrl": "https://example.com/images/homestyle-kung-pao-chicken.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "homestyle-mapo-tofu",
+    "title": "麻婆豆腐",
+    "description": "麻婆豆腐 以 嫩豆腐 与 猪肉末 为骨架，花椒 与 豆瓣酱 的麻辣风味在锅中慢慢渗出，带来层次丰富的 川味 触感。",
+    "ingredients": [
+      "嫩豆腐",
+      "猪肉末",
+      "豆瓣酱",
+      "花椒",
+      "大蒜",
+      "姜",
+      "生抽",
+      "淀粉",
+      "葱"
+    ],
+    "steps": [
+      "热锅下油，爆香姜蒜，加入猪肉末炒散至变色。",
+      "加入豆瓣酱翻炒出红油，倒入适量水烧开后放入嫩豆腐块。",
+      "小火慢炖3分钟，勾芡收汁，出锅前撒上花椒粉和葱花。"
+    ],
+    "category": "中餐",
+    "cookTimeMinutes": 20,
+    "servings": 3,
+    "tags": [
+      "川菜",
       "麻辣",
-      "奶香"
+      "下饭"
     ],
-    "nutritionalNotes": "豆腐干 富含植物蛋白，花椒 与 辣椒 增添麻辣刺激。",
-    "preparationTips": "煎前先挤干水分，撒 花椒 让香料贴合。",
-    "imageUrl": "https://example.com/images/snack-cheesy-spiced-tofu-bites.jpg",
+    "nutritionalNotes": "豆腐富含植物蛋白，猪肉末补充动物蛋白，营养均衡。",
+    "preparationTips": "豆腐提前用淡盐水浸泡可去豆腥味，翻炒时轻推避免碎裂。",
+    "imageUrl": "https://example.com/images/homestyle-mapo-tofu.jpg",
     "isFavorite": false
   },
   {
-    "slug": "snack-cheesy-smoked-cheese-tomato",
-    "title": "奶酪烟熏奶酪番茄",
-    "description": "奶酪烟熏奶酪番茄 以 樱桃番茄 与 烟熏奶酪 为骨架，奶香 风味在烤箱 里慢慢渗出，和 黑胡椒 带来层次与 烟熏奶酪番茄 的触感。",
+    "slug": "homestyle-scrambled-egg-with-chives",
+    "title": "韭菜炒鸡蛋",
+    "description": "韭菜炒鸡蛋 以 韭菜 与 鸡蛋 相搭，清香与蛋香在热锅中快速交融，简朴而温暖的 家常 风味，是春日餐桌的质朴记忆。",
     "ingredients": [
-      "樱桃番茄",
-      "烟熏奶酪",
-      "罗勒",
-      "黑胡椒",
-      "橄榄油",
-      "香醋",
-      "帕玛森"
+      "韭菜",
+      "鸡蛋",
+      "食盐",
+      "食用油"
     ],
     "steps": [
-      "奶酪 的香料与 黑胡椒 夹在 樱桃番茄 与 烟熏奶酪 上，帕玛森 让层次更丰富。",
-      "把 香草 加入，用 烤箱 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
+      "韭菜洗净切段，鸡蛋打散加盐搅匀。",
+      "热锅下油，倒入蛋液炒至半熟盛出备用。",
+      "锅中再加少许油，下韭菜大火翻炒，放入鸡蛋一同炒匀，加盐调味出锅。"
     ],
-    "category": "小吃",
-    "cookTimeMinutes": 10,
-    "servings": 4,
+    "category": "中餐",
+    "cookTimeMinutes": 8,
+    "servings": 2,
     "tags": [
-      "精致",
-      "开胃",
-      "奶香"
+      "快手",
+      "春季",
+      "家常"
     ],
-    "nutritionalNotes": "烟熏奶酪 与 樱桃番茄 搭配让脂肪与维生素互补，香草 提香。",
-    "preparationTips": "微烤后淋橄榄油与香醋，趁热撒 黑胡椒 提味。",
-    "imageUrl": "https://example.com/images/snack-cheesy-smoked-cheese-tomato.jpg",
+    "nutritionalNotes": "韭菜富含维生素K和膳食纤维，鸡蛋补充优质蛋白质。",
+    "preparationTips": "韭菜大火快炒保持翠绿，鸡蛋炒至嫩滑不要过老。",
+    "imageUrl": "https://example.com/images/homestyle-scrambled-egg-with-chives.jpg",
     "isFavorite": false
   },
   {
-    "slug": "snack-cheesy-sesame-nori-roll",
-    "title": "奶酪芝麻海苔卷",
-    "description": "奶酪芝麻海苔卷 以 海苔 与 芝麻 为骨架，奶香 风味在卷制 里慢慢渗出，和 芝麻 带来层次与 芝麻海苔卷 的触感。",
+    "slug": "homestyle-steamed-pork-ribs",
+    "title": "粉蒸排骨",
+    "description": "粉蒸排骨 以 猪排骨 裹上 米粉 入蒸笼，蒸出的香气带着 豆瓣 与 五香 的醇厚，软嫩多汁、粉糯鲜香的 川式 蒸菜代表。",
     "ingredients": [
-      "海苔片",
-      "白芝麻",
-      "小黄瓜",
-      "胡萝卜丝",
-      "醋",
-      "酱油",
-      "帕玛森"
+      "猪排骨",
+      "蒸肉米粉",
+      "豆瓣酱",
+      "生抽",
+      "料酒",
+      "姜",
+      "五香粉",
+      "红薯"
     ],
     "steps": [
-      "奶酪 的香料与 芝麻 夹在 海苔 与 芝麻 上，帕玛森 让层次更丰富。",
-      "把 小黄瓜 加入，用 卷制 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
+      "排骨斩块洗净，加豆瓣酱、生抽、料酒、姜末腌制30分钟。",
+      "红薯切块铺于碗底，腌好的排骨裹上蒸肉米粉码在红薯上。",
+      "上蒸锅大火蒸45分钟至排骨熟透粉糯，取出撒葱花即可。"
     ],
-    "category": "小吃",
+    "category": "中餐",
+    "cookTimeMinutes": 75,
+    "servings": 3,
+    "tags": [
+      "蒸菜",
+      "川菜",
+      "软嫩"
+    ],
+    "nutritionalNotes": "排骨富含骨胶原与钙质，红薯提供膳食纤维与维生素。",
+    "preparationTips": "腌制时间越长越入味，蒸制途中不要揭盖以保持蒸汽稳定。",
+    "imageUrl": "https://example.com/images/homestyle-steamed-pork-ribs.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "homestyle-stir-fried-cabbage",
+    "title": "手撕包菜",
+    "description": "手撕包菜 以 圆白菜 手撕成片，干辣椒 与 大蒜 爆锅后大火快炒，焦香微辣、脆嫩爽口，是最朴实的 家常 快手素菜。",
+    "ingredients": [
+      "圆白菜",
+      "干辣椒",
+      "大蒜",
+      "生抽",
+      "醋",
+      "食盐",
+      "食用油"
+    ],
+    "steps": [
+      "圆白菜用手撕成大片，大蒜切片，干辣椒剪段备用。",
+      "热锅大火下油，爆香干辣椒和蒜片，下包菜大火翻炒。",
+      "加生抽、醋和盐快速翻炒均匀，包菜断生即可出锅。"
+    ],
+    "category": "中餐",
+    "cookTimeMinutes": 8,
+    "servings": 2,
+    "tags": [
+      "快手",
+      "素菜",
+      "脆嫩"
+    ],
+    "nutritionalNotes": "圆白菜富含维生素C与膳食纤维，低热量适合日常食用。",
+    "preparationTips": "手撕比刀切更能保留纤维口感，全程大火快炒保持脆嫩。",
+    "imageUrl": "https://example.com/images/homestyle-stir-fried-cabbage.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "homestyle-sweet-sour-spare-ribs",
+    "title": "糖醋排骨",
+    "description": "糖醋排骨 以 猪小排 为主角，冰糖 与 陈醋 调出酸甜浓汁，外焦里嫩、色泽红亮，是老少皆宜的 家常 经典硬菜。",
+    "ingredients": [
+      "猪小排",
+      "冰糖",
+      "陈醋",
+      "生抽",
+      "料酒",
+      "姜",
+      "葱",
+      "白芝麻"
+    ],
+    "steps": [
+      "排骨斩块焯水去腥，捞出沥干备用。",
+      "热锅下少许油，放冰糖炒至焦糖色，下排骨翻炒上色，加料酒、生抽、陈醋炒匀。",
+      "加水没过排骨，大火烧开转小火炖30分钟，大火收汁至浓稠，出锅撒白芝麻。"
+    ],
+    "category": "中餐",
+    "cookTimeMinutes": 50,
+    "servings": 3,
+    "tags": [
+      "酸甜",
+      "硬菜",
+      "经典"
+    ],
+    "nutritionalNotes": "排骨含丰富骨胶原蛋白与钙质，适量食用有益骨骼健康。",
+    "preparationTips": "陈醋最后收汁时加入风味更佳，收汁阶段需持续翻动防止糊锅。",
+    "imageUrl": "https://example.com/images/homestyle-sweet-sour-spare-ribs.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "homestyle-tomato-egg-stir-fry",
+    "title": "西红柿炒鸡蛋",
+    "description": "西红柿炒鸡蛋 以 西红柿 与 鸡蛋 为骨架，酸甜 风味在热锅里迅速融合，简单却让人回味的 家常 经典。",
+    "ingredients": [
+      "西红柿",
+      "鸡蛋",
+      "食盐",
+      "白糖",
+      "葱",
+      "食用油"
+    ],
+    "steps": [
+      "鸡蛋打散加盐搅匀，西红柿切块备用。",
+      "热锅下油，先将鸡蛋炒至嫩滑盛出，再下西红柿翻炒出汁。",
+      "倒入鸡蛋翻炒均匀，加盐和少许白糖调味，出锅撒葱花。"
+    ],
+    "category": "中餐",
     "cookTimeMinutes": 10,
     "servings": 2,
     "tags": [
-      "轻食",
-      "爽脆",
-      "奶香"
+      "快手",
+      "酸甜",
+      "经典"
     ],
-    "nutritionalNotes": "海苔 富含微量元素，芝麻 与 小黄瓜 增添咀嚼感。",
-    "preparationTips": "醋略腌小黄瓜，卷制时用湿布按紧可防散。",
-    "imageUrl": "https://example.com/images/snack-cheesy-sesame-nori-roll.jpg",
+    "nutritionalNotes": "西红柿富含番茄红素与维生素C，鸡蛋提供优质蛋白质。",
+    "preparationTips": "鸡蛋不要炒太老，西红柿选熟透的更出汁更酸甜。",
+    "imageUrl": "https://example.com/images/homestyle-tomato-egg-stir-fry.jpg",
     "isFavorite": false
   },
   {
-    "slug": "snack-cheesy-curry-eel-chips",
-    "title": "奶酪咖喱鳗鱼薄片",
-    "description": "奶酪咖喱鳗鱼薄片 以 鳗鱼 与 咖喱粉 为骨架，奶香 风味在烤箱 里慢慢渗出，和 咖喱粉 带来层次与 咖喱鳗鱼薄片 的触感。",
+    "slug": "dinner-beef-with-oyster-sauce",
+    "title": "蚝油牛肉",
+    "description": "蚝油牛肉 以 牛里脊 薄切为主角，蚝油 的鲜甜与 姜蒜 的香气在大火中快速融合，滑嫩多汁的牛肉搭配 青椒 的爽脆，是下班后最快手的 晚餐 炒菜。",
     "ingredients": [
-      "鳗鱼片",
-      "咖喱粉",
-      "椰片",
-      "盐",
-      "黑胡椒",
-      "柠檬",
-      "帕玛森"
+      "牛里脊",
+      "蚝油",
+      "青椒",
+      "洋葱",
+      "大蒜",
+      "姜",
+      "生抽",
+      "淀粉",
+      "小苏打",
+      "食用油"
     ],
     "steps": [
-      "奶酪 的香料与 咖喱粉 夹在 鳗鱼 与 咖喱粉 上，帕玛森 让层次更丰富。",
-      "把 椰片 加入，用 烤箱 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
+      "牛里脊切薄片，加生抽、淀粉、小苏打和少许油腌制15分钟。",
+      "热锅高温下油，牛肉片大火快炒至变色盛出备用。",
+      "锅中爆香姜蒜，下青椒洋葱翻炒，倒回牛肉加蚝油翻炒均匀出锅。"
     ],
-    "category": "小吃",
+    "category": "晚餐",
     "cookTimeMinutes": 20,
     "servings": 3,
     "tags": [
-      "创意",
-      "香脆",
-      "奶香"
+      "快手",
+      "牛肉",
+      "鲜香"
     ],
-    "nutritionalNotes": "鳗鱼 提供欧米伽-3，咖喱粉 与 椰片 加强香气与食感。",
-    "preparationTips": "薄片先刷油再撒 咖喱粉，高温快速烤脆。",
-    "imageUrl": "https://example.com/images/snack-cheesy-curry-eel-chips.jpg",
+    "nutritionalNotes": "牛里脊高蛋白低脂肪，富含铁质与锌，适合补铁补血日常食用。",
+    "preparationTips": "小苏打是嫩化牛肉的关键，大火快炒不超过2分钟保证嫩滑口感。",
+    "imageUrl": "https://example.com/images/dinner-beef-with-oyster-sauce.jpg",
     "isFavorite": false
   },
   {
-    "slug": "snack-roasted-rosemary-nuts",
-    "title": "香烤迷迭香烤坚果",
-    "description": "香烤迷迭香烤坚果 以 坚果 与 迷迭香 为骨架，香烤 风味在烤箱 里慢慢渗出，和 迷迭香 带来层次与 迷迭香烤坚果 的触感。",
+    "slug": "dinner-braised-eggplant-potato",
+    "title": "地三鲜",
+    "description": "地三鲜 以 茄子、土豆、青椒 三种蔬菜同烧，酱汁浓郁将三者紧密相融，软糯香甜的口感与 东北 大地的质朴风味，是晚餐桌上最受欢迎的 素菜。",
     "ingredients": [
-      "核桃",
-      "杏仁",
-      "腰果",
-      "迷迭香",
-      "海盐",
-      "橄榄油",
-      "蜂蜜",
-      "香料油"
+      "茄子",
+      "土豆",
+      "青椒",
+      "大蒜",
+      "生抽",
+      "老抽",
+      "白糖",
+      "淀粉",
+      "食盐",
+      "食用油"
     ],
     "steps": [
-      "香烤 的香料与 迷迭香 夹在 坚果 与 迷迭香 上，香料油 让层次更丰富。",
-      "把 海盐 加入，用 烤箱 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
+      "茄子、土豆切滚刀块，分别过油炸至金黄捞出；青椒切块备用。",
+      "锅留底油，爆香蒜末，加生抽、老抽、白糖和少许水调成酱汁。",
+      "倒入茄子、土豆、青椒翻炒均匀，勾薄芡收汁，使酱汁均匀裹附出锅。"
     ],
-    "category": "小吃",
-    "cookTimeMinutes": 20,
-    "servings": 4,
+    "category": "晚餐",
+    "cookTimeMinutes": 30,
+    "servings": 3,
     "tags": [
-      "健康",
-      "可携带",
-      "烤香"
+      "东北",
+      "素菜",
+      "下饭"
     ],
-    "nutritionalNotes": "坚果 提供健康油脂，搭配 迷迭香 抗氧化与 海盐 让口感立体。",
-    "preparationTips": "烤至香气四溢再撒盐，可让表面略带脆。",
-    "imageUrl": "https://example.com/images/snack-roasted-rosemary-nuts.jpg",
+    "nutritionalNotes": "三种蔬菜富含膳食纤维、维生素C与钾元素，营养全面均衡。",
+    "preparationTips": "土豆和茄子过油是增香关键，也可用空气炸锅代替减少用油量。",
+    "imageUrl": "https://example.com/images/dinner-braised-eggplant-potato.jpg",
     "isFavorite": false
   },
   {
-    "slug": "snack-roasted-spiced-tofu-bites",
-    "title": "香烤椒盐豆腐干",
-    "description": "香烤椒盐豆腐干 以 豆腐干 与 花椒 为骨架，香烤 风味在煎锅 里慢慢渗出，和 花椒 带来层次与 椒盐豆腐干 的触感。",
+    "slug": "dinner-braised-tofu-mushroom",
+    "title": "香菇烧豆腐",
+    "description": "香菇烧豆腐 以 老豆腐 与 香菇 共烧，酱汁徐徐渗入豆腐的每一个气孔，鲜香软嫩、汁水丰盈，是素食晚餐中最有满足感的 家常 炖菜。",
     "ingredients": [
-      "豆腐干",
+      "老豆腐",
+      "干香菇",
+      "生抽",
+      "老抽",
+      "蚝油",
+      "白糖",
+      "大蒜",
+      "姜",
+      "淀粉",
+      "葱花",
+      "食用油"
+    ],
+    "steps": [
+      "干香菇提前泡发切块，老豆腐切厚片，煎至两面金黄备用。",
+      "锅中爆香姜蒜，下香菇翻炒，加生抽、老抽、蚝油、白糖和适量水烧开。",
+      "放入豆腐中小火烧10分钟至入味，勾芡收汁，出锅撒葱花。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 25,
+    "servings": 3,
+    "tags": [
+      "素菜",
+      "鲜香",
+      "家常"
+    ],
+    "nutritionalNotes": "豆腐富含植物蛋白与钙质，香菇含多糖类免疫增强物质，营养互补。",
+    "preparationTips": "豆腐煎至金黄表面定型后不易碎烂，香菇泡发水可留下代替部分清水增鲜。",
+    "imageUrl": "https://example.com/images/dinner-braised-tofu-mushroom.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "dinner-dry-pot-cauliflower",
+    "title": "干锅花椰菜",
+    "description": "干锅花椰菜 以 花椰菜 与 五花肉 相配，豆瓣酱 与 干辣椒 在锅底爆出浓烈香气，焦香干爽、麻辣过瘾，是晚餐桌上最抢手的 下饭 硬菜。",
+    "ingredients": [
+      "花椰菜",
+      "五花肉",
+      "干辣椒",
+      "豆瓣酱",
+      "大蒜",
+      "姜",
+      "生抽",
+      "食用油",
+      "葱花"
+    ],
+    "steps": [
+      "花椰菜掰成小朵过油炸至边缘微焦捞出，五花肉切薄片备用。",
+      "锅中下五花肉煸出油脂，加豆瓣酱、干辣椒、姜蒜爆香。",
+      "倒入花椰菜大火翻炒，加生抽调味，出锅前撒葱花，以干锅盛装上桌。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 25,
+    "servings": 3,
+    "tags": [
+      "干锅",
+      "麻辣",
+      "下饭"
+    ],
+    "nutritionalNotes": "花椰菜富含维生素C与膳食纤维，五花肉提供动物蛋白与脂肪增香。",
+    "preparationTips": "花椰菜炸过再炒口感更干香，全程大火保持锅气才能出焦香风味。",
+    "imageUrl": "https://example.com/images/dinner-dry-pot-cauliflower.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "dinner-scrambled-egg-shrimp",
+    "title": "滑蛋虾仁",
+    "description": "滑蛋虾仁 以 鲜虾仁 与 嫩蛋液 为主角，大火快炒让两者相互交融，鲜嫩滑润的口感与金黄的色泽，是粤式 晚餐 里最温柔的 家常 炒菜。",
+    "ingredients": [
+      "虾仁",
+      "鸡蛋",
+      "葱花",
+      "食盐",
+      "白胡椒粉",
+      "料酒",
+      "淀粉",
+      "食用油"
+    ],
+    "steps": [
+      "虾仁加盐、料酒、淀粉腌制10分钟；鸡蛋打散加盐和葱花搅匀。",
+      "热锅下油，大火将虾仁炒至变色，倒入蛋液快速翻炒。",
+      "蛋液半凝固时关火，用余温翻炒至嫩滑，撒白胡椒粉出锅。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 15,
+    "servings": 2,
+    "tags": [
+      "粤式",
+      "快手",
+      "鲜嫩"
+    ],
+    "nutritionalNotes": "虾仁高蛋白低脂肪，富含钙与锌；鸡蛋补充卵磷脂，营养搭配优秀。",
+    "preparationTips": "蛋液入锅后要快速翻炒，关火利用余温定型可保持嫩滑不老。",
+    "imageUrl": "https://example.com/images/dinner-scrambled-egg-shrimp.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "dinner-sichuan-boiled-fish",
+    "title": "水煮鱼",
+    "description": "水煮鱼 以 草鱼 薄切为骨架，豆芽 打底，花椒 与 干辣椒 的麻辣红油铺天盖地倾注而下，滚烫鲜辣的热浪扑面而来，是川菜晚餐最霸气的 一道菜。",
+    "ingredients": [
+      "草鱼",
+      "黄豆芽",
+      "干辣椒",
       "花椒",
-      "辣椒粉",
-      "五香粉",
+      "豆瓣酱",
+      "大蒜",
+      "姜",
+      "生抽",
+      "淀粉",
+      "蛋清",
+      "食用油",
+      "葱花"
+    ],
+    "steps": [
+      "草鱼切薄片，加盐、蛋清、淀粉腌制15分钟；黄豆芽焯熟铺底。",
+      "锅中爆香豆瓣酱、姜蒜，加水烧开后下鱼片滑熟，连汤倒入碗中。",
+      "表面铺满干辣椒和花椒，另起锅烧热油至冒烟，泼在辣椒花椒上激出香气。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "tags": [
+      "川菜",
+      "麻辣",
+      "鱼类"
+    ],
+    "nutritionalNotes": "草鱼富含优质蛋白与不饱和脂肪酸，黄豆芽补充维生素C与膳食纤维。",
+    "preparationTips": "鱼片腌制加蛋清是嫩滑关键，热油泼辣椒时油温要足够高才能激出香气。",
+    "imageUrl": "https://example.com/images/dinner-sichuan-boiled-fish.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "dinner-steamed-sea-bass",
+    "title": "清蒸鲈鱼",
+    "description": "清蒸鲈鱼 以 新鲜鲈鱼 为主角，铺上 姜丝 与 葱丝，蒸出鱼肉最本真的鲜嫩，最后泼上热油激出 生抽 的香气，是清淡雅致的 晚餐 主菜。",
+    "ingredients": [
+      "鲈鱼",
+      "姜",
+      "葱",
+      "生抽",
+      "蒸鱼豉油",
+      "食用油",
+      "料酒",
+      "红辣椒"
+    ],
+    "steps": [
+      "鲈鱼处理干净，鱼身两侧划刀，抹上料酒和盐腌制10分钟。",
+      "鱼身下垫姜片，上铺姜丝，蒸锅水开后放入大火蒸8分钟。",
+      "取出倒掉蒸出的汁，铺上葱丝和红椒丝，淋蒸鱼豉油，最后浇上烧热的食用油激香。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 25,
+    "servings": 3,
+    "tags": [
+      "海鲜",
+      "清蒸",
+      "低脂"
+    ],
+    "nutritionalNotes": "鲈鱼富含优质蛋白与DHA，清蒸方式最大限度保留营养，低脂健康。",
+    "preparationTips": "蒸鱼时间不可过长，鱼眼突出即熟；热油要足够热才能激出香气。",
+    "imageUrl": "https://example.com/images/dinner-steamed-sea-bass.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "dinner-steamed-spare-ribs-black-bean",
+    "title": "豉汁蒸排骨",
+    "description": "豉汁蒸排骨 以 猪排骨 为主角，豆豉 与 蒜蓉 的浓郁酱香深入骨髓，蒸出的排骨鲜嫩多汁，是粤式 晚餐 中最令人垂涎的 蒸菜。",
+    "ingredients": [
+      "猪排骨",
+      "豆豉",
+      "大蒜",
+      "姜",
+      "生抽",
+      "蚝油",
+      "淀粉",
+      "白糖",
+      "红椒",
+      "葱花"
+    ],
+    "steps": [
+      "排骨斩小块洗净沥干，加生抽、蚝油、淀粉、白糖腌制20分钟。",
+      "豆豉切碎，大蒜压泥，与姜末一起加入排骨中拌匀。",
+      "铺于盘中，蒸锅水开后放入大火蒸15分钟，出锅撒红椒粒和葱花。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 30,
+    "servings": 3,
+    "tags": [
+      "粤式",
+      "蒸菜",
+      "豉香"
+    ],
+    "nutritionalNotes": "排骨含骨胶原与钙质，豆豉经发酵富含益生菌，有益肠道健康。",
+    "preparationTips": "排骨腌制时加淀粉锁水保持嫩滑，蒸制中途不要揭盖确保蒸汽稳定。",
+    "imageUrl": "https://example.com/images/dinner-steamed-spare-ribs-black-bean.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "dinner-stir-fry-water-spinach",
+    "title": "蒜蓉炒空心菜",
+    "description": "蒜蓉炒空心菜 以 空心菜 为主角，大量 蒜蓉 在热油中迸发香气，大火快炒保留的翠绿与脆嫩，是晚餐餐桌上最清爽的 家常 素菜。",
+    "ingredients": [
+      "空心菜",
+      "大蒜",
+      "食盐",
+      "食用油",
+      "生抽"
+    ],
+    "steps": [
+      "空心菜洗净摘段，大蒜切末备用。",
+      "热锅大火下油，爆香蒜末至微黄。",
+      "下空心菜大火翻炒约2分钟，加盐和生抽调味，炒至断生保持翠绿出锅。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 8,
+    "servings": 2,
+    "tags": [
+      "素菜",
+      "快手",
+      "清爽"
+    ],
+    "nutritionalNotes": "空心菜富含铁质、维生素A与膳食纤维，低热量适合日常晚餐搭配。",
+    "preparationTips": "全程大火快炒是保持空心菜翠绿的关键，炒制时间不超过3分钟。",
+    "imageUrl": "https://example.com/images/dinner-stir-fry-water-spinach.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "dinner-twice-cooked-pork",
+    "title": "回锅肉",
+    "description": "回锅肉 以 五花肉 先煮后炒，与 青蒜苗 和 豆瓣酱 在铁锅中翻腾，肥而不腻、香辣浓郁，是川菜里最下饭的 晚餐 经典硬菜。",
+    "ingredients": [
+      "五花肉",
+      "青蒜苗",
+      "豆瓣酱",
+      "甜面酱",
+      "干辣椒",
+      "姜",
+      "料酒",
+      "生抽",
+      "白糖",
+      "食用油"
+    ],
+    "steps": [
+      "五花肉冷水下锅，加姜和料酒煮至八成熟，捞出冷却后切薄片。",
+      "锅中下肉片煸出多余油脂，肉片微卷时加豆瓣酱、甜面酱和干辣椒翻炒出红油。",
+      "加生抽、白糖调味，下青蒜苗大火翻炒断生，出锅装盘。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 35,
+    "servings": 3,
+    "tags": [
+      "川菜",
+      "经典",
+      "下饭"
+    ],
+    "nutritionalNotes": "五花肉提供蛋白质与脂肪，青蒜苗富含维生素C和有机硫化物，相互平衡。",
+    "preparationTips": "肉片要切薄且厚度均匀，煸炒至灯盏窝状卷起再加酱料风味最佳。",
+    "imageUrl": "https://example.com/images/dinner-twice-cooked-pork.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "soup-corn-pork-bone",
+    "title": "玉米猪骨汤",
+    "description": "玉米猪骨汤 以 猪骨 与 甜玉米 慢火熬制，玉米的天然甜味渗入奶白骨汤，甘甜醇厚的汤底温暖身心，是老少皆宜的 滋补 家常 汤品。",
+    "ingredients": [
+      "猪骨",
+      "甜玉米",
+      "胡萝卜",
+      "姜",
+      "料酒",
+      "食盐",
+      "枸杞",
+      "葱花"
+    ],
+    "steps": [
+      "猪骨冷水焯去血沫，甜玉米切段，胡萝卜切块备用。",
+      "砂锅加足量水，放猪骨、姜片和料酒大火烧开，转小火炖1小时。",
+      "加入玉米段和胡萝卜继续炖30分钟，出锅前加盐调味，撒枸杞和葱花。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 100,
+    "servings": 4,
+    "tags": [
+      "滋补",
+      "甘甜",
+      "慢炖"
+    ],
+    "nutritionalNotes": "猪骨富含骨胶原与矿物质，玉米含膳食纤维与玉米黄素，胡萝卜富含胡萝卜素。",
+    "preparationTips": "选甜玉米而非糯玉米汤底更甜，炖汤全程不加冷水保持汤色奶白。",
+    "imageUrl": "https://example.com/images/soup-corn-pork-bone.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "soup-mung-bean-lily",
+    "title": "绿豆百合汤",
+    "description": "绿豆百合汤 以 绿豆 与 百合 为骨架，冰糖 的清甜将两者柔和相融，碧绿清澈的汤色与绵软的豆沙，是夏日消暑解热最清爽的 甜品 汤品。",
+    "ingredients": [
+      "绿豆",
+      "干百合",
+      "冰糖",
+      "清水"
+    ],
+    "steps": [
+      "绿豆提前浸泡2小时，干百合泡发备用。",
+      "锅中加足量水，放入绿豆大火烧开转中小火煮30分钟至绿豆开花。",
+      "加入百合继续煮10分钟，放冰糖调至喜欢的甜度，可热食或冷藏后食用。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 50,
+    "servings": 4,
+    "tags": [
+      "消暑",
+      "甜汤",
+      "夏季"
+    ],
+    "nutritionalNotes": "绿豆清热解毒富含钾，百合润肺安神，冰糖温和不刺激，适合夏日日常饮用。",
+    "preparationTips": "绿豆不要过度熬煮至糊状，保留豆粒形态口感更好；冷藏后食用消暑效果更佳。",
+    "imageUrl": "https://example.com/images/soup-mung-bean-lily.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "soup-mushroom-chicken",
+    "title": "香菇鸡汤",
+    "description": "香菇鸡汤 以 土鸡 与 干香菇 为骨架，砂锅的慢火将鸡肉的鲜甜与香菇的醇香徐徐释放，清澈金黄的汤底温润滋补，是四季皆宜的 家常 养生 汤品。",
+    "ingredients": [
+      "土鸡",
+      "干香菇",
+      "姜",
+      "料酒",
+      "枸杞",
+      "红枣",
+      "食盐",
+      "葱花"
+    ],
+    "steps": [
+      "土鸡斩块焯水去腥，干香菇提前泡发，红枣去核备用。",
+      "砂锅加足量水，放鸡块、香菇、姜片、料酒和红枣，大火烧开转小火炖1.5小时。",
+      "出锅前15分钟加入枸杞，加盐调味，撒葱花即可。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 110,
+    "servings": 4,
+    "tags": [
+      "滋补",
+      "养生",
+      "慢炖"
+    ],
+    "nutritionalNotes": "土鸡富含胶原蛋白与蛋白质，香菇含多糖类提升免疫力，枸杞补肝明目。",
+    "preparationTips": "香菇泡发水过滤后加入汤中增鲜，枸杞最后放入避免炖煮过久失去营养。",
+    "imageUrl": "https://example.com/images/soup-mushroom-chicken.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "soup-old-duck-sour-radish",
+    "title": "酸萝卜老鸭汤",
+    "description": "酸萝卜老鸭汤 以 老鸭 与 酸萝卜 共炖，酸萝卜的微酸化解鸭肉的腥膻，汤色清亮、鲜酸开胃，是重庆风味中最令人念念不忘的 滋补 汤品。",
+    "ingredients": [
+      "老鸭",
+      "酸萝卜",
+      "姜",
+      "料酒",
+      "白胡椒粒",
+      "葱花",
+      "食盐"
+    ],
+    "steps": [
+      "老鸭斩块冷水焯去血沫，酸萝卜切片用清水冲洗备用。",
+      "砂锅加足量水，放鸭块、姜片、料酒和白胡椒粒，大火烧开转小火炖1.5小时。",
+      "加入酸萝卜继续炖30分钟，加盐调味出锅，撒葱花即可。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 120,
+    "servings": 4,
+    "tags": [
+      "重庆",
+      "酸鲜",
+      "慢炖"
+    ],
+    "nutritionalNotes": "老鸭富含蛋白质与B族维生素，酸萝卜经发酵含有益生菌，有益肠道健康。",
+    "preparationTips": "酸萝卜先冲洗再入锅控制酸度，老鸭要选真正老鸭才能炖出浓郁汤底。",
+    "imageUrl": "https://example.com/images/soup-old-duck-sour-radish.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "soup-pork-rib-lotus-root",
+    "title": "莲藕排骨汤",
+    "description": "莲藕排骨汤 以 猪排骨 与 莲藕 慢炖为核心，骨髓的鲜甜与莲藕的粉糯在砂锅中长时间交融，汤色奶白、清甜醇厚，是秋冬滋补的 经典 汤品。",
+    "ingredients": [
+      "猪排骨",
+      "莲藕",
+      "姜",
+      "料酒",
+      "食盐",
+      "葱花",
+      "白胡椒粉"
+    ],
+    "steps": [
+      "排骨斩块冷水焯去血沫，莲藕去皮切滚刀块备用。",
+      "砂锅加足量水，放入排骨、姜片和料酒，大火烧开转小火炖40分钟。",
+      "加入莲藕继续炖30分钟至藕粉软，加盐和白胡椒粉调味，出锅撒葱花。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 90,
+    "servings": 4,
+    "tags": [
+      "滋补",
+      "慢炖",
+      "秋冬"
+    ],
+    "nutritionalNotes": "排骨富含骨胶原与钙质，莲藕含铁与维生素C，长时间炖煮营养充分析出。",
+    "preparationTips": "焯水后用温水冲洗排骨保持肉质紧致，莲藕不要过早放入以免煮烂失去口感。",
+    "imageUrl": "https://example.com/images/soup-pork-rib-lotus-root.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "soup-seaweed-tofu",
+    "title": "紫菜豆腐汤",
+    "description": "紫菜豆腐汤 以 紫菜 与 嫩豆腐 为骨架，虾皮 的鲜味在清澈汤底中散开，几分钟即可完成的 快手 汤品，是忙碌晚餐中最温暖的 补充。",
+    "ingredients": [
+      "紫菜",
+      "嫩豆腐",
+      "虾皮",
+      "鸡蛋",
+      "葱花",
       "生抽",
       "香油",
-      "香料油"
+      "食盐",
+      "白胡椒粉"
     ],
     "steps": [
-      "香烤 的香料与 花椒 夹在 豆腐干 与 花椒 上，香料油 让层次更丰富。",
-      "把 辣椒 加入，用 煎锅 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
+      "紫菜提前撕碎泡发，嫩豆腐切小块备用。",
+      "锅中加水烧开，放豆腐和虾皮煮2分钟。",
+      "加入紫菜，淋入打散的蛋液形成蛋花，加生抽、盐、白胡椒粉调味，出锅淋香油撒葱花。"
     ],
-    "category": "小吃",
-    "cookTimeMinutes": 15,
+    "category": "汤品",
+    "cookTimeMinutes": 10,
     "servings": 3,
     "tags": [
-      "下酒",
-      "麻辣",
-      "烤香"
+      "快手",
+      "低热量",
+      "鲜香"
     ],
-    "nutritionalNotes": "豆腐干 富含植物蛋白，花椒 与 辣椒 增添麻辣刺激。",
-    "preparationTips": "煎前先挤干水分，撒 花椒 让香料贴合。",
-    "imageUrl": "https://example.com/images/snack-roasted-spiced-tofu-bites.jpg",
+    "nutritionalNotes": "紫菜富含碘与维生素B12，豆腐提供植物蛋白，虾皮补钙，三者营养互补。",
+    "preparationTips": "紫菜不要过早放入以防过烂，虾皮提前稍微冲洗去除多余盐分。",
+    "imageUrl": "https://example.com/images/soup-seaweed-tofu.jpg",
     "isFavorite": false
   },
   {
-    "slug": "snack-roasted-smoked-cheese-tomato",
-    "title": "香烤烟熏奶酪番茄",
-    "description": "香烤烟熏奶酪番茄 以 樱桃番茄 与 烟熏奶酪 为骨架，香烤 风味在烤箱 里慢慢渗出，和 黑胡椒 带来层次与 烟熏奶酪番茄 的触感。",
+    "slug": "soup-sour-hot",
+    "title": "酸辣汤",
+    "description": "酸辣汤 以 豆腐 、木耳 与 鸡蛋 为骨架，陈醋 与 白胡椒 的酸辣在热汤中激荡，酸爽开胃、驱寒暖身，是北方冬日里最熨帖肠胃的 汤品。",
     "ingredients": [
-      "樱桃番茄",
-      "烟熏奶酪",
-      "罗勒",
-      "黑胡椒",
-      "橄榄油",
-      "香醋",
-      "香料油"
-    ],
-    "steps": [
-      "香烤 的香料与 黑胡椒 夹在 樱桃番茄 与 烟熏奶酪 上，香料油 让层次更丰富。",
-      "把 香草 加入，用 烤箱 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
-    ],
-    "category": "小吃",
-    "cookTimeMinutes": 10,
-    "servings": 4,
-    "tags": [
-      "精致",
-      "开胃",
-      "烤香"
-    ],
-    "nutritionalNotes": "烟熏奶酪 与 樱桃番茄 搭配让脂肪与维生素互补，香草 提香。",
-    "preparationTips": "微烤后淋橄榄油与香醋，趁热撒 黑胡椒 提味。",
-    "imageUrl": "https://example.com/images/snack-roasted-smoked-cheese-tomato.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "snack-roasted-sesame-nori-roll",
-    "title": "香烤芝麻海苔卷",
-    "description": "香烤芝麻海苔卷 以 海苔 与 芝麻 为骨架，香烤 风味在卷制 里慢慢渗出，和 芝麻 带来层次与 芝麻海苔卷 的触感。",
-    "ingredients": [
-      "海苔片",
-      "白芝麻",
-      "小黄瓜",
-      "胡萝卜丝",
-      "醋",
-      "酱油",
-      "香料油"
-    ],
-    "steps": [
-      "香烤 的香料与 芝麻 夹在 海苔 与 芝麻 上，香料油 让层次更丰富。",
-      "把 小黄瓜 加入，用 卷制 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
-    ],
-    "category": "小吃",
-    "cookTimeMinutes": 10,
-    "servings": 2,
-    "tags": [
-      "轻食",
-      "爽脆",
-      "烤香"
-    ],
-    "nutritionalNotes": "海苔 富含微量元素，芝麻 与 小黄瓜 增添咀嚼感。",
-    "preparationTips": "醋略腌小黄瓜，卷制时用湿布按紧可防散。",
-    "imageUrl": "https://example.com/images/snack-roasted-sesame-nori-roll.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "snack-roasted-curry-eel-chips",
-    "title": "香烤咖喱鳗鱼薄片",
-    "description": "香烤咖喱鳗鱼薄片 以 鳗鱼 与 咖喱粉 为骨架，香烤 风味在烤箱 里慢慢渗出，和 咖喱粉 带来层次与 咖喱鳗鱼薄片 的触感。",
-    "ingredients": [
-      "鳗鱼片",
-      "咖喱粉",
-      "椰片",
-      "盐",
-      "黑胡椒",
-      "柠檬",
-      "香料油"
-    ],
-    "steps": [
-      "香烤 的香料与 咖喱粉 夹在 鳗鱼 与 咖喱粉 上，香料油 让层次更丰富。",
-      "把 椰片 加入，用 烤箱 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
-    ],
-    "category": "小吃",
-    "cookTimeMinutes": 20,
-    "servings": 3,
-    "tags": [
-      "创意",
-      "香脆",
-      "烤香"
-    ],
-    "nutritionalNotes": "鳗鱼 提供欧米伽-3，咖喱粉 与 椰片 加强香气与食感。",
-    "preparationTips": "薄片先刷油再撒 咖喱粉，高温快速烤脆。",
-    "imageUrl": "https://example.com/images/snack-roasted-curry-eel-chips.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "snack-mint-rosemary-nuts",
-    "title": "薄荷迷迭香烤坚果",
-    "description": "薄荷迷迭香烤坚果 以 坚果 与 迷迭香 为骨架，清凉 风味在烤箱 里慢慢渗出，和 迷迭香 带来层次与 迷迭香烤坚果 的触感。",
-    "ingredients": [
-      "核桃",
-      "杏仁",
-      "腰果",
-      "迷迭香",
-      "海盐",
-      "橄榄油",
-      "蜂蜜",
-      "薄荷叶"
-    ],
-    "steps": [
-      "薄荷 的香料与 迷迭香 夹在 坚果 与 迷迭香 上，薄荷叶 让层次更丰富。",
-      "把 海盐 加入，用 烤箱 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
-    ],
-    "category": "小吃",
-    "cookTimeMinutes": 20,
-    "servings": 4,
-    "tags": [
-      "健康",
-      "可携带",
-      "清爽"
-    ],
-    "nutritionalNotes": "坚果 提供健康油脂，搭配 迷迭香 抗氧化与 海盐 让口感立体。",
-    "preparationTips": "烤至香气四溢再撒盐，可让表面略带脆。",
-    "imageUrl": "https://example.com/images/snack-mint-rosemary-nuts.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "snack-mint-spiced-tofu-bites",
-    "title": "薄荷椒盐豆腐干",
-    "description": "薄荷椒盐豆腐干 以 豆腐干 与 花椒 为骨架，清凉 风味在煎锅 里慢慢渗出，和 花椒 带来层次与 椒盐豆腐干 的触感。",
-    "ingredients": [
-      "豆腐干",
-      "花椒",
-      "辣椒粉",
-      "五香粉",
+      "豆腐",
+      "木耳",
+      "鸡蛋",
+      "金针菇",
+      "火腿",
+      "陈醋",
+      "白胡椒粉",
       "生抽",
+      "淀粉",
       "香油",
-      "薄荷叶"
+      "葱花"
     ],
     "steps": [
-      "薄荷 的香料与 花椒 夹在 豆腐干 与 花椒 上，薄荷叶 让层次更丰富。",
-      "把 辣椒 加入，用 煎锅 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
+      "豆腐、木耳、金针菇、火腿均切丝；鸡蛋打散备用。",
+      "锅中加水烧开，放入所有食材丝煮2分钟，调入生抽、陈醋、白胡椒粉。",
+      "勾芡至汤体浓稠，淋入蛋液形成蛋花，出锅淋香油撒葱花。"
     ],
-    "category": "小吃",
+    "category": "汤品",
     "cookTimeMinutes": 15,
     "servings": 3,
     "tags": [
-      "下酒",
-      "麻辣",
-      "清爽"
-    ],
-    "nutritionalNotes": "豆腐干 富含植物蛋白，花椒 与 辣椒 增添麻辣刺激。",
-    "preparationTips": "煎前先挤干水分，撒 花椒 让香料贴合。",
-    "imageUrl": "https://example.com/images/snack-mint-spiced-tofu-bites.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "snack-mint-smoked-cheese-tomato",
-    "title": "薄荷烟熏奶酪番茄",
-    "description": "薄荷烟熏奶酪番茄 以 樱桃番茄 与 烟熏奶酪 为骨架，清凉 风味在烤箱 里慢慢渗出，和 黑胡椒 带来层次与 烟熏奶酪番茄 的触感。",
-    "ingredients": [
-      "樱桃番茄",
-      "烟熏奶酪",
-      "罗勒",
-      "黑胡椒",
-      "橄榄油",
-      "香醋",
-      "薄荷叶"
-    ],
-    "steps": [
-      "薄荷 的香料与 黑胡椒 夹在 樱桃番茄 与 烟熏奶酪 上，薄荷叶 让层次更丰富。",
-      "把 香草 加入，用 烤箱 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
-    ],
-    "category": "小吃",
-    "cookTimeMinutes": 10,
-    "servings": 4,
-    "tags": [
-      "精致",
+      "酸辣",
       "开胃",
-      "清爽"
+      "冬季"
     ],
-    "nutritionalNotes": "烟熏奶酪 与 樱桃番茄 搭配让脂肪与维生素互补，香草 提香。",
-    "preparationTips": "微烤后淋橄榄油与香醋，趁热撒 黑胡椒 提味。",
-    "imageUrl": "https://example.com/images/snack-mint-smoked-cheese-tomato.jpg",
+    "nutritionalNotes": "木耳富含铁质与多糖，豆腐补充蛋白质，白胡椒暖胃散寒，综合营养丰富。",
+    "preparationTips": "陈醋在出锅前加入风味更鲜，淀粉分次加入控制浓稠度，白胡椒用量按个人口味调整。",
+    "imageUrl": "https://example.com/images/soup-sour-hot.jpg",
     "isFavorite": false
   },
   {
-    "slug": "snack-mint-sesame-nori-roll",
-    "title": "薄荷芝麻海苔卷",
-    "description": "薄荷芝麻海苔卷 以 海苔 与 芝麻 为骨架，清凉 风味在卷制 里慢慢渗出，和 芝麻 带来层次与 芝麻海苔卷 的触感。",
+    "slug": "soup-spinach-pork-liver",
+    "title": "菠菜猪肝汤",
+    "description": "菠菜猪肝汤 以 猪肝 与 菠菜 为搭档，姜丝 去腥增暖，猪肝的铁质与菠菜的叶酸在清爽汤底中相辅相成，是补血养颜的 家常 养生 汤品。",
     "ingredients": [
-      "海苔片",
-      "白芝麻",
-      "小黄瓜",
-      "胡萝卜丝",
-      "醋",
-      "酱油",
-      "薄荷叶"
+      "猪肝",
+      "菠菜",
+      "姜丝",
+      "料酒",
+      "生抽",
+      "淀粉",
+      "食盐",
+      "香油",
+      "白胡椒粉"
     ],
     "steps": [
-      "薄荷 的香料与 芝麻 夹在 海苔 与 芝麻 上，薄荷叶 让层次更丰富。",
-      "把 小黄瓜 加入，用 卷制 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
+      "猪肝切薄片，加料酒、淀粉腌制去腥10分钟；菠菜洗净焯水备用。",
+      "锅中加水烧开，放姜丝，下猪肝片滑散至变色。",
+      "加入菠菜，调入生抽、盐、白胡椒粉，出锅淋香油即可。"
     ],
-    "category": "小吃",
-    "cookTimeMinutes": 10,
-    "servings": 2,
-    "tags": [
-      "轻食",
-      "爽脆",
-      "清爽"
-    ],
-    "nutritionalNotes": "海苔 富含微量元素，芝麻 与 小黄瓜 增添咀嚼感。",
-    "preparationTips": "醋略腌小黄瓜，卷制时用湿布按紧可防散。",
-    "imageUrl": "https://example.com/images/snack-mint-sesame-nori-roll.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "snack-mint-curry-eel-chips",
-    "title": "薄荷咖喱鳗鱼薄片",
-    "description": "薄荷咖喱鳗鱼薄片 以 鳗鱼 与 咖喱粉 为骨架，清凉 风味在烤箱 里慢慢渗出，和 咖喱粉 带来层次与 咖喱鳗鱼薄片 的触感。",
-    "ingredients": [
-      "鳗鱼片",
-      "咖喱粉",
-      "椰片",
-      "盐",
-      "黑胡椒",
-      "柠檬",
-      "薄荷叶"
-    ],
-    "steps": [
-      "薄荷 的香料与 咖喱粉 夹在 鳗鱼 与 咖喱粉 上，薄荷叶 让层次更丰富。",
-      "把 椰片 加入，用 烤箱 保持酥脆口感或卷制成型。",
-      "出炉后撒上剩余调料与香草即可享用。"
-    ],
-    "category": "小吃",
-    "cookTimeMinutes": 20,
+    "category": "汤品",
+    "cookTimeMinutes": 18,
     "servings": 3,
     "tags": [
-      "创意",
-      "香脆",
-      "清爽"
+      "补血",
+      "养生",
+      "快手"
     ],
-    "nutritionalNotes": "鳗鱼 提供欧米伽-3，咖喱粉 与 椰片 加强香气与食感。",
-    "preparationTips": "薄片先刷油再撒 咖喱粉，高温快速烤脆。",
-    "imageUrl": "https://example.com/images/snack-mint-curry-eel-chips.jpg",
+    "nutritionalNotes": "猪肝含丰富铁质与维生素A，菠菜富含叶酸与铁，是女性补血养颜的理想汤品。",
+    "preparationTips": "猪肝切薄片腌制去腥后不宜久煮，变色即熟保持嫩滑；菠菜先焯去草酸。",
+    "imageUrl": "https://example.com/images/soup-spinach-pork-liver.jpg",
     "isFavorite": false
   },
   {
-    "slug": "soup-rich-pumpkin-cream-soup",
-    "title": "浓郁南瓜浓汤",
-    "description": "浓郁南瓜浓汤 以 南瓜 与 椰奶 为骨架，浓郁 风味在汤锅 里慢慢渗出，和 肉桂粉 带来层次与 南瓜浓汤 的触感。",
+    "slug": "soup-tomato-egg-drop",
+    "title": "西红柿蛋花汤",
+    "description": "西红柿蛋花汤 以 西红柿 与 鸡蛋 为骨架，酸甜的番茄汤底中飘散着丝绸般的蛋花，清淡开胃、操作简单，是中国家庭餐桌上最常见的 汤品 温情。",
     "ingredients": [
-      "南瓜",
-      "洋葱",
-      "椰奶",
-      "土豆",
-      "奶油",
-      "鸡汤",
-      "肉桂粉"
-    ],
-    "steps": [
-      "浓郁 的 肉桂粉 与 南瓜 先入锅翻炒或焯水，再加入 椰奶、洋葱 与高汤。",
-      "把锅移到 汤锅，保持小火让香气慢慢释放，南瓜浓汤 中的材料软糯。",
-      "最后用 奶油 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 40,
-    "servings": 4,
-    "tags": [
-      "暖胃",
-      "浓郁",
-      "浓汤"
-    ],
-    "nutritionalNotes": "南瓜 富含 β-胡萝卜素，椰奶 与 洋葱 增加顺滑口感与维生素。",
-    "preparationTips": "先将 南瓜 与 洋葱 炒软，再加入鸡汤慢煮，最后用搅拌棒打细。",
-    "imageUrl": "https://example.com/images/soup-rich-pumpkin-cream-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-rich-tomato-oxtail-soup",
-    "title": "浓郁番茄牛尾汤",
-    "description": "浓郁番茄牛尾汤 以 牛尾 与 番茄 为骨架，浓郁 风味在慢炖锅 里慢慢渗出，和 香叶 带来层次与 番茄牛尾汤 的触感。",
-    "ingredients": [
-      "牛尾",
-      "番茄",
-      "西芹",
-      "胡萝卜",
-      "洋葱",
-      "番茄酱",
-      "香叶",
-      "奶油"
-    ],
-    "steps": [
-      "浓郁 的 香叶 与 牛尾 先入锅翻炒或焯水，再加入 番茄、西芹 与高汤。",
-      "把锅移到 慢炖锅，保持小火让香气慢慢释放，番茄牛尾汤 中的材料软糯。",
-      "最后用 奶油 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 150,
-    "servings": 6,
-    "tags": [
-      "滋补",
-      "酸甜",
-      "浓汤"
-    ],
-    "nutritionalNotes": "牛尾 富含胶原，番茄 和 西芹 让汤更耐喝。",
-    "preparationTips": "炖前先汆水去血沫，再用香料慢炖 2 小时。",
-    "imageUrl": "https://example.com/images/soup-rich-tomato-oxtail-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-rich-miso-tofu-soup",
-    "title": "浓郁味噌豆腐汤",
-    "description": "浓郁味噌豆腐汤 以 味噌 与 嫩豆腐 为骨架，浓郁 风味在小锅 里慢慢渗出，和 味噌 带来层次与 味噌豆腐汤 的触感。",
-    "ingredients": [
-      "味噌",
-      "嫩豆腐",
-      "海带",
-      "豆皮",
-      "青葱",
-      "柴鱼高汤",
-      "奶油"
-    ],
-    "steps": [
-      "浓郁 的 味噌 与 味噌 先入锅翻炒或焯水，再加入 嫩豆腐、海带 与高汤。",
-      "把锅移到 小锅，保持小火让香气慢慢释放，味噌豆腐汤 中的材料软糯。",
-      "最后用 奶油 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 15,
-    "servings": 2,
-    "tags": [
-      "日式",
-      "清爽",
-      "浓汤"
-    ],
-    "nutritionalNotes": "味噌 含益生菌，嫩豆腐 与 海带 提供植物蛋白与矿物质。",
-    "preparationTips": "不要把味噌直接煮沸，出锅前再调入保持鲜味。",
-    "imageUrl": "https://example.com/images/soup-rich-miso-tofu-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-rich-chicken-corn-soup",
-    "title": "浓郁鸡茸玉米羹",
-    "description": "浓郁鸡茸玉米羹 以 鸡胸肉 与 玉米 为骨架，浓郁 风味在汤锅 里慢慢渗出，和 白胡椒 带来层次与 鸡茸玉米羹 的触感。",
-    "ingredients": [
-      "鸡胸肉",
-      "玉米粒",
-      "鸡汤",
-      "蛋白",
-      "玉米淀粉",
+      "西红柿",
+      "鸡蛋",
       "葱花",
-      "奶油"
+      "食盐",
+      "白糖",
+      "香油",
+      "食用油"
     ],
     "steps": [
-      "浓郁 的 白胡椒 与 鸡胸肉 先入锅翻炒或焯水，再加入 玉米、鸡汤 与高汤。",
-      "把锅移到 汤锅，保持小火让香气慢慢释放，鸡茸玉米羹 中的材料软糯。",
-      "最后用 奶油 或香草点缀，轻轻搅动让汤更浓稠。"
+      "西红柿切块，鸡蛋打散备用。",
+      "热锅下油，翻炒西红柿至出汁，加足量水大火烧开。",
+      "将蛋液缓慢倒入，用筷子轻轻划圈形成蛋花，加盐和白糖调味，出锅淋香油撒葱花。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 12,
+    "servings": 3,
+    "tags": [
+      "快手",
+      "开胃",
+      "家常"
+    ],
+    "nutritionalNotes": "西红柿富含番茄红素与维生素C，鸡蛋提供优质蛋白，汤品清淡易消化。",
+    "preparationTips": "蛋液要在汤沸腾时缓慢倒入并轻划才能形成细腻蛋花，不可过度搅拌。",
+    "imageUrl": "https://example.com/images/soup-tomato-egg-drop.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "soup-winter-melon-pork",
+    "title": "冬瓜肉片汤",
+    "description": "冬瓜肉片汤 以 冬瓜 与 猪瘦肉片 为骨架，清淡的汤底带着 冬瓜 的清甜与 姜丝 的暖意，消暑去火、清爽怡人，是夏日餐桌的 清淡 汤品首选。",
+    "ingredients": [
+      "冬瓜",
+      "猪瘦肉",
+      "姜丝",
+      "食盐",
+      "白胡椒粉",
+      "淀粉",
+      "香油",
+      "葱花"
+    ],
+    "steps": [
+      "猪瘦肉切薄片，加盐、淀粉腌制备用；冬瓜去皮去籽切薄片。",
+      "锅中加水烧开，放姜丝和冬瓜片煮至透明软化。",
+      "下肉片滑散至变色，加盐和白胡椒粉调味，出锅淋香油撒葱花。"
     ],
     "category": "汤品",
     "cookTimeMinutes": 20,
     "servings": 3,
     "tags": [
-      "顺滑",
-      "家常",
-      "浓汤"
-    ],
-    "nutritionalNotes": "鸡胸肉 低脂，玉米 补充纤维，鸡汤 让味道更浓。",
-    "preparationTips": "鸡胸肉切小丁后与玉米一起打碎，最后慢慢倒入蛋白做花。",
-    "imageUrl": "https://example.com/images/soup-rich-chicken-corn-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-rich-clam-white-wine-soup",
-    "title": "浓郁蛤蜊白酒汤",
-    "description": "浓郁蛤蜊白酒汤 以 蛤蜊 与 白酒 为骨架，浓郁 风味在深锅 里慢慢渗出，和 蒜 带来层次与 蛤蜊白酒汤 的触感。",
-    "ingredients": [
-      "蛤蜊",
-      "白酒",
-      "蒜",
-      "洋葱",
-      "奶油",
-      "香菜",
-      "鸡汤"
-    ],
-    "steps": [
-      "浓郁 的 蒜 与 蛤蜊 先入锅翻炒或焯水，再加入 白酒、蒜 与高汤。",
-      "把锅移到 深锅，保持小火让香气慢慢释放，蛤蜊白酒汤 中的材料软糯。",
-      "最后用 奶油 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 20,
-    "servings": 2,
-    "tags": [
-      "海味",
-      "清爽",
-      "浓汤"
-    ],
-    "nutritionalNotes": "蛤蜊 富含碘，白酒 提高风味，蒜 让汤香更圆润。",
-    "preparationTips": "蛤蜊先吐沙再与 白酒 同煮，最后撒香菜提味。",
-    "imageUrl": "https://example.com/images/soup-rich-clam-white-wine-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-fresh-pumpkin-cream-soup",
-    "title": "清新南瓜浓汤",
-    "description": "清新南瓜浓汤 以 南瓜 与 椰奶 为骨架，清新 风味在汤锅 里慢慢渗出，和 肉桂粉 带来层次与 南瓜浓汤 的触感。",
-    "ingredients": [
-      "南瓜",
-      "洋葱",
-      "椰奶",
-      "土豆",
-      "奶油",
-      "鸡汤",
-      "肉桂粉",
-      "柠檬皮"
-    ],
-    "steps": [
-      "清新 的 肉桂粉 与 南瓜 先入锅翻炒或焯水，再加入 椰奶、洋葱 与高汤。",
-      "把锅移到 汤锅，保持小火让香气慢慢释放，南瓜浓汤 中的材料软糯。",
-      "最后用 柠檬皮 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 40,
-    "servings": 4,
-    "tags": [
-      "暖胃",
-      "浓郁",
-      "清爽"
-    ],
-    "nutritionalNotes": "南瓜 富含 β-胡萝卜素，椰奶 与 洋葱 增加顺滑口感与维生素。",
-    "preparationTips": "先将 南瓜 与 洋葱 炒软，再加入鸡汤慢煮，最后用搅拌棒打细。",
-    "imageUrl": "https://example.com/images/soup-fresh-pumpkin-cream-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-fresh-tomato-oxtail-soup",
-    "title": "清新番茄牛尾汤",
-    "description": "清新番茄牛尾汤 以 牛尾 与 番茄 为骨架，清新 风味在慢炖锅 里慢慢渗出，和 香叶 带来层次与 番茄牛尾汤 的触感。",
-    "ingredients": [
-      "牛尾",
-      "番茄",
-      "西芹",
-      "胡萝卜",
-      "洋葱",
-      "番茄酱",
-      "香叶",
-      "柠檬皮"
-    ],
-    "steps": [
-      "清新 的 香叶 与 牛尾 先入锅翻炒或焯水，再加入 番茄、西芹 与高汤。",
-      "把锅移到 慢炖锅，保持小火让香气慢慢释放，番茄牛尾汤 中的材料软糯。",
-      "最后用 柠檬皮 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 150,
-    "servings": 6,
-    "tags": [
-      "滋补",
-      "酸甜",
-      "清爽"
-    ],
-    "nutritionalNotes": "牛尾 富含胶原，番茄 和 西芹 让汤更耐喝。",
-    "preparationTips": "炖前先汆水去血沫，再用香料慢炖 2 小时。",
-    "imageUrl": "https://example.com/images/soup-fresh-tomato-oxtail-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-fresh-miso-tofu-soup",
-    "title": "清新味噌豆腐汤",
-    "description": "清新味噌豆腐汤 以 味噌 与 嫩豆腐 为骨架，清新 风味在小锅 里慢慢渗出，和 味噌 带来层次与 味噌豆腐汤 的触感。",
-    "ingredients": [
-      "味噌",
-      "嫩豆腐",
-      "海带",
-      "豆皮",
-      "青葱",
-      "柴鱼高汤",
-      "柠檬皮"
-    ],
-    "steps": [
-      "清新 的 味噌 与 味噌 先入锅翻炒或焯水，再加入 嫩豆腐、海带 与高汤。",
-      "把锅移到 小锅，保持小火让香气慢慢释放，味噌豆腐汤 中的材料软糯。",
-      "最后用 柠檬皮 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 15,
-    "servings": 2,
-    "tags": [
-      "日式",
-      "清爽"
-    ],
-    "nutritionalNotes": "味噌 含益生菌，嫩豆腐 与 海带 提供植物蛋白与矿物质。",
-    "preparationTips": "不要把味噌直接煮沸，出锅前再调入保持鲜味。",
-    "imageUrl": "https://example.com/images/soup-fresh-miso-tofu-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-fresh-chicken-corn-soup",
-    "title": "清新鸡茸玉米羹",
-    "description": "清新鸡茸玉米羹 以 鸡胸肉 与 玉米 为骨架，清新 风味在汤锅 里慢慢渗出，和 白胡椒 带来层次与 鸡茸玉米羹 的触感。",
-    "ingredients": [
-      "鸡胸肉",
-      "玉米粒",
-      "鸡汤",
-      "蛋白",
-      "玉米淀粉",
-      "葱花",
-      "柠檬皮"
-    ],
-    "steps": [
-      "清新 的 白胡椒 与 鸡胸肉 先入锅翻炒或焯水，再加入 玉米、鸡汤 与高汤。",
-      "把锅移到 汤锅，保持小火让香气慢慢释放，鸡茸玉米羹 中的材料软糯。",
-      "最后用 柠檬皮 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 20,
-    "servings": 3,
-    "tags": [
-      "顺滑",
-      "家常",
-      "清爽"
-    ],
-    "nutritionalNotes": "鸡胸肉 低脂，玉米 补充纤维，鸡汤 让味道更浓。",
-    "preparationTips": "鸡胸肉切小丁后与玉米一起打碎，最后慢慢倒入蛋白做花。",
-    "imageUrl": "https://example.com/images/soup-fresh-chicken-corn-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-fresh-clam-white-wine-soup",
-    "title": "清新蛤蜊白酒汤",
-    "description": "清新蛤蜊白酒汤 以 蛤蜊 与 白酒 为骨架，清新 风味在深锅 里慢慢渗出，和 蒜 带来层次与 蛤蜊白酒汤 的触感。",
-    "ingredients": [
-      "蛤蜊",
-      "白酒",
-      "蒜",
-      "洋葱",
-      "奶油",
-      "香菜",
-      "鸡汤",
-      "柠檬皮"
-    ],
-    "steps": [
-      "清新 的 蒜 与 蛤蜊 先入锅翻炒或焯水，再加入 白酒、蒜 与高汤。",
-      "把锅移到 深锅，保持小火让香气慢慢释放，蛤蜊白酒汤 中的材料软糯。",
-      "最后用 柠檬皮 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 20,
-    "servings": 2,
-    "tags": [
-      "海味",
-      "清爽"
-    ],
-    "nutritionalNotes": "蛤蜊 富含碘，白酒 提高风味，蒜 让汤香更圆润。",
-    "preparationTips": "蛤蜊先吐沙再与 白酒 同煮，最后撒香菜提味。",
-    "imageUrl": "https://example.com/images/soup-fresh-clam-white-wine-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-herbal-pumpkin-cream-soup",
-    "title": "药草南瓜浓汤",
-    "description": "药草南瓜浓汤 以 南瓜 与 椰奶 为骨架，药草 风味在汤锅 里慢慢渗出，和 肉桂粉 带来层次与 南瓜浓汤 的触感。",
-    "ingredients": [
-      "南瓜",
-      "洋葱",
-      "椰奶",
-      "土豆",
-      "奶油",
-      "鸡汤",
-      "肉桂粉",
-      "香菜"
-    ],
-    "steps": [
-      "药草 的 肉桂粉 与 南瓜 先入锅翻炒或焯水，再加入 椰奶、洋葱 与高汤。",
-      "把锅移到 汤锅，保持小火让香气慢慢释放，南瓜浓汤 中的材料软糯。",
-      "最后用 香菜 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 40,
-    "servings": 4,
-    "tags": [
-      "暖胃",
-      "浓郁",
-      "香草"
-    ],
-    "nutritionalNotes": "南瓜 富含 β-胡萝卜素，椰奶 与 洋葱 增加顺滑口感与维生素。",
-    "preparationTips": "先将 南瓜 与 洋葱 炒软，再加入鸡汤慢煮，最后用搅拌棒打细。",
-    "imageUrl": "https://example.com/images/soup-herbal-pumpkin-cream-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-herbal-tomato-oxtail-soup",
-    "title": "药草番茄牛尾汤",
-    "description": "药草番茄牛尾汤 以 牛尾 与 番茄 为骨架，药草 风味在慢炖锅 里慢慢渗出，和 香叶 带来层次与 番茄牛尾汤 的触感。",
-    "ingredients": [
-      "牛尾",
-      "番茄",
-      "西芹",
-      "胡萝卜",
-      "洋葱",
-      "番茄酱",
-      "香叶",
-      "香菜"
-    ],
-    "steps": [
-      "药草 的 香叶 与 牛尾 先入锅翻炒或焯水，再加入 番茄、西芹 与高汤。",
-      "把锅移到 慢炖锅，保持小火让香气慢慢释放，番茄牛尾汤 中的材料软糯。",
-      "最后用 香菜 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 150,
-    "servings": 6,
-    "tags": [
-      "滋补",
-      "酸甜",
-      "香草"
-    ],
-    "nutritionalNotes": "牛尾 富含胶原，番茄 和 西芹 让汤更耐喝。",
-    "preparationTips": "炖前先汆水去血沫，再用香料慢炖 2 小时。",
-    "imageUrl": "https://example.com/images/soup-herbal-tomato-oxtail-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-herbal-miso-tofu-soup",
-    "title": "药草味噌豆腐汤",
-    "description": "药草味噌豆腐汤 以 味噌 与 嫩豆腐 为骨架，药草 风味在小锅 里慢慢渗出，和 味噌 带来层次与 味噌豆腐汤 的触感。",
-    "ingredients": [
-      "味噌",
-      "嫩豆腐",
-      "海带",
-      "豆皮",
-      "青葱",
-      "柴鱼高汤",
-      "香菜"
-    ],
-    "steps": [
-      "药草 的 味噌 与 味噌 先入锅翻炒或焯水，再加入 嫩豆腐、海带 与高汤。",
-      "把锅移到 小锅，保持小火让香气慢慢释放，味噌豆腐汤 中的材料软糯。",
-      "最后用 香菜 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 15,
-    "servings": 2,
-    "tags": [
-      "日式",
-      "清爽",
-      "香草"
-    ],
-    "nutritionalNotes": "味噌 含益生菌，嫩豆腐 与 海带 提供植物蛋白与矿物质。",
-    "preparationTips": "不要把味噌直接煮沸，出锅前再调入保持鲜味。",
-    "imageUrl": "https://example.com/images/soup-herbal-miso-tofu-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-herbal-chicken-corn-soup",
-    "title": "药草鸡茸玉米羹",
-    "description": "药草鸡茸玉米羹 以 鸡胸肉 与 玉米 为骨架，药草 风味在汤锅 里慢慢渗出，和 白胡椒 带来层次与 鸡茸玉米羹 的触感。",
-    "ingredients": [
-      "鸡胸肉",
-      "玉米粒",
-      "鸡汤",
-      "蛋白",
-      "玉米淀粉",
-      "葱花",
-      "香菜"
-    ],
-    "steps": [
-      "药草 的 白胡椒 与 鸡胸肉 先入锅翻炒或焯水，再加入 玉米、鸡汤 与高汤。",
-      "把锅移到 汤锅，保持小火让香气慢慢释放，鸡茸玉米羹 中的材料软糯。",
-      "最后用 香菜 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 20,
-    "servings": 3,
-    "tags": [
-      "顺滑",
-      "家常",
-      "香草"
-    ],
-    "nutritionalNotes": "鸡胸肉 低脂，玉米 补充纤维，鸡汤 让味道更浓。",
-    "preparationTips": "鸡胸肉切小丁后与玉米一起打碎，最后慢慢倒入蛋白做花。",
-    "imageUrl": "https://example.com/images/soup-herbal-chicken-corn-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-herbal-clam-white-wine-soup",
-    "title": "药草蛤蜊白酒汤",
-    "description": "药草蛤蜊白酒汤 以 蛤蜊 与 白酒 为骨架，药草 风味在深锅 里慢慢渗出，和 蒜 带来层次与 蛤蜊白酒汤 的触感。",
-    "ingredients": [
-      "蛤蜊",
-      "白酒",
-      "蒜",
-      "洋葱",
-      "奶油",
-      "香菜",
-      "鸡汤"
-    ],
-    "steps": [
-      "药草 的 蒜 与 蛤蜊 先入锅翻炒或焯水，再加入 白酒、蒜 与高汤。",
-      "把锅移到 深锅，保持小火让香气慢慢释放，蛤蜊白酒汤 中的材料软糯。",
-      "最后用 香菜 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 20,
-    "servings": 2,
-    "tags": [
-      "海味",
-      "清爽",
-      "香草"
-    ],
-    "nutritionalNotes": "蛤蜊 富含碘，白酒 提高风味，蒜 让汤香更圆润。",
-    "preparationTips": "蛤蜊先吐沙再与 白酒 同煮，最后撒香菜提味。",
-    "imageUrl": "https://example.com/images/soup-herbal-clam-white-wine-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-milky-pumpkin-cream-soup",
-    "title": "奶香南瓜浓汤",
-    "description": "奶香南瓜浓汤 以 南瓜 与 椰奶 为骨架，奶香 风味在汤锅 里慢慢渗出，和 肉桂粉 带来层次与 南瓜浓汤 的触感。",
-    "ingredients": [
-      "南瓜",
-      "洋葱",
-      "椰奶",
-      "土豆",
-      "奶油",
-      "鸡汤",
-      "肉桂粉",
-      "奶酪"
-    ],
-    "steps": [
-      "奶香 的 肉桂粉 与 南瓜 先入锅翻炒或焯水，再加入 椰奶、洋葱 与高汤。",
-      "把锅移到 汤锅，保持小火让香气慢慢释放，南瓜浓汤 中的材料软糯。",
-      "最后用 奶酪 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 40,
-    "servings": 4,
-    "tags": [
-      "暖胃",
-      "浓郁",
-      "奶香"
-    ],
-    "nutritionalNotes": "南瓜 富含 β-胡萝卜素，椰奶 与 洋葱 增加顺滑口感与维生素。",
-    "preparationTips": "先将 南瓜 与 洋葱 炒软，再加入鸡汤慢煮，最后用搅拌棒打细。",
-    "imageUrl": "https://example.com/images/soup-milky-pumpkin-cream-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-milky-tomato-oxtail-soup",
-    "title": "奶香番茄牛尾汤",
-    "description": "奶香番茄牛尾汤 以 牛尾 与 番茄 为骨架，奶香 风味在慢炖锅 里慢慢渗出，和 香叶 带来层次与 番茄牛尾汤 的触感。",
-    "ingredients": [
-      "牛尾",
-      "番茄",
-      "西芹",
-      "胡萝卜",
-      "洋葱",
-      "番茄酱",
-      "香叶",
-      "奶酪"
-    ],
-    "steps": [
-      "奶香 的 香叶 与 牛尾 先入锅翻炒或焯水，再加入 番茄、西芹 与高汤。",
-      "把锅移到 慢炖锅，保持小火让香气慢慢释放，番茄牛尾汤 中的材料软糯。",
-      "最后用 奶酪 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 150,
-    "servings": 6,
-    "tags": [
-      "滋补",
-      "酸甜",
-      "奶香"
-    ],
-    "nutritionalNotes": "牛尾 富含胶原，番茄 和 西芹 让汤更耐喝。",
-    "preparationTips": "炖前先汆水去血沫，再用香料慢炖 2 小时。",
-    "imageUrl": "https://example.com/images/soup-milky-tomato-oxtail-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-milky-miso-tofu-soup",
-    "title": "奶香味噌豆腐汤",
-    "description": "奶香味噌豆腐汤 以 味噌 与 嫩豆腐 为骨架，奶香 风味在小锅 里慢慢渗出，和 味噌 带来层次与 味噌豆腐汤 的触感。",
-    "ingredients": [
-      "味噌",
-      "嫩豆腐",
-      "海带",
-      "豆皮",
-      "青葱",
-      "柴鱼高汤",
-      "奶酪"
-    ],
-    "steps": [
-      "奶香 的 味噌 与 味噌 先入锅翻炒或焯水，再加入 嫩豆腐、海带 与高汤。",
-      "把锅移到 小锅，保持小火让香气慢慢释放，味噌豆腐汤 中的材料软糯。",
-      "最后用 奶酪 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 15,
-    "servings": 2,
-    "tags": [
-      "日式",
-      "清爽",
-      "奶香"
-    ],
-    "nutritionalNotes": "味噌 含益生菌，嫩豆腐 与 海带 提供植物蛋白与矿物质。",
-    "preparationTips": "不要把味噌直接煮沸，出锅前再调入保持鲜味。",
-    "imageUrl": "https://example.com/images/soup-milky-miso-tofu-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-milky-chicken-corn-soup",
-    "title": "奶香鸡茸玉米羹",
-    "description": "奶香鸡茸玉米羹 以 鸡胸肉 与 玉米 为骨架，奶香 风味在汤锅 里慢慢渗出，和 白胡椒 带来层次与 鸡茸玉米羹 的触感。",
-    "ingredients": [
-      "鸡胸肉",
-      "玉米粒",
-      "鸡汤",
-      "蛋白",
-      "玉米淀粉",
-      "葱花",
-      "奶酪"
-    ],
-    "steps": [
-      "奶香 的 白胡椒 与 鸡胸肉 先入锅翻炒或焯水，再加入 玉米、鸡汤 与高汤。",
-      "把锅移到 汤锅，保持小火让香气慢慢释放，鸡茸玉米羹 中的材料软糯。",
-      "最后用 奶酪 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 20,
-    "servings": 3,
-    "tags": [
-      "顺滑",
-      "家常",
-      "奶香"
-    ],
-    "nutritionalNotes": "鸡胸肉 低脂，玉米 补充纤维，鸡汤 让味道更浓。",
-    "preparationTips": "鸡胸肉切小丁后与玉米一起打碎，最后慢慢倒入蛋白做花。",
-    "imageUrl": "https://example.com/images/soup-milky-chicken-corn-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "soup-milky-clam-white-wine-soup",
-    "title": "奶香蛤蜊白酒汤",
-    "description": "奶香蛤蜊白酒汤 以 蛤蜊 与 白酒 为骨架，奶香 风味在深锅 里慢慢渗出，和 蒜 带来层次与 蛤蜊白酒汤 的触感。",
-    "ingredients": [
-      "蛤蜊",
-      "白酒",
-      "蒜",
-      "洋葱",
-      "奶油",
-      "香菜",
-      "鸡汤",
-      "奶酪"
-    ],
-    "steps": [
-      "奶香 的 蒜 与 蛤蜊 先入锅翻炒或焯水，再加入 白酒、蒜 与高汤。",
-      "把锅移到 深锅，保持小火让香气慢慢释放，蛤蜊白酒汤 中的材料软糯。",
-      "最后用 奶酪 或香草点缀，轻轻搅动让汤更浓稠。"
-    ],
-    "category": "汤品",
-    "cookTimeMinutes": 20,
-    "servings": 2,
-    "tags": [
-      "海味",
-      "清爽",
-      "奶香"
-    ],
-    "nutritionalNotes": "蛤蜊 富含碘，白酒 提高风味，蒜 让汤香更圆润。",
-    "preparationTips": "蛤蜊先吐沙再与 白酒 同煮，最后撒香菜提味。",
-    "imageUrl": "https://example.com/images/soup-milky-clam-white-wine-soup.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-colorburst-roasted-beet-goat-cheese",
-    "title": "缤纷烤甜菜山羊奶酪",
-    "description": "缤纷烤甜菜山羊奶酪 以 甜菜 与 山羊奶酪 为骨架，缤纷 风味在烤箱 里慢慢渗出，和 蜂蜜 带来层次与 烤甜菜山羊奶酪 的触感。",
-    "ingredients": [
-      "甜菜",
-      "山羊奶酪",
-      "核桃",
-      "芝麻菜",
-      "橄榄油",
-      "蜂蜜",
-      "香醋",
-      "红椒丁"
-    ],
-    "steps": [
-      "缤纷 的 蜂蜜 与 红椒丁 油醋调成汁，淋在 甜菜 与 山羊奶酪 上。",
-      "加入 核桃、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 烤甜菜山羊奶酪 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 30,
-    "servings": 2,
-    "tags": [
-      "色彩",
-      "甜点感"
-    ],
-    "nutritionalNotes": "甜菜 富含抗氧化，山羊奶酪 与 核桃 提供蛋白与油脂。",
-    "preparationTips": "把 甜菜 先烤软再切片，趁热拌入 山羊奶酪 和微甜的蜂蜜。",
-    "imageUrl": "https://example.com/images/salad-colorburst-roasted-beet-goat-cheese.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-colorburst-thai-papaya-salad",
-    "title": "缤纷泰式青木瓜",
-    "description": "缤纷泰式青木瓜 以 青木瓜 与 花生 为骨架，缤纷 风味在拌盘 里慢慢渗出，和 鱼露 带来层次与 泰式青木瓜 的触感。",
-    "ingredients": [
-      "青木瓜",
-      "花生",
-      "干辣椒",
-      "鱼露",
-      "柠檬",
-      "棕榈糖",
-      "红椒丁"
-    ],
-    "steps": [
-      "缤纷 的 鱼露 与 红椒丁 油醋调成汁，淋在 青木瓜 与 花生 上。",
-      "加入 干辣椒、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 泰式青木瓜 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 15,
-    "servings": 2,
-    "tags": [
-      "泰式",
-      "酸辣",
-      "色彩"
-    ],
-    "nutritionalNotes": "青木瓜 蛋白质低但富含酶，花生 补充好脂肪，干辣椒 给口感和辣度。",
-    "preparationTips": "拍碎柠檬与糖再拌入青木瓜，最后撒 花生 与香草。",
-    "imageUrl": "https://example.com/images/salad-colorburst-thai-papaya-salad.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-colorburst-citrus-quinoa-salad",
-    "title": "缤纷柑橘藜麦沙拉",
-    "description": "缤纷柑橘藜麦沙拉 以 藜麦 与 柑橘 为骨架，缤纷 风味在冷藏 里慢慢渗出，和 薄荷 带来层次与 柑橘藜麦沙拉 的触感。",
-    "ingredients": [
-      "藜麦",
-      "柑橘",
-      "薄荷",
-      "红洋葱",
-      "橄榄油",
-      "芝麻籽",
-      "红椒丁"
-    ],
-    "steps": [
-      "缤纷 的 薄荷 与 红椒丁 油醋调成汁，淋在 藜麦 与 柑橘 上。",
-      "加入 薄荷、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 柑橘藜麦沙拉 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 20,
-    "servings": 2,
-    "tags": [
-      "清爽",
-      "植物蛋白",
-      "色彩"
-    ],
-    "nutritionalNotes": "藜麦 粗粮蛋白，柑橘 富含维生素 C，薄荷 提供清新香气。",
-    "preparationTips": "藜麦冷却后与柑橘片拌匀，撒上薄荷与少量橄榄油定型。",
-    "imageUrl": "https://example.com/images/salad-colorburst-citrus-quinoa-salad.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-colorburst-smoked-salmon-caesar",
-    "title": "缤纷烟熏三文鱼凯撒",
-    "description": "缤纷烟熏三文鱼凯撒 以 烟熏三文鱼 与 罗马生菜 为骨架，缤纷 风味在拌盘 里慢慢渗出，和 黑胡椒 带来层次与 烟熏三文鱼凯撒 的触感。",
-    "ingredients": [
-      "烟熏三文鱼",
-      "罗马生菜",
-      "帕玛森",
-      "面包丁",
-      "凯撒酱",
-      "柠檬",
-      "红椒丁"
-    ],
-    "steps": [
-      "缤纷 的 黑胡椒 与 红椒丁 油醋调成汁，淋在 烟熏三文鱼 与 罗马生菜 上。",
-      "加入 帕玛森、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 烟熏三文鱼凯撒 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 15,
-    "servings": 2,
-    "tags": [
-      "经典",
-      "蛋白",
-      "色彩"
-    ],
-    "nutritionalNotes": "烟熏三文鱼 与 帕玛森 提供优质蛋白与钙，罗马生菜 补充纤维与爽脆。",
-    "preparationTips": "趁鲜切片三文鱼，轻拌罗马生菜与凯撒酱避免出水。",
-    "imageUrl": "https://example.com/images/salad-colorburst-smoked-salmon-caesar.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-colorburst-avocado-chia-bowl",
-    "title": "缤纷牛油果奇亚碗",
-    "description": "缤纷牛油果奇亚碗 以 牛油果 与 奇亚籽 为骨架，缤纷 风味在组合 里慢慢渗出，和 蜂蜜 带来层次与 牛油果奇亚碗 的触感。",
-    "ingredients": [
-      "牛油果",
-      "奇亚籽",
-      "樱桃番茄",
-      "玉米片",
-      "蜂蜜",
-      "酸奶",
-      "红椒丁"
-    ],
-    "steps": [
-      "缤纷 的 蜂蜜 与 红椒丁 油醋调成汁，淋在 牛油果 与 奇亚籽 上。",
-      "加入 樱桃番茄、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 牛油果奇亚碗 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 10,
-    "servings": 1,
-    "tags": [
-      "网红",
-      "能量",
-      "色彩"
-    ],
-    "nutritionalNotes": "牛油果 提供健康脂肪，奇亚籽 补充纤维，樱桃番茄 补充维生素。",
-    "preparationTips": "先泡发奇亚籽再铺上牛油果与番茄，蜂蜜与酸奶调和。",
-    "imageUrl": "https://example.com/images/salad-colorburst-avocado-chia-bowl.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-smoked-roasted-beet-goat-cheese",
-    "title": "烟熏烤甜菜山羊奶酪",
-    "description": "烟熏烤甜菜山羊奶酪 以 甜菜 与 山羊奶酪 为骨架，烟熏 风味在烤箱 里慢慢渗出，和 蜂蜜 带来层次与 烤甜菜山羊奶酪 的触感。",
-    "ingredients": [
-      "甜菜",
-      "山羊奶酪",
-      "核桃",
-      "芝麻菜",
-      "橄榄油",
-      "蜂蜜",
-      "香醋",
-      "烟熏粉"
-    ],
-    "steps": [
-      "烟熏 的 蜂蜜 与 烟熏粉 油醋调成汁，淋在 甜菜 与 山羊奶酪 上。",
-      "加入 核桃、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 烤甜菜山羊奶酪 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 30,
-    "servings": 2,
-    "tags": [
-      "色彩",
-      "甜点感",
-      "烟熏"
-    ],
-    "nutritionalNotes": "甜菜 富含抗氧化，山羊奶酪 与 核桃 提供蛋白与油脂。",
-    "preparationTips": "把 甜菜 先烤软再切片，趁热拌入 山羊奶酪 和微甜的蜂蜜。",
-    "imageUrl": "https://example.com/images/salad-smoked-roasted-beet-goat-cheese.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-smoked-thai-papaya-salad",
-    "title": "烟熏泰式青木瓜",
-    "description": "烟熏泰式青木瓜 以 青木瓜 与 花生 为骨架，烟熏 风味在拌盘 里慢慢渗出，和 鱼露 带来层次与 泰式青木瓜 的触感。",
-    "ingredients": [
-      "青木瓜",
-      "花生",
-      "干辣椒",
-      "鱼露",
-      "柠檬",
-      "棕榈糖",
-      "烟熏粉"
-    ],
-    "steps": [
-      "烟熏 的 鱼露 与 烟熏粉 油醋调成汁，淋在 青木瓜 与 花生 上。",
-      "加入 干辣椒、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 泰式青木瓜 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 15,
-    "servings": 2,
-    "tags": [
-      "泰式",
-      "酸辣",
-      "烟熏"
-    ],
-    "nutritionalNotes": "青木瓜 蛋白质低但富含酶，花生 补充好脂肪，干辣椒 给口感和辣度。",
-    "preparationTips": "拍碎柠檬与糖再拌入青木瓜，最后撒 花生 与香草。",
-    "imageUrl": "https://example.com/images/salad-smoked-thai-papaya-salad.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-smoked-citrus-quinoa-salad",
-    "title": "烟熏柑橘藜麦沙拉",
-    "description": "烟熏柑橘藜麦沙拉 以 藜麦 与 柑橘 为骨架，烟熏 风味在冷藏 里慢慢渗出，和 薄荷 带来层次与 柑橘藜麦沙拉 的触感。",
-    "ingredients": [
-      "藜麦",
-      "柑橘",
-      "薄荷",
-      "红洋葱",
-      "橄榄油",
-      "芝麻籽",
-      "烟熏粉"
-    ],
-    "steps": [
-      "烟熏 的 薄荷 与 烟熏粉 油醋调成汁，淋在 藜麦 与 柑橘 上。",
-      "加入 薄荷、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 柑橘藜麦沙拉 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 20,
-    "servings": 2,
-    "tags": [
-      "清爽",
-      "植物蛋白",
-      "烟熏"
-    ],
-    "nutritionalNotes": "藜麦 粗粮蛋白，柑橘 富含维生素 C，薄荷 提供清新香气。",
-    "preparationTips": "藜麦冷却后与柑橘片拌匀，撒上薄荷与少量橄榄油定型。",
-    "imageUrl": "https://example.com/images/salad-smoked-citrus-quinoa-salad.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-smoked-smoked-salmon-caesar",
-    "title": "烟熏烟熏三文鱼凯撒",
-    "description": "烟熏烟熏三文鱼凯撒 以 烟熏三文鱼 与 罗马生菜 为骨架，烟熏 风味在拌盘 里慢慢渗出，和 黑胡椒 带来层次与 烟熏三文鱼凯撒 的触感。",
-    "ingredients": [
-      "烟熏三文鱼",
-      "罗马生菜",
-      "帕玛森",
-      "面包丁",
-      "凯撒酱",
-      "柠檬",
-      "烟熏粉"
-    ],
-    "steps": [
-      "烟熏 的 黑胡椒 与 烟熏粉 油醋调成汁，淋在 烟熏三文鱼 与 罗马生菜 上。",
-      "加入 帕玛森、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 烟熏三文鱼凯撒 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 15,
-    "servings": 2,
-    "tags": [
-      "经典",
-      "蛋白",
-      "烟熏"
-    ],
-    "nutritionalNotes": "烟熏三文鱼 与 帕玛森 提供优质蛋白与钙，罗马生菜 补充纤维与爽脆。",
-    "preparationTips": "趁鲜切片三文鱼，轻拌罗马生菜与凯撒酱避免出水。",
-    "imageUrl": "https://example.com/images/salad-smoked-smoked-salmon-caesar.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-smoked-avocado-chia-bowl",
-    "title": "烟熏牛油果奇亚碗",
-    "description": "烟熏牛油果奇亚碗 以 牛油果 与 奇亚籽 为骨架，烟熏 风味在组合 里慢慢渗出，和 蜂蜜 带来层次与 牛油果奇亚碗 的触感。",
-    "ingredients": [
-      "牛油果",
-      "奇亚籽",
-      "樱桃番茄",
-      "玉米片",
-      "蜂蜜",
-      "酸奶",
-      "烟熏粉"
-    ],
-    "steps": [
-      "烟熏 的 蜂蜜 与 烟熏粉 油醋调成汁，淋在 牛油果 与 奇亚籽 上。",
-      "加入 樱桃番茄、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 牛油果奇亚碗 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 10,
-    "servings": 1,
-    "tags": [
-      "网红",
-      "能量",
-      "烟熏"
-    ],
-    "nutritionalNotes": "牛油果 提供健康脂肪，奇亚籽 补充纤维，樱桃番茄 补充维生素。",
-    "preparationTips": "先泡发奇亚籽再铺上牛油果与番茄，蜂蜜与酸奶调和。",
-    "imageUrl": "https://example.com/images/salad-smoked-avocado-chia-bowl.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-bright-roasted-beet-goat-cheese",
-    "title": "清爽烤甜菜山羊奶酪",
-    "description": "清爽烤甜菜山羊奶酪 以 甜菜 与 山羊奶酪 为骨架，清爽 风味在烤箱 里慢慢渗出，和 蜂蜜 带来层次与 烤甜菜山羊奶酪 的触感。",
-    "ingredients": [
-      "甜菜",
-      "山羊奶酪",
-      "核桃",
-      "芝麻菜",
-      "橄榄油",
-      "蜂蜜",
-      "香醋",
-      "薄荷汁"
-    ],
-    "steps": [
-      "清爽 的 蜂蜜 与 薄荷汁 油醋调成汁，淋在 甜菜 与 山羊奶酪 上。",
-      "加入 核桃、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 烤甜菜山羊奶酪 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 30,
-    "servings": 2,
-    "tags": [
-      "色彩",
-      "甜点感",
-      "清爽"
-    ],
-    "nutritionalNotes": "甜菜 富含抗氧化，山羊奶酪 与 核桃 提供蛋白与油脂。",
-    "preparationTips": "把 甜菜 先烤软再切片，趁热拌入 山羊奶酪 和微甜的蜂蜜。",
-    "imageUrl": "https://example.com/images/salad-bright-roasted-beet-goat-cheese.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-bright-thai-papaya-salad",
-    "title": "清爽泰式青木瓜",
-    "description": "清爽泰式青木瓜 以 青木瓜 与 花生 为骨架，清爽 风味在拌盘 里慢慢渗出，和 鱼露 带来层次与 泰式青木瓜 的触感。",
-    "ingredients": [
-      "青木瓜",
-      "花生",
-      "干辣椒",
-      "鱼露",
-      "柠檬",
-      "棕榈糖",
-      "薄荷汁"
-    ],
-    "steps": [
-      "清爽 的 鱼露 与 薄荷汁 油醋调成汁，淋在 青木瓜 与 花生 上。",
-      "加入 干辣椒、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 泰式青木瓜 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 15,
-    "servings": 2,
-    "tags": [
-      "泰式",
-      "酸辣",
-      "清爽"
-    ],
-    "nutritionalNotes": "青木瓜 蛋白质低但富含酶，花生 补充好脂肪，干辣椒 给口感和辣度。",
-    "preparationTips": "拍碎柠檬与糖再拌入青木瓜，最后撒 花生 与香草。",
-    "imageUrl": "https://example.com/images/salad-bright-thai-papaya-salad.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-bright-citrus-quinoa-salad",
-    "title": "清爽柑橘藜麦沙拉",
-    "description": "清爽柑橘藜麦沙拉 以 藜麦 与 柑橘 为骨架，清爽 风味在冷藏 里慢慢渗出，和 薄荷 带来层次与 柑橘藜麦沙拉 的触感。",
-    "ingredients": [
-      "藜麦",
-      "柑橘",
-      "薄荷",
-      "红洋葱",
-      "橄榄油",
-      "芝麻籽",
-      "薄荷汁"
-    ],
-    "steps": [
-      "清爽 的 薄荷 与 薄荷汁 油醋调成汁，淋在 藜麦 与 柑橘 上。",
-      "加入 薄荷、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 柑橘藜麦沙拉 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 20,
-    "servings": 2,
-    "tags": [
-      "清爽",
-      "植物蛋白"
-    ],
-    "nutritionalNotes": "藜麦 粗粮蛋白，柑橘 富含维生素 C，薄荷 提供清新香气。",
-    "preparationTips": "藜麦冷却后与柑橘片拌匀，撒上薄荷与少量橄榄油定型。",
-    "imageUrl": "https://example.com/images/salad-bright-citrus-quinoa-salad.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-bright-smoked-salmon-caesar",
-    "title": "清爽烟熏三文鱼凯撒",
-    "description": "清爽烟熏三文鱼凯撒 以 烟熏三文鱼 与 罗马生菜 为骨架，清爽 风味在拌盘 里慢慢渗出，和 黑胡椒 带来层次与 烟熏三文鱼凯撒 的触感。",
-    "ingredients": [
-      "烟熏三文鱼",
-      "罗马生菜",
-      "帕玛森",
-      "面包丁",
-      "凯撒酱",
-      "柠檬",
-      "薄荷汁"
-    ],
-    "steps": [
-      "清爽 的 黑胡椒 与 薄荷汁 油醋调成汁，淋在 烟熏三文鱼 与 罗马生菜 上。",
-      "加入 帕玛森、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 烟熏三文鱼凯撒 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 15,
-    "servings": 2,
-    "tags": [
-      "经典",
-      "蛋白",
-      "清爽"
-    ],
-    "nutritionalNotes": "烟熏三文鱼 与 帕玛森 提供优质蛋白与钙，罗马生菜 补充纤维与爽脆。",
-    "preparationTips": "趁鲜切片三文鱼，轻拌罗马生菜与凯撒酱避免出水。",
-    "imageUrl": "https://example.com/images/salad-bright-smoked-salmon-caesar.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-bright-avocado-chia-bowl",
-    "title": "清爽牛油果奇亚碗",
-    "description": "清爽牛油果奇亚碗 以 牛油果 与 奇亚籽 为骨架，清爽 风味在组合 里慢慢渗出，和 蜂蜜 带来层次与 牛油果奇亚碗 的触感。",
-    "ingredients": [
-      "牛油果",
-      "奇亚籽",
-      "樱桃番茄",
-      "玉米片",
-      "蜂蜜",
-      "酸奶",
-      "薄荷汁"
-    ],
-    "steps": [
-      "清爽 的 蜂蜜 与 薄荷汁 油醋调成汁，淋在 牛油果 与 奇亚籽 上。",
-      "加入 樱桃番茄、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 牛油果奇亚碗 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 10,
-    "servings": 1,
-    "tags": [
-      "网红",
-      "能量",
-      "清爽"
-    ],
-    "nutritionalNotes": "牛油果 提供健康脂肪，奇亚籽 补充纤维，樱桃番茄 补充维生素。",
-    "preparationTips": "先泡发奇亚籽再铺上牛油果与番茄，蜂蜜与酸奶调和。",
-    "imageUrl": "https://example.com/images/salad-bright-avocado-chia-bowl.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-hearty-roasted-beet-goat-cheese",
-    "title": "饱满烤甜菜山羊奶酪",
-    "description": "饱满烤甜菜山羊奶酪 以 甜菜 与 山羊奶酪 为骨架，饱满 风味在烤箱 里慢慢渗出，和 蜂蜜 带来层次与 烤甜菜山羊奶酪 的触感。",
-    "ingredients": [
-      "甜菜",
-      "山羊奶酪",
-      "核桃",
-      "芝麻菜",
-      "橄榄油",
-      "蜂蜜",
-      "香醋",
-      "烤南瓜籽"
-    ],
-    "steps": [
-      "饱满 的 蜂蜜 与 烤南瓜籽 油醋调成汁，淋在 甜菜 与 山羊奶酪 上。",
-      "加入 核桃、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 烤甜菜山羊奶酪 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 30,
-    "servings": 2,
-    "tags": [
-      "色彩",
-      "甜点感",
-      "饱腹"
-    ],
-    "nutritionalNotes": "甜菜 富含抗氧化，山羊奶酪 与 核桃 提供蛋白与油脂。",
-    "preparationTips": "把 甜菜 先烤软再切片，趁热拌入 山羊奶酪 和微甜的蜂蜜。",
-    "imageUrl": "https://example.com/images/salad-hearty-roasted-beet-goat-cheese.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-hearty-thai-papaya-salad",
-    "title": "饱满泰式青木瓜",
-    "description": "饱满泰式青木瓜 以 青木瓜 与 花生 为骨架，饱满 风味在拌盘 里慢慢渗出，和 鱼露 带来层次与 泰式青木瓜 的触感。",
-    "ingredients": [
-      "青木瓜",
-      "花生",
-      "干辣椒",
-      "鱼露",
-      "柠檬",
-      "棕榈糖",
-      "烤南瓜籽"
-    ],
-    "steps": [
-      "饱满 的 鱼露 与 烤南瓜籽 油醋调成汁，淋在 青木瓜 与 花生 上。",
-      "加入 干辣椒、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 泰式青木瓜 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 15,
-    "servings": 2,
-    "tags": [
-      "泰式",
-      "酸辣",
-      "饱腹"
-    ],
-    "nutritionalNotes": "青木瓜 蛋白质低但富含酶，花生 补充好脂肪，干辣椒 给口感和辣度。",
-    "preparationTips": "拍碎柠檬与糖再拌入青木瓜，最后撒 花生 与香草。",
-    "imageUrl": "https://example.com/images/salad-hearty-thai-papaya-salad.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-hearty-citrus-quinoa-salad",
-    "title": "饱满柑橘藜麦沙拉",
-    "description": "饱满柑橘藜麦沙拉 以 藜麦 与 柑橘 为骨架，饱满 风味在冷藏 里慢慢渗出，和 薄荷 带来层次与 柑橘藜麦沙拉 的触感。",
-    "ingredients": [
-      "藜麦",
-      "柑橘",
-      "薄荷",
-      "红洋葱",
-      "橄榄油",
-      "芝麻籽",
-      "烤南瓜籽"
-    ],
-    "steps": [
-      "饱满 的 薄荷 与 烤南瓜籽 油醋调成汁，淋在 藜麦 与 柑橘 上。",
-      "加入 薄荷、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 柑橘藜麦沙拉 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 20,
-    "servings": 2,
-    "tags": [
-      "清爽",
-      "植物蛋白",
-      "饱腹"
-    ],
-    "nutritionalNotes": "藜麦 粗粮蛋白，柑橘 富含维生素 C，薄荷 提供清新香气。",
-    "preparationTips": "藜麦冷却后与柑橘片拌匀，撒上薄荷与少量橄榄油定型。",
-    "imageUrl": "https://example.com/images/salad-hearty-citrus-quinoa-salad.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-hearty-smoked-salmon-caesar",
-    "title": "饱满烟熏三文鱼凯撒",
-    "description": "饱满烟熏三文鱼凯撒 以 烟熏三文鱼 与 罗马生菜 为骨架，饱满 风味在拌盘 里慢慢渗出，和 黑胡椒 带来层次与 烟熏三文鱼凯撒 的触感。",
-    "ingredients": [
-      "烟熏三文鱼",
-      "罗马生菜",
-      "帕玛森",
-      "面包丁",
-      "凯撒酱",
-      "柠檬",
-      "烤南瓜籽"
-    ],
-    "steps": [
-      "饱满 的 黑胡椒 与 烤南瓜籽 油醋调成汁，淋在 烟熏三文鱼 与 罗马生菜 上。",
-      "加入 帕玛森、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 烟熏三文鱼凯撒 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 15,
-    "servings": 2,
-    "tags": [
-      "经典",
-      "蛋白",
-      "饱腹"
-    ],
-    "nutritionalNotes": "烟熏三文鱼 与 帕玛森 提供优质蛋白与钙，罗马生菜 补充纤维与爽脆。",
-    "preparationTips": "趁鲜切片三文鱼，轻拌罗马生菜与凯撒酱避免出水。",
-    "imageUrl": "https://example.com/images/salad-hearty-smoked-salmon-caesar.jpg",
-    "isFavorite": false
-  },
-  {
-    "slug": "salad-hearty-avocado-chia-bowl",
-    "title": "饱满牛油果奇亚碗",
-    "description": "饱满牛油果奇亚碗 以 牛油果 与 奇亚籽 为骨架，饱满 风味在组合 里慢慢渗出，和 蜂蜜 带来层次与 牛油果奇亚碗 的触感。",
-    "ingredients": [
-      "牛油果",
-      "奇亚籽",
-      "樱桃番茄",
-      "玉米片",
-      "蜂蜜",
-      "酸奶",
-      "烤南瓜籽"
-    ],
-    "steps": [
-      "饱满 的 蜂蜜 与 烤南瓜籽 油醋调成汁，淋在 牛油果 与 奇亚籽 上。",
-      "加入 樱桃番茄、坚果或烤菜，轻轻翻拌保持食材完整。",
-      "装盘后再点缀香草或籽类，让 牛油果奇亚碗 呈现清新层次。"
-    ],
-    "category": "沙拉",
-    "cookTimeMinutes": 10,
-    "servings": 1,
-    "tags": [
-      "网红",
-      "能量",
-      "饱腹"
-    ],
-    "nutritionalNotes": "牛油果 提供健康脂肪，奇亚籽 补充纤维，樱桃番茄 补充维生素。",
-    "preparationTips": "先泡发奇亚籽再铺上牛油果与番茄，蜂蜜与酸奶调和。",
-    "imageUrl": "https://example.com/images/salad-hearty-avocado-chia-bowl.jpg",
+      "清淡",
+      "消暑",
+      "快手"
+    ],
+    "nutritionalNotes": "冬瓜含水量高、低热量，具有利水消肿功效，猪瘦肉补充蛋白质。",
+    "preparationTips": "冬瓜片不要切太厚，煮至完全透明才是最佳状态；肉片腌制淀粉防止变老。",
+    "imageUrl": "https://example.com/images/soup-winter-melon-pork.jpg",
     "isFavorite": false
   }
 ]

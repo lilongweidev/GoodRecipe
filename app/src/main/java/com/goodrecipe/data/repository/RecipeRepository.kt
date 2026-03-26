@@ -17,6 +17,7 @@ interface RecipeRepository {
     suspend fun updateRecipe(recipe: Recipe)
     suspend fun deleteRecipe(recipe: Recipe)
     suspend fun toggleFavorite(id: Int, isFavorite: Boolean)
+    suspend fun syncRecipesWithoutDuplicates(recipes: List<Recipe>): Int
 }
 
 @Singleton
@@ -50,6 +51,23 @@ class RecipeRepositoryImpl @Inject constructor(
 
     override suspend fun toggleFavorite(id: Int, isFavorite: Boolean) =
         dao.toggleFavorite(id, isFavorite)
+
+    override suspend fun syncRecipesWithoutDuplicates(recipes: List<Recipe>): Int {
+        val existingKeys = dao.getAllRecipesSnapshot()
+            .map { "${it.category}|${it.title.trim()}" }
+            .toHashSet()
+
+        var insertedCount = 0
+        for (recipe in recipes) {
+            val key = "${recipe.category}|${recipe.title.trim()}"
+            if (!existingKeys.contains(key)) {
+                dao.insertRecipe(recipe.toEntity())
+                existingKeys.add(key)
+                insertedCount++
+            }
+        }
+        return insertedCount
+    }
 }
 
 // --- Mappers ---

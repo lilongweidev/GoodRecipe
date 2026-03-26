@@ -20,10 +20,7 @@ data class Recipe(
 enum class RecipeCategory(val displayName: String) {
     ALL("全部"),
     BREAKFAST("早餐"),
-    LUNCH("午餐"),
+    LUNCH("中餐"),
     DINNER("晚餐"),
-    DESSERT("甜点"),
-    SNACK("小吃"),
-    SOUP("汤品"),
-    SALAD("沙拉")
+    SOUP("汤品")
 }

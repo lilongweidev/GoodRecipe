@@ -1,5 +1,6 @@
 package com.goodrecipe.ui.screens.add
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
@@ -11,6 +12,8 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
@@ -38,6 +41,7 @@ fun AddRecipeScreen(
     }
 
     Scaffold(
+        containerColor = Color.Transparent,
         topBar = {
             TopAppBar(
                 title = { Text(if (recipeId == null) "添加菜谱" else "编辑菜谱") },
@@ -58,12 +62,19 @@ fun AddRecipeScreen(
                         }
                     }
                 }
+                ,
+                colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.Transparent)
             )
         }
     ) { padding ->
         LazyColumn(
             modifier = Modifier
                 .fillMaxSize()
+                .background(
+                    Brush.verticalGradient(
+                        listOf(MaterialTheme.colorScheme.background, MaterialTheme.colorScheme.surface)
+                    )
+                )
                 .padding(padding),
             contentPadding = PaddingValues(16.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp)
@@ -76,7 +87,8 @@ fun AddRecipeScreen(
                     label = { Text("菜谱名称 *") },
                     modifier = Modifier.fillMaxWidth(),
                     singleLine = true,
-                    isError = uiState.error != null && uiState.title.isBlank()
+                    isError = uiState.error != null && uiState.title.isBlank(),
+                    colors = deepBlueTextFieldColors()
                 )
             }
 
@@ -88,7 +100,8 @@ fun AddRecipeScreen(
                     label = { Text("简介") },
                     modifier = Modifier.fillMaxWidth(),
                     minLines = 2,
-                    maxLines = 4
+                    maxLines = 4,
+                    colors = deepBlueTextFieldColors()
                 )
             }
 
@@ -106,7 +119,8 @@ fun AddRecipeScreen(
                         label = { Text("时间(分钟)") },
                         modifier = Modifier.weight(1f),
                         singleLine = true,
-                        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
+                        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
+                        colors = deepBlueTextFieldColors()
                     )
                     OutlinedTextField(
                         value = uiState.servings,
@@ -114,7 +128,8 @@ fun AddRecipeScreen(
                         label = { Text("人份") },
                         modifier = Modifier.weight(0.7f),
                         singleLine = true,
-                        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
+                        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
+                        colors = deepBlueTextFieldColors()
                     )
                 }
             }
@@ -136,7 +151,8 @@ fun AddRecipeScreen(
                         onValueChange = { viewModel.onIngredientChange(index, it) },
                         label = { Text("食材 ${index + 1}") },
                         modifier = Modifier.weight(1f),
-                        singleLine = true
+                        singleLine = true,
+                        colors = deepBlueTextFieldColors()
                     )
                     IconButton(
                         onClick = { viewModel.removeIngredient(index) },
@@ -170,7 +186,8 @@ fun AddRecipeScreen(
                         label = { Text("步骤 ${index + 1}") },
                         modifier = Modifier.weight(1f),
                         minLines = 2,
-                        maxLines = 5
+                        maxLines = 5,
+                        colors = deepBlueTextFieldColors()
                     )
                     IconButton(
                         onClick = { viewModel.removeStep(index) },
@@ -238,7 +255,8 @@ private fun CategoryDropdown(
             label = { Text("分类") },
             trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded) },
             modifier = Modifier.menuAnchor(),
-            singleLine = true
+            singleLine = true,
+            colors = deepBlueTextFieldColors()
         )
         ExposedDropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
             RecipeCategory.entries
@@ -255,3 +273,11 @@ private fun CategoryDropdown(
         }
     }
 }
+
+@Composable
+private fun deepBlueTextFieldColors() = OutlinedTextFieldDefaults.colors(
+    focusedBorderColor = MaterialTheme.colorScheme.primary,
+    unfocusedBorderColor = MaterialTheme.colorScheme.outlineVariant,
+    focusedContainerColor = MaterialTheme.colorScheme.surface,
+    unfocusedContainerColor = MaterialTheme.colorScheme.surface
+)

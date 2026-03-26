@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.goodrecipe.data.repository.Recipe
 import com.goodrecipe.data.repository.RecipeCategory
 import com.goodrecipe.data.repository.RecipeRepository
+import com.goodrecipe.data.seed.SeedDataProvider
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.*
@@ -17,13 +18,15 @@ data class HomeUiState(
     val searchQuery: String = "",
     val selectedCategory: RecipeCategory = RecipeCategory.ALL,
     val showFavoritesOnly: Boolean = false,
+    val syncVersion: Int = 0,
     val error: String? = null
 )
 
 @OptIn(ExperimentalCoroutinesApi::class)
 @HiltViewModel
 class HomeViewModel @Inject constructor(
-    private val repository: RecipeRepository
+    private val repository: RecipeRepository,
+    private val seedDataProvider: SeedDataProvider
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(HomeUiState(isLoading = true))
@@ -62,6 +65,32 @@ class HomeViewModel @Inject constructor(
 
     fun onToggleFavorites() {
         _uiState.update { it.copy(showFavoritesOnly = !it.showFavoritesOnly) }
+    }
+
+    fun onSync() {
+        viewModelScope.launch {
+            _uiState.update { it.copy(isLoading = true, error = null) }
+            runCatching {
+                val seeds = seedDataProvider.loadRecipes()
+                repository.syncRecipesWithoutDuplicates(seeds)
+            }.onSuccess {
+                _uiState.update {
+                    it.copy(
+                        searchQuery = "",
+                        selectedCategory = RecipeCategory.ALL,
+                        showFavoritesOnly = false,
+                        syncVersion = it.syncVersion + 1
+                    )
+                }
+            }.onFailure { throwable ->
+                _uiState.update {
+                    it.copy(
+                        isLoading = false,
+                        error = throwable.message ?: "同步失败"
+                    )
+                }
+            }
+        }
     }
 
     fun onToggleFavorite(recipe: Recipe) {
