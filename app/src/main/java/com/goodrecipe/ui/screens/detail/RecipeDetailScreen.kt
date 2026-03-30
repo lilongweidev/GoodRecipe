@@ -73,7 +73,7 @@ fun RecipeDetailScreen(
                                 imageVector = if (recipe.isFavorite) Icons.Filled.Favorite
                                 else Icons.Outlined.FavoriteBorder,
                                 contentDescription = "收藏",
-                                tint = if (recipe.isFavorite) MaterialTheme.colorScheme.primary
+                                tint = if (recipe.isFavorite) Color(0xFFE53935)
                                 else MaterialTheme.colorScheme.onSurface
                             )
                         }

@@ -9,6 +9,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -85,7 +86,7 @@ fun RecipeCard(
                                 Icons.Filled.Favorite else Icons.Outlined.FavoriteBorder,
                             contentDescription = if (recipe.isFavorite) "取消收藏" else "收藏",
                             tint = if (recipe.isFavorite)
-                                MaterialTheme.colorScheme.primary
+                                Color(0xFFE53935)
                             else
                                 MaterialTheme.colorScheme.onSurfaceVariant
                         )

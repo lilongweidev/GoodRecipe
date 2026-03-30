@@ -14,14 +14,15 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.outlined.FavoriteBorder
+import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
@@ -49,6 +50,16 @@ fun MineRecipeListScreen(
 
     Scaffold(
         containerColor = MaterialTheme.colorScheme.background,
+        floatingActionButton = {
+            if (isMyRecipes) {
+                FloatingActionButton(onClick = onAddClick) {
+                    Icon(
+                        imageVector = Icons.Filled.Add,
+                        contentDescription = "添加菜谱"
+                    )
+                }
+            }
+        },
         topBar = {
             TopAppBar(
                 title = {
@@ -80,8 +91,7 @@ fun MineRecipeListScreen(
                 contentAlignment = Alignment.Center
             ) {
                 MineRecipeListEmpty(
-                    isMyRecipes = isMyRecipes,
-                    onAddClick = onAddClick
+                    isMyRecipes = isMyRecipes
                 )
             }
         } else {
@@ -108,8 +118,7 @@ fun MineRecipeListScreen(
 
 @Composable
 private fun MineRecipeListEmpty(
-    isMyRecipes: Boolean,
-    onAddClick: () -> Unit
+    isMyRecipes: Boolean
 ) {
     Column(
         modifier = Modifier
@@ -152,10 +161,6 @@ private fun MineRecipeListEmpty(
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 textAlign = TextAlign.Center
             )
-            Spacer(modifier = Modifier.height(12.dp))
-            TextButton(onClick = onAddClick) {
-                Text("添加菜谱")
-            }
         }
     }
 }

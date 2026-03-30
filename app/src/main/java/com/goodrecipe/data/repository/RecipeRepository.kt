@@ -9,6 +9,14 @@ import javax.inject.Singleton
 
 interface RecipeRepository {
     fun getAllRecipes(): Flow<List<Recipe>>
+    fun queryRecipes(
+        query: String,
+        category: String?,
+        tag: String?,
+        favoritesOnly: Boolean,
+        sortType: RecipeSortType
+    ): Flow<List<Recipe>>
+    suspend fun getAllRecipesSnapshot(): List<Recipe>
     fun getFavoriteRecipes(): Flow<List<Recipe>>
     fun getUserRecipes(): Flow<List<Recipe>>
     fun getRecipesByCategory(category: String): Flow<List<Recipe>>
@@ -28,6 +36,24 @@ class RecipeRepositoryImpl @Inject constructor(
 
     override fun getAllRecipes(): Flow<List<Recipe>> =
         dao.getAllRecipes().map { list -> list.map { it.toDomain() } }
+
+    override fun queryRecipes(
+        query: String,
+        category: String?,
+        tag: String?,
+        favoritesOnly: Boolean,
+        sortType: RecipeSortType
+    ): Flow<List<Recipe>> =
+        dao.queryRecipes(
+            query = query.trim(),
+            category = category?.trim().orEmpty(),
+            tag = tag?.trim().orEmpty(),
+            favoritesOnly = favoritesOnly,
+            sortType = sortType.name
+        ).map { list -> list.map { it.toDomain() } }
+
+    override suspend fun getAllRecipesSnapshot(): List<Recipe> =
+        dao.getAllRecipesSnapshot().map { it.toDomain() }
 
     override fun getFavoriteRecipes(): Flow<List<Recipe>> =
         dao.getFavoriteRecipes().map { list -> list.map { it.toDomain() } }
@@ -65,7 +91,7 @@ class RecipeRepositoryImpl @Inject constructor(
         for (recipe in recipes) {
             val key = "${recipe.category}|${recipe.title.trim()}"
             if (!existingKeys.contains(key)) {
-                dao.insertRecipe(recipe.toEntity())
+                dao.insertRecipe(recipe.copy(id = 0).toEntity())
                 existingKeys.add(key)
                 insertedCount++
             }

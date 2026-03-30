@@ -23,6 +23,7 @@ import androidx.compose.material3.FilterChip
 import androidx.compose.material3.FilterChipDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
@@ -30,16 +31,26 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.goodrecipe.ui.theme.AppThemeMode
 import com.goodrecipe.ui.theme.LocalAppThemeController
+import com.goodrecipe.viewmodel.SettingsViewModel
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
 
 private enum class ThemeOption(val label: String) {
     SYSTEM("跟随系统"),
@@ -50,15 +61,37 @@ private enum class ThemeOption(val label: String) {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SettingsScreen(
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    viewModel: SettingsViewModel = hiltViewModel()
 ) {
     val themeController = LocalAppThemeController.current
+    val transferState by viewModel.dataTransferUiState.collectAsStateWithLifecycle()
+    val profile by viewModel.profile.collectAsStateWithLifecycle()
+    val contentResolver = LocalContext.current.contentResolver
 
     var enablePersonalized by remember { mutableStateOf(true) }
     val currentThemeOption = when (themeController.mode) {
         AppThemeMode.SYSTEM -> ThemeOption.SYSTEM
         AppThemeMode.LIGHT -> ThemeOption.LIGHT
         AppThemeMode.DARK -> ThemeOption.DARK
+    }
+    val exportLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.CreateDocument("application/json")
+    ) { uri ->
+        if (uri != null) {
+            viewModel.exportRecipes(contentResolver = contentResolver, targetUri = uri)
+        }
+    }
+    val importLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.OpenDocument()
+    ) { uri ->
+        if (uri != null) {
+            viewModel.importRecipes(contentResolver = contentResolver, sourceUri = uri)
+        }
+    }
+
+    LaunchedEffect(Unit) {
+        viewModel.clearDataTransferMessage()
     }
 
     Scaffold(
@@ -162,6 +195,64 @@ fun SettingsScreen(
                 }
             }
 
+            Text(
+                text = "数据管理",
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.SemiBold
+            )
+            SettingsCard {
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp, vertical = 12.dp),
+                    verticalArrangement = Arrangement.spacedBy(12.dp)
+                ) {
+                    Text(
+                        text = "支持将菜谱数据导入或导出为 JSON 文件",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(12.dp)
+                    ) {
+                        ActionChip(
+                            label = "导出数据",
+                            enabled = !transferState.isLoading,
+                            modifier = Modifier.weight(1f),
+                            onClick = {
+                                val date = SimpleDateFormat("yyyyMMdd-HHmmss", Locale.getDefault())
+                                    .format(Date())
+                                val nickname = profile.nickname.ifBlank { "美食家" }
+                                val safeNickname = nickname
+                                    .replace(Regex("[\\\\/:*?\"<>|]"), "_")
+                                    .trim()
+                                    .ifBlank { "美食家" }
+                                exportLauncher.launch("${safeNickname}的菜单-$date.json")
+                            }
+                        )
+                        ActionChip(
+                            label = "导入数据",
+                            enabled = !transferState.isLoading,
+                            modifier = Modifier.weight(1f),
+                            onClick = {
+                                importLauncher.launch(arrayOf("application/json", "text/plain"))
+                            }
+                        )
+                    }
+                    if (transferState.isLoading) {
+                        LinearProgressIndicator(modifier = Modifier.fillMaxWidth())
+                    }
+                    transferState.message?.let { msg ->
+                        Text(
+                            text = msg,
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
+                }
+            }
+
             Spacer(modifier = Modifier.height(24.dp))
         }
     }
@@ -177,5 +268,42 @@ private fun SettingsCard(content: @Composable () -> Unit) {
         shadowElevation = 0.dp
     ) {
         content()
+    }
+}
+
+@Composable
+private fun ActionChip(
+    label: String,
+    enabled: Boolean,
+    modifier: Modifier = Modifier,
+    onClick: () -> Unit
+) {
+    Surface(
+        modifier = modifier
+            .heightIn(min = 44.dp)
+            .clickable(enabled = enabled, onClick = onClick),
+        shape = RoundedCornerShape(10.dp),
+        color = if (enabled) {
+            MaterialTheme.colorScheme.primaryContainer
+        } else {
+            MaterialTheme.colorScheme.surfaceVariant
+        }
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(vertical = 10.dp),
+            horizontalArrangement = Arrangement.Center
+        ) {
+            Text(
+                text = label,
+                style = MaterialTheme.typography.labelLarge,
+                color = if (enabled) {
+                    MaterialTheme.colorScheme.onPrimaryContainer
+                } else {
+                    MaterialTheme.colorScheme.onSurfaceVariant
+                }
+            )
+        }
     }
 }

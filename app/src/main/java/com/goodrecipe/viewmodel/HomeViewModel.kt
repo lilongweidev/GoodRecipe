@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.goodrecipe.data.repository.Recipe
 import com.goodrecipe.data.repository.RecipeCategory
+import com.goodrecipe.data.repository.RecipeSortType
 import com.goodrecipe.data.repository.RecipeRepository
 import com.goodrecipe.data.seed.SeedDataProvider
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -17,6 +18,7 @@ data class HomeUiState(
     val isLoading: Boolean = false,
     val searchQuery: String = "",
     val selectedCategory: RecipeCategory = RecipeCategory.ALL,
+    val sortType: RecipeSortType = RecipeSortType.NEWEST,
     val showFavoritesOnly: Boolean = false,
     val syncVersion: Int = 0,
     val error: String? = null
@@ -38,20 +40,21 @@ class HomeViewModel @Inject constructor(
 
     private fun observeRecipes() {
         viewModelScope.launch {
-            _uiState.flatMapLatest { state ->
-                when {
-                    state.searchQuery.isNotBlank() ->
-                        repository.searchRecipes(state.searchQuery)
-                    state.showFavoritesOnly ->
-                        repository.getFavoriteRecipes()
-                    state.selectedCategory != RecipeCategory.ALL ->
-                        repository.getRecipesByCategory(state.selectedCategory.displayName)
-                    else ->
-                        repository.getAllRecipes()
+            _uiState
+                .flatMapLatest { state ->
+                    repository.queryRecipes(
+                        query = state.searchQuery,
+                        category = state.selectedCategory
+                            .takeIf { it != RecipeCategory.ALL }
+                            ?.displayName,
+                        tag = null,
+                        favoritesOnly = state.showFavoritesOnly,
+                        sortType = state.sortType
+                    )
                 }
-            }.collect { recipes ->
-                _uiState.update { it.copy(recipes = recipes, isLoading = false) }
-            }
+                .collect { recipes ->
+                    _uiState.update { it.copy(recipes = recipes, isLoading = false) }
+                }
         }
     }
 
@@ -60,7 +63,28 @@ class HomeViewModel @Inject constructor(
     }
 
     fun onCategorySelected(category: RecipeCategory) {
-        _uiState.update { it.copy(selectedCategory = category, showFavoritesOnly = false) }
+        _uiState.update { it.copy(selectedCategory = category) }
+    }
+
+    fun onSortTypeSelected(sortType: RecipeSortType) {
+        _uiState.update { current ->
+            if (current.sortType == sortType) return
+            current.copy(
+                sortType = sortType,
+                isLoading = true
+            )
+        }
+    }
+
+    fun clearFilters() {
+        _uiState.update {
+            it.copy(
+                searchQuery = "",
+                selectedCategory = RecipeCategory.ALL,
+                sortType = RecipeSortType.NEWEST,
+                showFavoritesOnly = false
+            )
+        }
     }
 
     fun onToggleFavorites() {
@@ -78,6 +102,7 @@ class HomeViewModel @Inject constructor(
                     it.copy(
                         searchQuery = "",
                         selectedCategory = RecipeCategory.ALL,
+                        sortType = RecipeSortType.NEWEST,
                         showFavoritesOnly = false,
                         syncVersion = it.syncVersion + 1
                     )

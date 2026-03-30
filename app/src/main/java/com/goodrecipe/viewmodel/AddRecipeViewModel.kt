@@ -16,6 +16,7 @@ import javax.inject.Inject
 data class AddRecipeUiState(
     val title: String = "",
     val description: String = "",
+    val tags: List<String> = listOf(""),
     val ingredients: List<String> = listOf(""),
     val steps: List<String> = listOf(""),
     val category: RecipeCategory = RecipeCategory.DINNER,
@@ -46,6 +47,7 @@ class AddRecipeViewModel @Inject constructor(
                 it.copy(
                     title = recipe.title,
                     description = recipe.description,
+                    tags = recipe.tags.ifEmpty { listOf("") },
                     ingredients = recipe.ingredients.ifEmpty { listOf("") },
                     steps = recipe.steps.ifEmpty { listOf("") },
                     category = RecipeCategory.entries.find { c -> c.displayName == recipe.category }
@@ -62,6 +64,22 @@ class AddRecipeViewModel @Inject constructor(
     fun onCategoryChange(value: RecipeCategory) = _uiState.update { it.copy(category = value) }
     fun onCookTimeChange(value: String) = _uiState.update { it.copy(cookTimeMinutes = value) }
     fun onServingsChange(value: String) = _uiState.update { it.copy(servings = value) }
+
+    fun onTagChange(index: Int, value: String) {
+        _uiState.update {
+            val updated = it.tags.toMutableList().also { list -> list[index] = value }
+            it.copy(tags = updated)
+        }
+    }
+
+    fun addTag() = _uiState.update { it.copy(tags = it.tags + "") }
+
+    fun removeTag(index: Int) {
+        if (_uiState.value.tags.size <= 1) return
+        _uiState.update {
+            it.copy(tags = it.tags.toMutableList().also { list -> list.removeAt(index) })
+        }
+    }
 
     fun onIngredientChange(index: Int, value: String) {
         _uiState.update {
@@ -107,6 +125,7 @@ class AddRecipeViewModel @Inject constructor(
                 id = editingRecipeId ?: 0,
                 title = state.title,
                 description = state.description,
+                tags = state.tags.map { it.trim() }.filter { it.isNotBlank() },
                 ingredients = state.ingredients.filter { it.isNotBlank() },
                 steps = state.steps.filter { it.isNotBlank() },
                 category = state.category.displayName,

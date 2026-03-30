@@ -192,7 +192,7 @@ fun MineScreen(
                                     Icon(
                                         imageVector = Icons.Filled.Favorite,
                                         contentDescription = null,
-                                        tint = MaterialTheme.colorScheme.primary
+                                        tint = Color(0xFFE53935)
                                     )
                                 },
                                 onClick = onOpenMineFavorites
@@ -523,6 +523,7 @@ private fun MineProfileHeader(
                     tint = MaterialTheme.colorScheme.onSurfaceVariant
                 )
             }
+            Spacer(modifier = Modifier.height(16.dp))
         }
     }
 }

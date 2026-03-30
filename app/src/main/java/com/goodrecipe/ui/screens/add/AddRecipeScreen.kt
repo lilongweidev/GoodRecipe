@@ -4,7 +4,6 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
-import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.*
@@ -15,7 +14,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -119,24 +117,54 @@ fun AddRecipeScreen(
                         onSelected = viewModel::onCategoryChange,
                         modifier = Modifier.weight(1f)
                     )
-                    OutlinedTextField(
+                    NumberSelectorDropdown(
+                        label = "时间(分钟)",
                         value = uiState.cookTimeMinutes,
-                        onValueChange = viewModel::onCookTimeChange,
-                        label = { Text("时间(分钟)") },
+                        options = COOK_TIME_OPTIONS,
+                        onSelected = viewModel::onCookTimeChange,
+                        modifier = Modifier.weight(1f)
+                    )
+                    NumberSelectorDropdown(
+                        label = "人份",
+                        value = uiState.servings,
+                        options = SERVINGS_OPTIONS,
+                        onSelected = viewModel::onServingsChange,
+                        modifier = Modifier.weight(0.7f)
+                    )
+                }
+            }
+
+            // Tags
+            item {
+                Spacer(Modifier.height(4.dp))
+                SectionHeader(
+                    title = "🏷 标签",
+                    onAdd = { viewModel.addTag() }
+                )
+            }
+            itemsIndexed(uiState.tags) { index, tag ->
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    OutlinedTextField(
+                        value = tag,
+                        onValueChange = { viewModel.onTagChange(index, it) },
+                        label = { Text("标签 ${index + 1}") },
                         modifier = Modifier.weight(1f),
                         singleLine = true,
-                        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
                         colors = deepBlueTextFieldColors()
                     )
-                    OutlinedTextField(
-                        value = uiState.servings,
-                        onValueChange = viewModel::onServingsChange,
-                        label = { Text("人份") },
-                        modifier = Modifier.weight(0.7f),
-                        singleLine = true,
-                        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
-                        colors = deepBlueTextFieldColors()
-                    )
+                    IconButton(
+                        onClick = { viewModel.removeTag(index) },
+                        enabled = uiState.tags.size > 1
+                    ) {
+                        Icon(
+                            Icons.Filled.Close,
+                            contentDescription = "删除",
+                            tint = MaterialTheme.colorScheme.error
+                        )
+                    }
                 }
             }
 
@@ -280,6 +308,45 @@ private fun CategoryDropdown(
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun NumberSelectorDropdown(
+    label: String,
+    value: String,
+    options: List<String>,
+    onSelected: (String) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    var expanded by remember { mutableStateOf(false) }
+    ExposedDropdownMenuBox(
+        expanded = expanded,
+        onExpandedChange = { expanded = it },
+        modifier = modifier
+    ) {
+        OutlinedTextField(
+            value = value,
+            onValueChange = {},
+            readOnly = true,
+            label = { Text(label) },
+            trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded) },
+            modifier = Modifier.menuAnchor(),
+            singleLine = true,
+            colors = deepBlueTextFieldColors()
+        )
+        ExposedDropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
+            options.forEach { option ->
+                DropdownMenuItem(
+                    text = { Text(option) },
+                    onClick = {
+                        onSelected(option)
+                        expanded = false
+                    }
+                )
+            }
+        }
+    }
+}
+
 @Composable
 private fun deepBlueTextFieldColors() = OutlinedTextFieldDefaults.colors(
     focusedBorderColor = MaterialTheme.colorScheme.primary,
@@ -287,3 +354,6 @@ private fun deepBlueTextFieldColors() = OutlinedTextFieldDefaults.colors(
     focusedContainerColor = MaterialTheme.colorScheme.surface,
     unfocusedContainerColor = MaterialTheme.colorScheme.surface
 )
+
+private val COOK_TIME_OPTIONS = listOf("5", "10", "15", "20", "30", "45", "60", "90", "120")
+private val SERVINGS_OPTIONS = listOf("1", "2", "3", "4", "6", "8", "10")
