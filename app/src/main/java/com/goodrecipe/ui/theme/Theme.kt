@@ -1,8 +1,17 @@
 package com.goodrecipe.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
-import androidx.compose.material3.*
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Typography
+import androidx.compose.material3.darkColorScheme
+import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.staticCompositionLocalOf
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.Color
 
 val OceanBlue = Color(0xFF2B7BFF)
@@ -39,15 +48,48 @@ private val DarkColorScheme = darkColorScheme(
     outlineVariant = Color(0xFF2A426A)
 )
 
+enum class AppThemeMode {
+    SYSTEM,
+    LIGHT,
+    DARK
+}
+
+data class AppThemeController(
+    val mode: AppThemeMode,
+    val setMode: (AppThemeMode) -> Unit
+)
+
+val LocalAppThemeController = staticCompositionLocalOf {
+    AppThemeController(
+        mode = AppThemeMode.SYSTEM,
+        setMode = {}
+    )
+}
+
 @Composable
 fun GoodRecipeTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {
+    var appThemeMode by remember { mutableStateOf(AppThemeMode.SYSTEM) }
+
+    val darkTheme = when (appThemeMode) {
+        AppThemeMode.SYSTEM -> isSystemInDarkTheme()
+        AppThemeMode.LIGHT -> false
+        AppThemeMode.DARK -> true
+    }
+
     val colorScheme = if (darkTheme) DarkColorScheme else LightColorScheme
-    MaterialTheme(
-        colorScheme = colorScheme,
-        typography = Typography(),
-        content = content
-    )
+
+    CompositionLocalProvider(
+        LocalAppThemeController provides AppThemeController(
+            mode = appThemeMode,
+            setMode = { appThemeMode = it }
+        )
+    ) {
+        MaterialTheme(
+            colorScheme = colorScheme,
+            typography = Typography(),
+            content = content
+        )
+    }
 }

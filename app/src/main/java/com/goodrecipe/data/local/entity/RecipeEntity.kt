@@ -19,5 +19,6 @@ data class RecipeEntity(
     val tags: String = "",
     val nutritionalNotes: String = "",
     val preparationTips: String = "",
-    val createdAt: Long = System.currentTimeMillis()
+    val createdAt: Long = System.currentTimeMillis(),
+    val isUserRecipe: Boolean = false
 )

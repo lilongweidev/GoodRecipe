@@ -14,7 +14,8 @@ data class Recipe(
     val tags: List<String> = emptyList(),
     val nutritionalNotes: String = "",
     val preparationTips: String = "",
-    val createdAt: Long = System.currentTimeMillis()
+    val createdAt: Long = System.currentTimeMillis(),
+    val isUserRecipe: Boolean = false
 )
 
 enum class RecipeCategory(val displayName: String) {

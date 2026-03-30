@@ -11,8 +11,10 @@ hiltNavigationCompose = "1.2.0"
 room = "2.6.1"
 ksp = "2.0.0-1.0.21"
 coroutines = "1.8.1"
+coilCompose = "2.6.0"
 
 [libraries]
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coilCompose" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
 androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycleRuntimeKtx" }

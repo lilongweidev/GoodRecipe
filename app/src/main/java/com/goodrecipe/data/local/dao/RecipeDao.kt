@@ -13,6 +13,9 @@ interface RecipeDao {
     @Query("SELECT * FROM recipes WHERE isFavorite = 1 ORDER BY createdAt DESC")
     fun getFavoriteRecipes(): Flow<List<RecipeEntity>>
 
+    @Query("SELECT * FROM recipes WHERE isUserRecipe = 1 ORDER BY createdAt DESC")
+    fun getUserRecipes(): Flow<List<RecipeEntity>>
+
     @Query("SELECT * FROM recipes WHERE category = :category ORDER BY createdAt DESC")
     fun getRecipesByCategory(category: String): Flow<List<RecipeEntity>>
 

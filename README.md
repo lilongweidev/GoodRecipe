@@ -47,7 +47,7 @@ app/src/main/java/com/goodrecipe/
 ## 功能
 
 - ✅ 浏览所有菜谱
-- ✅ 按分类筛选（早餐 / 午餐 / 晚餐 / 甜点等）
+- ✅ 按分类筛选（早餐 / 午餐 / 晚餐 / 汤品）
 - ✅ 搜索菜谱
 - ✅ 收藏 / 取消收藏
 - ✅ 添加新菜谱（食材 + 步骤）
@@ -59,7 +59,7 @@ app/src/main/java/com/goodrecipe/
 
 1. Clone 项目
 ```bash
-git clone https://github.com/your-username/GoodRecipe.git
+git clone https://github.com/lilongweidev/GoodRecipe.git
 ```
 
 2. 用 Android Studio（Hedgehog 或更高版本）打开项目

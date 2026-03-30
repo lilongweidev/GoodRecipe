@@ -10,6 +10,7 @@ import javax.inject.Singleton
 interface RecipeRepository {
     fun getAllRecipes(): Flow<List<Recipe>>
     fun getFavoriteRecipes(): Flow<List<Recipe>>
+    fun getUserRecipes(): Flow<List<Recipe>>
     fun getRecipesByCategory(category: String): Flow<List<Recipe>>
     fun searchRecipes(query: String): Flow<List<Recipe>>
     suspend fun getRecipeById(id: Int): Recipe?
@@ -30,6 +31,9 @@ class RecipeRepositoryImpl @Inject constructor(
 
     override fun getFavoriteRecipes(): Flow<List<Recipe>> =
         dao.getFavoriteRecipes().map { list -> list.map { it.toDomain() } }
+
+    override fun getUserRecipes(): Flow<List<Recipe>> =
+        dao.getUserRecipes().map { list -> list.map { it.toDomain() } }
 
     override fun getRecipesByCategory(category: String): Flow<List<Recipe>> =
         dao.getRecipesByCategory(category).map { list -> list.map { it.toDomain() } }
@@ -86,7 +90,8 @@ private fun RecipeEntity.toDomain() = Recipe(
     tags = tags.split("||").filter { it.isNotBlank() },
     nutritionalNotes = nutritionalNotes,
     preparationTips = preparationTips,
-    createdAt = createdAt
+    createdAt = createdAt,
+    isUserRecipe = isUserRecipe
 )
 
 private fun Recipe.toEntity() = RecipeEntity(
@@ -103,5 +108,6 @@ private fun Recipe.toEntity() = RecipeEntity(
     tags = tags.joinToString("||"),
     nutritionalNotes = nutritionalNotes,
     preparationTips = preparationTips,
-    createdAt = createdAt
+    createdAt = createdAt,
+    isUserRecipe = isUserRecipe
 )

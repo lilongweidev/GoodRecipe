@@ -1293,5 +1293,1187 @@
     "preparationTips": "冬瓜片不要切太厚，煮至完全透明才是最佳状态；肉片腌制淀粉防止变老。",
     "imageUrl": "https://example.com/images/soup-winter-melon-pork.jpg",
     "isFavorite": false
+  },
+  {
+    "slug": "breakfast-xiaolongbao",
+    "title": "小笼包",
+    "description": "薄皮包裹鲜肉馅与皮冻汤汁，蒸后轻提慢移先开窗，江南早点中的代表作。",
+    "ingredients": [
+      "面粉",
+      "猪肉馅",
+      "肉皮冻",
+      "姜末",
+      "生抽",
+      "料酒",
+      "白胡椒粉",
+      "芝麻油",
+      "酵母"
+    ],
+    "steps": [
+      "酵母温水化开，面粉揉成光滑面团醒发。",
+      "肉馅加调料与水搅打上劲，包入小丁皮冻。",
+      "擀皮包馅捏褶，蒸锅大火蒸8–10分钟即可。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 50,
+    "servings": 3,
+    "tags": [
+      "江浙",
+      "蒸点",
+      "爆汁"
+    ],
+    "nutritionalNotes": "面皮提供碳水，肉馅补充蛋白质，汤汁含胶原蛋白。",
+    "preparationTips": "收口捏紧防漏汤；蒸制前可再醒10分钟面皮更暄软。",
+    "imageUrl": "https://example.com/images/breakfast-xiaolongbao.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "breakfast-oat-milk-porridge",
+    "title": "燕麦牛奶粥",
+    "description": "燕麦与牛奶小火煮至绵稠，可加蜂蜜或水果，快手营养早餐。",
+    "ingredients": [
+      "燕麦片",
+      "牛奶",
+      "蜂蜜",
+      "香蕉",
+      "盐"
+    ],
+    "steps": [
+      "牛奶与燕麦入锅小火煮5–8分钟，常搅拌。",
+      "加盐一点点提味，盛出加蜂蜜与香蕉片。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 12,
+    "servings": 2,
+    "tags": [
+      "快手",
+      "高纤维",
+      "西式"
+    ],
+    "nutritionalNotes": "燕麦富含β-葡聚糖，牛奶补钙与蛋白；适合控糖时少蜂蜜。",
+    "preparationTips": "用即食燕麦更省时；大火易扑锅需小火。",
+    "imageUrl": "https://example.com/images/breakfast-oat-milk-porridge.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "breakfast-french-toast",
+    "title": "法式吐司",
+    "description": "鸡蛋牛奶浸泡厚吐司两面煎金黄，外酥里嫩，奶香浓郁。",
+    "ingredients": [
+      "厚吐司",
+      "鸡蛋",
+      "牛奶",
+      "白糖",
+      "黄油",
+      "肉桂粉"
+    ],
+    "steps": [
+      "鸡蛋、牛奶、糖打匀成蛋液。",
+      "吐司两面浸透蛋液，中小火黄油煎金黄。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 15,
+    "servings": 2,
+    "tags": [
+      "西式",
+      "香甜",
+      "松软"
+    ],
+    "nutritionalNotes": "鸡蛋与牛奶提供优质蛋白与钙质；可用全麦吐司增加纤维。",
+    "preparationTips": "吐司不要泡太久以免烂；煎完可撒肉桂粉。",
+    "imageUrl": "https://example.com/images/breakfast-french-toast.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "breakfast-veggie-egg-wrap",
+    "title": "蔬菜鸡蛋卷饼",
+    "description": "薄饼卷炒蛋与时蔬，一口下去蛋香与蔬菜清脆兼备。",
+    "ingredients": [
+      "全麦卷饼",
+      "鸡蛋",
+      "生菜",
+      "番茄",
+      "黄瓜",
+      "奶酪片",
+      "黑胡椒",
+      "盐"
+    ],
+    "steps": [
+      "鸡蛋打散炒熟切块；生菜番茄黄瓜切丝。",
+      "卷饼微热，铺上蛋与蔬菜、奶酪，卷起切段。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 15,
+    "servings": 2,
+    "tags": [
+      "卷饼",
+      "蔬菜",
+      "便携"
+    ],
+    "nutritionalNotes": "蔬菜补充维生素，鸡蛋蛋白饱腹；奶酪补钙。",
+    "preparationTips": "卷饼勿过热以免蔬菜出水；可挤少许酸奶替代奶酪。",
+    "imageUrl": "https://example.com/images/breakfast-veggie-egg-wrap.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "breakfast-purple-potato-cake",
+    "title": "紫薯发糕",
+    "description": "紫薯泥调入发面糊蒸至蓬松，自然清甜少油。",
+    "ingredients": [
+      "紫薯",
+      "面粉",
+      "酵母",
+      "白糖",
+      "牛奶"
+    ],
+    "steps": [
+      "紫薯蒸熟压泥，加牛奶调匀。",
+      "面粉、酵母、糖与紫薯糊拌成稠面糊，发酵至两倍大，入模蒸25分钟。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 70,
+    "servings": 4,
+    "tags": [
+      "发酵",
+      "粗粮",
+      "无油"
+    ],
+    "nutritionalNotes": "紫薯富含花青素与膳食纤维；发糕易消化。",
+    "preparationTips": "面糊偏稠成品才立体；关火焖5分钟防塌陷。",
+    "imageUrl": "https://example.com/images/breakfast-purple-potato-cake.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "breakfast-salted-soy-milk",
+    "title": "咸豆浆配烧饼",
+    "description": "豆浆煮沸点酱油、榨菜、虾皮、油条碎，咸鲜暖胃。",
+    "ingredients": [
+      "黄豆",
+      "水",
+      "生抽",
+      "虾皮",
+      "榨菜",
+      "油条",
+      "葱花"
+    ],
+    "steps": [
+      "黄豆制熟豆浆滤清沸煮。",
+      "碗内放生抽、虾皮、榨菜，冲入豆浆搅匀，撒油条碎与葱花。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 40,
+    "servings": 3,
+    "tags": [
+      "传统",
+      "咸鲜",
+      "搭配"
+    ],
+    "nutritionalNotes": "黄豆蛋白丰富；油条热量较高可适量。",
+    "preparationTips": "豆浆务必煮沸；高血压者少榨菜。",
+    "imageUrl": "https://example.com/images/breakfast-salted-soy-milk.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "breakfast-sandwich-egg",
+    "title": "三明治煎蛋",
+    "description": "吐司夹煎蛋与生菜火腿，冷吃热吃皆可。",
+    "ingredients": [
+      "吐司",
+      "鸡蛋",
+      "火腿片",
+      "生菜",
+      "番茄酱",
+      "黄油"
+    ],
+    "steps": [
+      "鸡蛋单面煎或炒散；吐司轻烘。",
+      "抹番茄酱，夹火腿、生菜、蛋，对切装盘。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 10,
+    "servings": 2,
+    "tags": [
+      "西式",
+      "极简",
+      "外带"
+    ],
+    "nutritionalNotes": "搭配均衡；火腿选低盐更佳。",
+    "preparationTips": "吐司可换全麦；加点番茄片更清爽。",
+    "imageUrl": "https://example.com/images/breakfast-sandwich-egg.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "breakfast-red-date-millet",
+    "title": "红枣小米粥",
+    "description": "小米与红枣同煮至开花，暖胃补血。",
+    "ingredients": [
+      "小米",
+      "红枣",
+      "清水",
+      "红糖"
+    ],
+    "steps": [
+      "小米淘洗，红枣去核。",
+      "冷水下小米大火烧开转小火熬20分钟，加红枣再煮10分钟，按需加红糖。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 35,
+    "servings": 3,
+    "tags": [
+      "粥品",
+      "温补",
+      "素食"
+    ],
+    "nutritionalNotes": "小米易消化，红枣含铁与维生素；糖尿病者少糖。",
+    "preparationTips": "小米粥易溢锅需留缝或小火；红枣去核防苦。",
+    "imageUrl": "https://example.com/images/breakfast-red-date-millet.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "breakfast-corn-pancake",
+    "title": "奶香玉米饼",
+    "description": "玉米浆与面粉煎成小饼，边缘微脆中心软糯。",
+    "ingredients": [
+      "甜玉米粒",
+      "牛奶",
+      "面粉",
+      "鸡蛋",
+      "白糖",
+      "油"
+    ],
+    "steps": [
+      "玉米搅拌机打碎，与面粉、蛋、奶、糖拌成糊。",
+      "平底锅少油小火煎至两面金黄。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 20,
+    "servings": 3,
+    "tags": [
+      "煎烙",
+      "玉米",
+      "香甜"
+    ],
+    "nutritionalNotes": "玉米提供膳食纤维与叶黄素；牛奶补钙。",
+    "preparationTips": "糊稠度像酸奶；火大易外焦里生。",
+    "imageUrl": "https://example.com/images/breakfast-corn-pancake.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "breakfast-veggie-pork-noodles",
+    "title": "青菜肉丝面",
+    "description": "高汤煮面，配快炒青菜肉丝，一碗入魂。",
+    "ingredients": [
+      "挂面",
+      "猪里脊",
+      "青菜",
+      "姜丝",
+      "生抽",
+      "淀粉",
+      "盐",
+      "高汤"
+    ],
+    "steps": [
+      "肉丝生抽淀粉腌制，与姜丝快炒至变色。",
+      "高汤煮面，焯青菜，码肉丝，调味出锅。"
+    ],
+    "category": "早餐",
+    "cookTimeMinutes": 25,
+    "servings": 2,
+    "tags": [
+      "面食",
+      "汤面",
+      "暖胃"
+    ],
+    "nutritionalNotes": "瘦肉高蛋白，青菜补维生素；早餐咸淡宜略淡。",
+    "preparationTips": "面煮至八成熟再焖口感更好；高汤可用清汤代替。",
+    "imageUrl": "https://example.com/images/breakfast-veggie-pork-noodles.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "lunch-qingjiao-rous",
+    "title": "青椒肉丝",
+    "description": "青椒脆爽肉丝滑嫩，经典川菜小炒。",
+    "ingredients": [
+      "猪里脊",
+      "青椒",
+      "木耳",
+      "姜蒜",
+      "生抽",
+      "料酒",
+      "淀粉",
+      "盐",
+      "油"
+    ],
+    "steps": [
+      "肉丝腌制；青椒切丝。",
+      "热锅滑炒肉丝盛出；爆香姜蒜下青椒木耳，回锅肉丝炒匀调味。"
+    ],
+    "category": "中餐",
+    "cookTimeMinutes": 18,
+    "servings": 3,
+    "tags": [
+      "川菜",
+      "小炒",
+      "下饭"
+    ],
+    "nutritionalNotes": "瘦肉补蛋白，青椒维C高；少油更健康。",
+    "preparationTips": "肉丝大火快炒避免老；青椒保持断生。",
+    "imageUrl": "https://example.com/images/lunch-qingjiao-rous.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "lunch-koushuiji",
+    "title": "口水鸡",
+    "description": "煮熟鸡浸冰水，淋红油蒜泥料，麻辣鲜香。",
+    "ingredients": [
+      "鸡腿",
+      "花椒",
+      "芝麻酱",
+      "生抽",
+      "醋",
+      "糖",
+      "辣椒油",
+      "蒜末",
+      "花生碎"
+    ],
+    "steps": [
+      "鸡腿加葱姜花椒煮熟，冰水浸泡切条。",
+      "调料调成汁淋在鸡肉上，撒花生碎。"
+    ],
+    "category": "中餐",
+    "cookTimeMinutes": 40,
+    "servings": 3,
+    "tags": [
+      "川菜",
+      "凉菜",
+      "麻辣"
+    ],
+    "nutritionalNotes": "鸡肉高蛋白；芝麻酱香浓热量较高。",
+    "preparationTips": "煮鸡勿过老；红油可按口味增减。",
+    "imageUrl": "https://example.com/images/lunch-koushuiji.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "lunch-suancaiyu",
+    "title": "酸菜鱼",
+    "description": "鱼片滑嫩酸菜开胃，汤色奶白微酸。",
+    "ingredients": [
+      "草鱼",
+      "酸菜",
+      "泡椒",
+      "姜蒜",
+      "蛋清",
+      "淀粉",
+      "白胡椒粉",
+      "油"
+    ],
+    "steps": [
+      "鱼片上浆；酸菜炒香加水煮开。",
+      "下鱼片滑熟，撒葱花泼热油激香。"
+    ],
+    "category": "中餐",
+    "cookTimeMinutes": 35,
+    "servings": 4,
+    "tags": [
+      "川菜",
+      "鱼类",
+      "酸爽"
+    ],
+    "nutritionalNotes": "鱼肉优质蛋白；酸菜含盐注意总量。",
+    "preparationTips": "鱼片切薄；翻锅轻推避免碎。",
+    "imageUrl": "https://example.com/images/lunch-suancaiyu.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "lunch-baiqieji",
+    "title": "白切鸡",
+    "description": "皮黄肉白，原汁原味配姜葱蘸料。",
+    "ingredients": [
+      "三黄鸡",
+      "姜",
+      "葱",
+      "盐",
+      "料酒",
+      "冰水"
+    ],
+    "steps": [
+      "鸡身抹盐腌制，清水加葱姜料酒煮15分钟后焖20分钟。",
+      "冰水浸皮爽脆，斩件配姜葱油。"
+    ],
+    "category": "中餐",
+    "cookTimeMinutes": 60,
+    "servings": 3,
+    "tags": [
+      "粤菜",
+      "清淡",
+      "冷盘"
+    ],
+    "nutritionalNotes": "鸡肉低脂高蛋白；蘸料含油适量使用。",
+    "preparationTips": "焖制靠余温熟透更嫩；斩件刀要快。",
+    "imageUrl": "https://example.com/images/lunch-baiqieji.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "lunch-xihucuyu",
+    "title": "西湖醋鱼",
+    "description": "草鱼醋糖勾芡，杭州名菜酸甜鲜嫩。",
+    "ingredients": [
+      "草鱼",
+      "姜",
+      "姜醋汁",
+      "白糖",
+      "淀粉",
+      "料酒"
+    ],
+    "steps": [
+      "鱼切雌雄片焯水定型。",
+      "煮姜汁糖醋汁勾芡淋鱼身。"
+    ],
+    "category": "中餐",
+    "cookTimeMinutes": 30,
+    "servings": 2,
+    "tags": [
+      "江浙",
+      "糖醋",
+      "鱼类"
+    ],
+    "nutritionalNotes": "鱼类补DHA；糖醋汁含糖控量。",
+    "preparationTips": "火候精准鱼才嫩；可改用鲈鱼更易操作。",
+    "imageUrl": "https://example.com/images/lunch-xihucuyu.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "lunch-mayishangshu",
+    "title": "蚂蚁上树",
+    "description": "粉丝炒肉末如蚂蚁上树。",
+    "ingredients": [
+      "粉丝",
+      "猪肉末",
+      "豆瓣酱",
+      "姜蒜",
+      "生抽",
+      "葱"
+    ],
+    "steps": [
+      "粉丝泡软剪段；肉末炒香。",
+      "下豆瓣酱炒红油，加粉丝与少许水炒匀，撒葱花。"
+    ],
+    "category": "中餐",
+    "cookTimeMinutes": 20,
+    "servings": 3,
+    "tags": [
+      "川菜",
+      "粉条",
+      "下饭"
+    ],
+    "nutritionalNotes": "粉条碳水为主，搭配肉末补蛋白。",
+    "preparationTips": "粉丝勿煮烂；加水少量防粘锅。",
+    "imageUrl": "https://example.com/images/lunch-mayishangshu.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "lunch-nongjia-xiaochaorou",
+    "title": "农家小炒肉",
+    "description": "五花肉片与青椒豆豉同炒，油润香辣。",
+    "ingredients": [
+      "五花肉",
+      "螺丝椒",
+      "豆豉",
+      "大蒜",
+      "生抽",
+      "蚝油"
+    ],
+    "steps": [
+      "五花肉薄片煸出油。",
+      "下豆豉蒜片与青椒爆炒，调味出锅。"
+    ],
+    "category": "中餐",
+    "cookTimeMinutes": 18,
+    "servings": 3,
+    "tags": [
+      "湘菜",
+      "经典",
+      "下饭"
+    ],
+    "nutritionalNotes": "五花肉脂肪较高，搭配蔬菜适量食用。",
+    "preparationTips": "肉片煸至微卷更香；青椒选略辣品种。",
+    "imageUrl": "https://example.com/images/lunch-nongjia-xiaochaorou.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "lunch-muxurou",
+    "title": "木须肉",
+    "description": "鸡蛋木耳黄花炒肉片，营养均衡木须名。",
+    "ingredients": [
+      "猪里脊",
+      "鸡蛋",
+      "木耳",
+      "黄瓜",
+      "生抽",
+      "料酒",
+      "淀粉"
+    ],
+    "steps": [
+      "蛋液炒熟盛出；肉丝滑炒。",
+      "下木耳黄瓜翻炒，合炒调味。"
+    ],
+    "category": "中餐",
+    "cookTimeMinutes": 20,
+    "servings": 3,
+    "tags": [
+      "鲁菜",
+      "家常",
+      "软嫩"
+    ],
+    "nutritionalNotes": "木耳纤维高，鸡蛋卵磷脂丰富。",
+    "preparationTips": "黄瓜后下保脆；肉丝上浆更滑。",
+    "imageUrl": "https://example.com/images/lunch-muxurou.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "lunch-majiang-bocai",
+    "title": "麻酱菠菜",
+    "description": "焯菠菜淋芝麻酱蒜泥，凉菜佳品。",
+    "ingredients": [
+      "菠菜",
+      "芝麻酱",
+      "蒜泥",
+      "生抽",
+      "醋",
+      "香油",
+      "盐"
+    ],
+    "steps": [
+      "菠菜焯水挤干切段。",
+      "麻酱温水调开加调料拌匀淋面。"
+    ],
+    "category": "中餐",
+    "cookTimeMinutes": 12,
+    "servings": 2,
+    "tags": [
+      "凉菜",
+      "素食",
+      "补钙"
+    ],
+    "nutritionalNotes": "菠菜铁与叶酸丰富，麻酱补钙。",
+    "preparationTips": "菠菜焯后挤干防涩；麻酱分次加水调开。",
+    "imageUrl": "https://example.com/images/lunch-majiang-bocai.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "lunch-ganbian-doujiao",
+    "title": "干煸豆角",
+    "description": "豆角干煸至表皮皱配肉末花椒。",
+    "ingredients": [
+      "四季豆",
+      "猪肉末",
+      "干辣椒",
+      "花椒",
+      "姜蒜",
+      "生抽",
+      "盐"
+    ],
+    "steps": [
+      "豆角炸至表面起皱或干煸至熟。",
+      "炒香肉末与花椒辣椒，下豆角炒匀。"
+    ],
+    "category": "中餐",
+    "cookTimeMinutes": 22,
+    "servings": 3,
+    "tags": [
+      "川菜",
+      "干煸",
+      "香脆"
+    ],
+    "nutritionalNotes": "四季豆需熟透；油炸版热量较高。",
+    "preparationTips": "空气炸锅可减少用油量。",
+    "imageUrl": "https://example.com/images/lunch-ganbian-doujiao.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "dinner-black-pepper-steak",
+    "title": "黑椒牛排",
+    "description": "牛排煎封锁汁，黑椒黄油酱汁。",
+    "ingredients": [
+      "牛排",
+      "黑胡椒",
+      "黄油",
+      "大蒜",
+      "海盐",
+      "橄榄油",
+      "迷迭香"
+    ],
+    "steps": [
+      "牛排回温擦干撒盐黑胡椒。",
+      "高温橄榄油两面煎封；加黄油蒜迷迭香淋油。静置切条。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 25,
+    "servings": 2,
+    "tags": [
+      "西式",
+      "高蛋白",
+      "主菜"
+    ],
+    "nutritionalNotes": "牛肉富含铁与肌酸；黄油适量。",
+    "preparationTips": "静置5分钟再切锁住肉汁。",
+    "imageUrl": "https://example.com/images/dinner-black-pepper-steak.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "dinner-teriyaki-chicken-rice",
+    "title": "照烧鸡腿饭",
+    "description": "鸡腿照烧汁浓稠甜咸，配米饭。",
+    "ingredients": [
+      "鸡腿",
+      "生抽",
+      "料酒",
+      "蜂蜜",
+      "姜",
+      "白芝麻"
+    ],
+    "steps": [
+      "鸡腿去骨皮朝下煎出油。",
+      "倒入照烧汁小火收汁，撒芝麻切块盖饭。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 35,
+    "servings": 3,
+    "tags": [
+      "日式",
+      "盖饭",
+      "甜咸"
+    ],
+    "nutritionalNotes": "鸡皮脂肪较高；可去皮减脂。",
+    "preparationTips": "收汁时注意翻动防糊。",
+    "imageUrl": "https://example.com/images/dinner-teriyaki-chicken-rice.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "dinner-curry-chicken-potato",
+    "title": "咖喱土豆鸡",
+    "description": "椰浆咖喱炖鸡块土豆，浓郁下饭。",
+    "ingredients": [
+      "鸡腿",
+      "土豆",
+      "胡萝卜",
+      "洋葱",
+      "咖喱块",
+      "椰浆"
+    ],
+    "steps": [
+      "鸡块焯水炒香洋葱，下咖喱炒香。",
+      "加水与土豆胡萝卜炖软，加椰浆煮开。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 45,
+    "servings": 4,
+    "tags": [
+      "咖喱",
+      "下饭",
+      "浓郁"
+    ],
+    "nutritionalNotes": "咖喱含姜黄素；椰浆热量高适量。",
+    "preparationTips": "土豆后下防化；补水分防粘底。",
+    "imageUrl": "https://example.com/images/dinner-curry-chicken-potato.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "dinner-salt-baked-shrimp",
+    "title": "盐焗虾",
+    "description": "粗盐导热焗熟大虾，原味鲜甜。",
+    "ingredients": [
+      "大虾",
+      "粗盐",
+      "花椒",
+      "八角",
+      "姜片"
+    ],
+    "steps": [
+      "锅中粗盐与香料炒热。",
+      "埋入大虾焗至壳红肉熟。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 20,
+    "servings": 3,
+    "tags": [
+      "粤菜",
+      "海鲜",
+      "少油"
+    ],
+    "nutritionalNotes": "虾高蛋白低脂；钠来自盐壳宜控量。",
+    "preparationTips": "虾线可挑；焗时勿过久防老。",
+    "imageUrl": "https://example.com/images/dinner-salt-baked-shrimp.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "dinner-jiangbao-jiding",
+    "title": "酱爆鸡丁",
+    "description": "鸡丁配青瓜或葱白，酱香甜辣。",
+    "ingredients": [
+      "鸡胸肉",
+      "甜面酱",
+      "黄酱",
+      "料酒",
+      "淀粉",
+      "葱白",
+      "油"
+    ],
+    "steps": [
+      "鸡丁上浆滑油。",
+      "甜面酱等炒香下鸡丁快速翻炒均匀。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 20,
+    "servings": 3,
+    "tags": [
+      "京酱",
+      "嫩滑",
+      "下饭"
+    ],
+    "nutritionalNotes": "鸡胸肉低脂；酱料含钠偏高。",
+    "preparationTips": "大火快炒保嫩。",
+    "imageUrl": "https://example.com/images/dinner-jiangbao-jiding.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "dinner-sweet-sour-pineapple-pork",
+    "title": "菠萝咕咾肉",
+    "description": "酥炸肉块裹糖醋汁配菠萝。",
+    "ingredients": [
+      "猪里脊",
+      "菠萝",
+      "青椒",
+      "番茄酱",
+      "白醋",
+      "白糖",
+      "淀粉",
+      "鸡蛋"
+    ],
+    "steps": [
+      "肉切厚片腌制挂糊油炸。",
+      "番茄酱糖醋汁熬稠，下肉块菠萝青椒翻匀。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 40,
+    "servings": 3,
+    "tags": [
+      "粤菜",
+      "糖醋",
+      "宴客"
+    ],
+    "nutritionalNotes": "菠萝酵素助消化；油炸部分热量高。",
+    "preparationTips": "肉炸两遍更酥；汁浓再下料。",
+    "imageUrl": "https://example.com/images/dinner-sweet-sour-pineapple-pork.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "dinner-onion-beef",
+    "title": "洋葱炒肥牛",
+    "description": "肥牛卷与洋葱快炒，酱汁鲜香。",
+    "ingredients": [
+      "肥牛卷",
+      "洋葱",
+      "蚝油",
+      "生抽",
+      "糖",
+      "黑胡椒",
+      "油"
+    ],
+    "steps": [
+      "肥牛焯水去沫沥干。",
+      "炒香洋葱，下肥牛与酱汁大火翻匀。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 15,
+    "servings": 3,
+    "tags": [
+      "快手",
+      "日式风",
+      "下饭"
+    ],
+    "nutritionalNotes": "肥牛补铁；洋葱含槲皮素。",
+    "preparationTips": "肥牛勿久煮；可加少许淀粉水收汁。",
+    "imageUrl": "https://example.com/images/dinner-onion-beef.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "dinner-garlic-scallop-vermicelli",
+    "title": "蒜蓉粉丝蒸扇贝",
+    "description": "扇贝配金银蒜蒸粉丝。",
+    "ingredients": [
+      "扇贝",
+      "粉丝",
+      "大蒜",
+      "蒸鱼豉油",
+      "小米椒",
+      "油"
+    ],
+    "steps": [
+      "粉丝泡软垫底，扇贝洗净放面。",
+      "金银蒜铺面，淋豉油蒸6–8分钟泼热油。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 25,
+    "servings": 3,
+    "tags": [
+      "粤菜",
+      "海鲜",
+      "蒸"
+    ],
+    "nutritionalNotes": "扇贝锌与蛋白丰富；蒜适量护胃。",
+    "preparationTips": "蒸制时间不冗长；粉丝吸汁咸度注意。",
+    "imageUrl": "https://example.com/images/dinner-garlic-scallop-vermicelli.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "dinner-kimchi-tofu-stew",
+    "title": "韩式泡菜豆腐锅",
+    "description": "泡菜与嫩豆腐辣酱汤，冬天暖身。",
+    "ingredients": [
+      "泡菜",
+      "嫩豆腐",
+      "辣椒酱",
+      "洋葱",
+      "蒜末",
+      "大葱",
+      "五花肉片",
+      "盐"
+    ],
+    "steps": [
+      "五花肉煸香，下泡菜与辣酱炒香加水煮。",
+      "下豆腐块中小火煮10分钟，撒葱。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 30,
+    "servings": 3,
+    "tags": [
+      "韩式",
+      "酸辣",
+      "一锅"
+    ],
+    "nutritionalNotes": "豆腐植物蛋白；泡菜益生菌。",
+    "preparationTips": "咸度主要靠泡菜调；可加金针菇。",
+    "imageUrl": "https://example.com/images/dinner-kimchi-tofu-stew.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "dinner-scallion-lamb",
+    "title": "葱爆羊肉",
+    "description": "大葱与羊肉片大火爆炒，膻味少香气足。",
+    "ingredients": [
+      "羊肉片",
+      "大葱",
+      "姜",
+      "料酒",
+      "生抽",
+      "孜然",
+      "油"
+    ],
+    "steps": [
+      "羊肉腌料酒生抽。",
+      "热油爆葱，下羊肉大火快炒，撒孜然出锅。"
+    ],
+    "category": "晚餐",
+    "cookTimeMinutes": 15,
+    "servings": 3,
+    "tags": [
+      "北方",
+      "大火",
+      "冬季"
+    ],
+    "nutritionalNotes": "羊肉温补高蛋白；冬季适量。",
+    "preparationTips": "全程大火；羊肉片宜薄。",
+    "imageUrl": "https://example.com/images/dinner-scallion-lamb.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "soup-fish-maw-chicken",
+    "title": "花胶鸡汤",
+    "description": "花胶与鸡慢炖，胶质丰富汤色金黄。",
+    "ingredients": [
+      "花胶",
+      "土鸡",
+      "姜",
+      "红枣",
+      "枸杞",
+      "料酒",
+      "盐"
+    ],
+    "steps": [
+      "花胶泡发切段；鸡焯水。",
+      "砂锅炖鸡1.5小时，加花胶红枣再炖30分钟，枸杞后放。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 140,
+    "servings": 4,
+    "tags": [
+      "滋补",
+      "胶原",
+      "慢炖"
+    ],
+    "nutritionalNotes": "花胶胶原蛋白；盐适量。",
+    "preparationTips": "花胶泡发需耐心；忌过早加盐。",
+    "imageUrl": "https://example.com/images/soup-fish-maw-chicken.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "soup-radish-brisket",
+    "title": "萝卜牛腩汤",
+    "description": "牛腩与白萝卜清炖，汤清味厚。",
+    "ingredients": [
+      "牛腩",
+      "白萝卜",
+      "姜",
+      "料酒",
+      "八角",
+      "盐",
+      "白胡椒"
+    ],
+    "steps": [
+      "牛腩焯水切块，砂锅或高压锅炖软。",
+      "加萝卜块炖至透明，调味。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 120,
+    "servings": 4,
+    "tags": [
+      "慢炖",
+      "秋冬",
+      "暖胃"
+    ],
+    "nutritionalNotes": "牛腩含铁与蛋白，萝卜顺气。",
+    "preparationTips": "牛腩选坑腩；萝卜后下保形。",
+    "imageUrl": "https://example.com/images/soup-radish-brisket.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "soup-papaya-snow-fungus",
+    "title": "木瓜银耳羹",
+    "description": "银耳炖木瓜，清甜润燥。",
+    "ingredients": [
+      "木瓜",
+      "干银耳",
+      "冰糖",
+      "枸杞"
+    ],
+    "steps": [
+      "银耳泡发撕小朵炖出胶质。",
+      "加木瓜块与冰糖煮15分钟，撒枸杞。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 90,
+    "servings": 4,
+    "tags": [
+      "甜汤",
+      "润燥",
+      "素食"
+    ],
+    "nutritionalNotes": "银耳多糖与膳食纤维；糖按需。",
+    "preparationTips": "银耳炖久才糯；木瓜不宜久煮。",
+    "imageUrl": "https://example.com/images/soup-papaya-snow-fungus.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "soup-yam-pork-rib",
+    "title": "山药排骨汤",
+    "description": "山药与排骨健脾养胃。",
+    "ingredients": [
+      "排骨",
+      "山药",
+      "姜",
+      "料酒",
+      "盐",
+      "枸杞"
+    ],
+    "steps": [
+      "排骨焯水，与姜炖40分钟。",
+      "下山药块炖20分钟，调味撒枸杞。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 70,
+    "servings": 4,
+    "tags": [
+      "家常",
+      "健脾",
+      "清淡"
+    ],
+    "nutritionalNotes": "山药黏蛋白护胃；排骨补钙。",
+    "preparationTips": "山药去皮戴手套；不宜久炖成糊。",
+    "imageUrl": "https://example.com/images/soup-yam-pork-rib.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "soup-tomato-oxtail",
+    "title": "番茄牛尾汤",
+    "description": "牛尾与番茄炖煮，酸甜浓郁。",
+    "ingredients": [
+      "牛尾",
+      "番茄",
+      "洋葱",
+      "胡萝卜",
+      "番茄酱",
+      "姜",
+      "料酒"
+    ],
+    "steps": [
+      "牛尾焯水，炒香洋葱番茄，加水炖2小时。",
+      "胡萝卜后放，调盐。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 150,
+    "servings": 4,
+    "tags": [
+      "西式风",
+      "胶原",
+      "宴客"
+    ],
+    "nutritionalNotes": "牛尾胶质丰富；炖煮时间长。",
+    "preparationTips": "可加红酒提香；油脂可撇去。",
+    "imageUrl": "https://example.com/images/soup-tomato-oxtail.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "soup-bitter-soy-rib",
+    "title": "苦瓜黄豆排骨汤",
+    "description": "苦瓜清热，黄豆绵软。",
+    "ingredients": [
+      "苦瓜",
+      "黄豆",
+      "排骨",
+      "姜",
+      "蜜枣",
+      "盐"
+    ],
+    "steps": [
+      "黄豆泡发；排骨焯水。",
+      "同炖1小时，后放苦瓜煮15分钟。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 85,
+    "servings": 4,
+    "tags": [
+      "清热",
+      "广式",
+      "夏季"
+    ],
+    "nutritionalNotes": "苦瓜苷有助降火；体虚少饮。",
+    "preparationTips": "苦瓜可盐腌减苦；黄豆软烂再调味。",
+    "imageUrl": "https://example.com/images/soup-bitter-soy-rib.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "soup-coconut-chicken",
+    "title": "椰子鸡汤",
+    "description": "椰汁炖鸡清甜，海南风味。",
+    "ingredients": [
+      "老椰子",
+      "土鸡",
+      "红枣",
+      "姜",
+      "盐"
+    ],
+    "steps": [
+      "取椰汁椰肉，鸡焯水。",
+      "椰汁炖鸡1小时，加盐少许。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 100,
+    "servings": 4,
+    "tags": [
+      "清香",
+      "低脂",
+      "南方"
+    ],
+    "nutritionalNotes": "天然电解质；适量饮用。",
+    "preparationTips": "老椰子开口注意安全；汤宜少盐突出清甜。",
+    "imageUrl": "https://example.com/images/soup-coconut-chicken.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "soup-mustard-salted-egg",
+    "title": "芥菜咸蛋汤",
+    "description": "芥菜与咸蛋滚汤，清爽解腻。",
+    "ingredients": [
+      "芥菜",
+      "咸鸭蛋",
+      "姜",
+      "盐",
+      "食用油"
+    ],
+    "steps": [
+      "咸蛋切丁略炒，加水煮沸。",
+      "下芥菜煮至软，调盐。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 15,
+    "servings": 3,
+    "tags": [
+      "快手",
+      "广式",
+      "清淡"
+    ],
+    "nutritionalNotes": "芥菜纤维高；咸蛋含钠。",
+    "preparationTips": "咸蛋咸度需试味再加盐。",
+    "imageUrl": "https://example.com/images/soup-mustard-salted-egg.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "soup-ginkgo-tripe",
+    "title": "白果猪肚汤",
+    "description": "猪肚洗白净与白果胡椒炖汤。",
+    "ingredients": [
+      "猪肚",
+      "白果",
+      "白胡椒粒",
+      "姜",
+      "盐",
+      "料酒"
+    ],
+    "steps": [
+      "猪肚盐醋搓洗焯水切条。",
+      "与白果胡椒姜炖1.5小时至软，调味。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 120,
+    "servings": 4,
+    "tags": [
+      "滋补",
+      "养胃",
+      "传统"
+    ],
+    "nutritionalNotes": "白果不宜过量；猪肚处理要干净。",
+    "preparationTips": "白果去芯降苦；用筷子翻面洗净猪肚。",
+    "imageUrl": "https://example.com/images/soup-ginkgo-tripe.jpg",
+    "isFavorite": false
+  },
+  {
+    "slug": "soup-tofu-clam",
+    "title": "豆腐蛤蜊汤",
+    "description": "蛤蜊吐沙与豆腐煮清汤，极鲜。",
+    "ingredients": [
+      "蛤蜊",
+      "嫩豆腐",
+      "姜丝",
+      "葱",
+      "盐",
+      "料酒"
+    ],
+    "steps": [
+      "蛤蜊吐沙洗净；豆腐切块。",
+      "水开下姜丝蛤蜊煮至开口，下豆腐稍煮调味。"
+    ],
+    "category": "汤品",
+    "cookTimeMinutes": 18,
+    "servings": 3,
+    "tags": [
+      "海鲜",
+      "低卡",
+      "快手"
+    ],
+    "nutritionalNotes": "蛤蜊锌与蛋白；汤宜淡突显鲜。",
+    "preparationTips": "死蛤蜊丢弃；豆腐不宜久煮。",
+    "imageUrl": "https://example.com/images/soup-tofu-clam.jpg",
+    "isFavorite": false
   }
 ]

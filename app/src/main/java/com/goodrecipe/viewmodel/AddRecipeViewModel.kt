@@ -35,11 +35,13 @@ class AddRecipeViewModel @Inject constructor(
     val uiState: StateFlow<AddRecipeUiState> = _uiState.asStateFlow()
 
     private var editingRecipeId: Int? = null
+    private var editingIsUserRecipe: Boolean = true
 
     fun loadRecipeForEdit(id: Int) {
         viewModelScope.launch {
             val recipe = repository.getRecipeById(id) ?: return@launch
             editingRecipeId = id
+            editingIsUserRecipe = recipe.isUserRecipe
             _uiState.update {
                 it.copy(
                     title = recipe.title,
@@ -109,7 +111,8 @@ class AddRecipeViewModel @Inject constructor(
                 steps = state.steps.filter { it.isNotBlank() },
                 category = state.category.displayName,
                 cookTimeMinutes = state.cookTimeMinutes.toIntOrNull() ?: 30,
-                servings = state.servings.toIntOrNull() ?: 2
+                servings = state.servings.toIntOrNull() ?: 2,
+                isUserRecipe = if (editingRecipeId != null) editingIsUserRecipe else true
             )
             if (editingRecipeId != null) repository.updateRecipe(recipe)
             else repository.insertRecipe(recipe)
