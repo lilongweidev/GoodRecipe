@@ -14,12 +14,11 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.GridItemSpan
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Casino
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -29,7 +28,6 @@ import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -45,6 +43,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -211,17 +210,43 @@ private fun RandomMealCard(
                 .padding(14.dp),
             verticalArrangement = Arrangement.spacedBy(10.dp)
         ) {
-            Surface(
-                shape = MaterialTheme.shapes.small,
-                color = MaterialTheme.colorScheme.primaryContainer
+            // 不同分类使用不同的主题色
+            val (chipColor, chipTextColor) = when (category) {
+                RecipeCategory.BREAKFAST -> MaterialTheme.colorScheme.tertiaryContainer to MaterialTheme.colorScheme.onTertiaryContainer
+                RecipeCategory.LUNCH -> MaterialTheme.colorScheme.primaryContainer to MaterialTheme.colorScheme.onPrimaryContainer
+                RecipeCategory.DINNER -> MaterialTheme.colorScheme.secondaryContainer to MaterialTheme.colorScheme.onSecondaryContainer
+                RecipeCategory.SOUP -> MaterialTheme.colorScheme.errorContainer to MaterialTheme.colorScheme.onErrorContainer
+                else -> MaterialTheme.colorScheme.primaryContainer to MaterialTheme.colorScheme.onPrimaryContainer
+            }
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
             ) {
-                Text(
-                    text = category.displayName,
-                    modifier = Modifier.padding(horizontal = 10.dp, vertical = 5.dp),
-                    style = MaterialTheme.typography.labelMedium,
-                    fontWeight = FontWeight.SemiBold,
-                    color = MaterialTheme.colorScheme.onPrimaryContainer
-                )
+                Surface(
+                    shape = MaterialTheme.shapes.small,
+                    color = chipColor
+                ) {
+                    Text(
+                        text = category.displayName,
+                        modifier = Modifier.padding(horizontal = 10.dp, vertical = 5.dp),
+                        style = MaterialTheme.typography.labelMedium,
+                        fontWeight = FontWeight.SemiBold,
+                        color = chipTextColor
+                    )
+                }
+
+                IconButton(
+                    onClick = { launchFlipReroll() },
+                    enabled = !isEmpty && cardEnabled
+                ) {
+                    Icon(
+                        painter = painterResource(id = com.goodrecipe.R.drawable.ic_change),
+                        contentDescription = "换一个",
+                        tint = MaterialTheme.colorScheme.primary,
+                        modifier = Modifier.size(20.dp)
+                    )
+                }
             }
 
             Text(
@@ -243,9 +268,9 @@ private fun RandomMealCard(
 
             if (recipe != null && !isEmpty) {
                 HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
-                Row(
+                Column(
                     modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.spacedBy(14.dp)
+                    verticalArrangement = Arrangement.spacedBy(6.dp)
                 ) {
                     RandomMetaItem(emoji = "⏱", text = "${recipe.cookTimeMinutes} 分钟")
                     RandomMetaItem(emoji = "👥", text = "${recipe.servings} 人份")
@@ -256,14 +281,6 @@ private fun RandomMealCard(
                 modifier = Modifier.fillMaxWidth(),
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
-                OutlinedButton(
-                    onClick = { launchFlipReroll() },
-                    modifier = Modifier.fillMaxWidth(),
-                    enabled = !isEmpty && cardEnabled,
-                    shape = MaterialTheme.shapes.medium
-                ) {
-                    Text("换一个")
-                }
                 Button(
                     onClick = onViewRecipe,
                     modifier = Modifier.fillMaxWidth(),

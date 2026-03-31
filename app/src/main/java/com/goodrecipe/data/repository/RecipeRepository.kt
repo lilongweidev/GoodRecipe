@@ -22,6 +22,7 @@ interface RecipeRepository {
     fun getRecipesByCategory(category: String): Flow<List<Recipe>>
     fun searchRecipes(query: String): Flow<List<Recipe>>
     suspend fun getRecipeById(id: Int): Recipe?
+    suspend fun getRecipeByTitle(title: String): Recipe?
     suspend fun insertRecipe(recipe: Recipe): Long
     suspend fun updateRecipe(recipe: Recipe)
     suspend fun deleteRecipe(recipe: Recipe)
@@ -69,6 +70,9 @@ class RecipeRepositoryImpl @Inject constructor(
 
     override suspend fun getRecipeById(id: Int): Recipe? =
         dao.getRecipeById(id)?.toDomain()
+
+    override suspend fun getRecipeByTitle(title: String): Recipe? =
+        dao.getRecipeByTitle(title.trim())?.toDomain()
 
     override suspend fun insertRecipe(recipe: Recipe): Long =
         dao.insertRecipe(recipe.toEntity())

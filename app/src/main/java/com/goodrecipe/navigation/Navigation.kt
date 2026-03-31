@@ -156,7 +156,10 @@ fun GoodRecipeNavHost(
         composable(route = Screen.AddRecipe.route) {
             AddRecipeScreen(
                 onBack = { navController.popBackStack() },
-                onSaved = { navController.popBackStack() }
+                onSaved = { navController.popBackStack() },
+                onEditExisting = { id ->
+                    navController.navigate(Screen.EditRecipe.createRoute(id))
+                }
             )
         }
 
@@ -168,7 +171,8 @@ fun GoodRecipeNavHost(
             AddRecipeScreen(
                 recipeId = recipeId,
                 onBack = { navController.popBackStack() },
-                onSaved = { navController.popBackStack() }
+                onSaved = { navController.popBackStack() },
+                onEditExisting = { }
             )
         }
     }

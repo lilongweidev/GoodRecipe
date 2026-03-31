@@ -24,7 +24,12 @@ data class AddRecipeUiState(
     val servings: String = "2",
     val isLoading: Boolean = false,
     val isSaved: Boolean = false,
-    val error: String? = null
+    val error: String? = null,
+    val titleError: String? = null,
+    val descriptionError: String? = null,
+    val ingredientsError: String? = null,
+    val stepsError: String? = null,
+    val duplicateRecipeId: Int? = null
 )
 
 @HiltViewModel
@@ -115,12 +120,50 @@ class AddRecipeViewModel @Inject constructor(
 
     fun saveRecipe() {
         val state = _uiState.value
-        if (state.title.isBlank()) {
-            _uiState.update { it.copy(error = "请输入菜谱名称") }
+        // 先清空字段级错误
+        _uiState.update {
+            it.copy(
+                titleError = null,
+                descriptionError = null,
+                ingredientsError = null,
+                stepsError = null
+            )
+        }
+
+        val hasTitle = state.title.isNotBlank()
+        val hasDescription = state.description.isNotBlank()
+        val hasIngredient = state.ingredients.any { it.isNotBlank() }
+        val hasStep = state.steps.any { it.isNotBlank() }
+
+        if (!hasTitle || !hasDescription || !hasIngredient || !hasStep) {
+            _uiState.update {
+                it.copy(
+                    titleError = if (!hasTitle) "菜谱名称不能为空" else null,
+                    descriptionError = if (!hasDescription) "简介不能为空" else null,
+                    ingredientsError = if (!hasIngredient) "请至少填写一个食材" else null,
+                    stepsError = if (!hasStep) "请至少填写一个步骤" else null
+                )
+            }
             return
         }
+
         viewModelScope.launch {
-            _uiState.update { it.copy(isLoading = true) }
+            _uiState.update { it.copy(isLoading = true, error = null) }
+
+            // 在添加模式下检查是否存在同名菜谱
+            if (editingRecipeId == null) {
+                val existing = repository.getRecipeByTitle(state.title)
+                if (existing != null) {
+                    _uiState.update {
+                        it.copy(
+                            isLoading = false,
+                            duplicateRecipeId = existing.id
+                        )
+                    }
+                    return@launch
+                }
+            }
+
             val recipe = Recipe(
                 id = editingRecipeId ?: 0,
                 title = state.title,
@@ -137,5 +180,9 @@ class AddRecipeViewModel @Inject constructor(
             else repository.insertRecipe(recipe)
             _uiState.update { it.copy(isLoading = false, isSaved = true) }
         }
+    }
+
+    fun dismissDuplicateDialog() {
+        _uiState.update { it.copy(duplicateRecipeId = null) }
     }
 }

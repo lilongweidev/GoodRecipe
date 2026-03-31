@@ -19,6 +19,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.map
 import com.goodrecipe.data.repository.RecipeCategory
 import com.goodrecipe.data.repository.RecipeSortType
 import com.goodrecipe.ui.components.RecipeCard
@@ -34,6 +36,7 @@ fun HomeScreen(
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     val listState = rememberLazyListState()
+    var isFabExtended by remember { mutableStateOf(true) }
 
     LaunchedEffect(uiState.sortType) {
         listState.scrollToItem(0)
@@ -73,7 +76,8 @@ fun HomeScreen(
             ExtendedFloatingActionButton(
                 onClick = onAddClick,
                 icon = { Icon(Icons.Filled.Add, contentDescription = null) },
-                text = { Text("添加菜谱") }
+                text = { Text("添加菜谱") },
+                expanded = isFabExtended
             )
         }
     ) { padding ->
@@ -146,6 +150,10 @@ fun HomeScreen(
                 }
             }
         }
+    }
+
+    LaunchedEffect(listState.isScrollInProgress) {
+        isFabExtended = !listState.isScrollInProgress
     }
 }
 

@@ -26,6 +26,7 @@ fun AddRecipeScreen(
     recipeId: Int? = null,
     onBack: () -> Unit,
     onSaved: () -> Unit,
+    onEditExisting: (Int) -> Unit,
     viewModel: AddRecipeViewModel = hiltViewModel()
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
@@ -71,6 +72,30 @@ fun AddRecipeScreen(
             )
         }
     ) { padding ->
+        if (uiState.duplicateRecipeId != null) {
+            AlertDialog(
+                onDismissRequest = { viewModel.dismissDuplicateDialog() },
+                title = { Text("提示") },
+                text = { Text("已存在相同菜谱，是否进行编辑？") },
+                confirmButton = {
+                    TextButton(
+                        onClick = {
+                            val id = uiState.duplicateRecipeId ?: return@TextButton
+                            viewModel.dismissDuplicateDialog()
+                            onEditExisting(id)
+                        }
+                    ) {
+                        Text("确定")
+                    }
+                },
+                dismissButton = {
+                    TextButton(onClick = { viewModel.dismissDuplicateDialog() }) {
+                        Text("取消")
+                    }
+                }
+            )
+        }
+
         LazyColumn(
             modifier = Modifier
                 .fillMaxSize()
@@ -91,7 +116,16 @@ fun AddRecipeScreen(
                     label = { Text("菜谱名称 *") },
                     modifier = Modifier.fillMaxWidth(),
                     singleLine = true,
-                    isError = uiState.error != null && uiState.title.isBlank(),
+                    isError = uiState.titleError != null,
+                    supportingText = {
+                        uiState.titleError?.let {
+                            Text(
+                                text = it,
+                                color = MaterialTheme.colorScheme.error,
+                                style = MaterialTheme.typography.bodySmall
+                            )
+                        }
+                    },
                     colors = deepBlueTextFieldColors()
                 )
             }
@@ -105,6 +139,16 @@ fun AddRecipeScreen(
                     modifier = Modifier.fillMaxWidth(),
                     minLines = 2,
                     maxLines = 4,
+                    isError = uiState.descriptionError != null,
+                    supportingText = {
+                        uiState.descriptionError?.let {
+                            Text(
+                                text = it,
+                                color = MaterialTheme.colorScheme.error,
+                                style = MaterialTheme.typography.bodySmall
+                            )
+                        }
+                    },
                     colors = deepBlueTextFieldColors()
                 )
             }
@@ -174,6 +218,14 @@ fun AddRecipeScreen(
                     title = "🥦 食材",
                     onAdd = { viewModel.addIngredient() }
                 )
+                uiState.ingredientsError?.let {
+                    Spacer(Modifier.height(4.dp))
+                    Text(
+                        text = it,
+                        color = MaterialTheme.colorScheme.error,
+                        style = MaterialTheme.typography.bodySmall
+                    )
+                }
             }
             itemsIndexed(uiState.ingredients) { index, ingredient ->
                 Row(
@@ -208,6 +260,14 @@ fun AddRecipeScreen(
                     title = "📋 步骤",
                     onAdd = { viewModel.addStep() }
                 )
+                uiState.stepsError?.let {
+                    Spacer(Modifier.height(4.dp))
+                    Text(
+                        text = it,
+                        color = MaterialTheme.colorScheme.error,
+                        style = MaterialTheme.typography.bodySmall
+                    )
+                }
             }
             itemsIndexed(uiState.steps) { index, step ->
                 Row(
@@ -234,17 +294,6 @@ fun AddRecipeScreen(
                             tint = MaterialTheme.colorScheme.error
                         )
                     }
-                }
-            }
-
-            // Error
-            if (uiState.error != null) {
-                item {
-                    Text(
-                        text = uiState.error!!,
-                        color = MaterialTheme.colorScheme.error,
-                        style = MaterialTheme.typography.bodySmall
-                    )
                 }
             }
 

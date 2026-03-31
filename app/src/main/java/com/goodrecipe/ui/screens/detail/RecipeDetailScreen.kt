@@ -1,6 +1,10 @@
 package com.goodrecipe.ui.screens.detail
 
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.scaleIn
 import androidx.compose.foundation.background
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -35,8 +39,12 @@ fun RecipeDetailScreen(
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     var showDeleteDialog by remember { mutableStateOf(false) }
+    var contentVisible by remember { mutableStateOf(false) }
 
-    LaunchedEffect(recipeId) { viewModel.loadRecipe(recipeId) }
+    LaunchedEffect(recipeId) {
+        viewModel.loadRecipe(recipeId)
+        contentVisible = true
+    }
 
     if (showDeleteDialog) {
         AlertDialog(
@@ -95,32 +103,37 @@ fun RecipeDetailScreen(
             )
         }
     ) { padding ->
-        Box(
-            modifier = Modifier
-                .fillMaxSize()
-                .background(
-                    Brush.verticalGradient(
-                        listOf(MaterialTheme.colorScheme.background, MaterialTheme.colorScheme.surface)
-                    )
-                )
-                .padding(padding)
+        AnimatedVisibility(
+            visible = contentVisible,
+            enter = scaleIn() + fadeIn()
         ) {
-            when {
-                uiState.isLoading -> {
-                    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                        CircularProgressIndicator(color = MaterialTheme.colorScheme.primary)
-                    }
-                }
-                uiState.recipe == null -> {
-                    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                        Text("菜谱不存在")
-                    }
-                }
-                else -> {
-                    RecipeDetailContent(
-                        recipe = uiState.recipe!!,
-                        modifier = Modifier
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(
+                        Brush.verticalGradient(
+                            listOf(MaterialTheme.colorScheme.background, MaterialTheme.colorScheme.surface)
+                        )
                     )
+                    .padding(padding)
+            ) {
+                when {
+                    uiState.isLoading -> {
+                        Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                            CircularProgressIndicator(color = MaterialTheme.colorScheme.primary)
+                        }
+                    }
+                    uiState.recipe == null -> {
+                        Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                            Text("菜谱不存在")
+                        }
+                    }
+                    else -> {
+                        RecipeDetailContent(
+                            recipe = uiState.recipe!!,
+                            modifier = Modifier
+                        )
+                    }
                 }
             }
         }
@@ -249,9 +262,12 @@ private fun RecipeInfoSection(recipe: Recipe) {
                         label = { Text(tag) },
                         enabled = false,
                         colors = AssistChipDefaults.assistChipColors(
-                            containerColor = MaterialTheme.colorScheme.secondaryContainer,
-                            labelColor = MaterialTheme.colorScheme.onSecondaryContainer
-                        )
+                            containerColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.08f),
+                            labelColor = MaterialTheme.colorScheme.primary,
+                            disabledContainerColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.08f),
+                            disabledLabelColor = MaterialTheme.colorScheme.primary
+                        ),
+                        border = BorderStroke(1.dp, MaterialTheme.colorScheme.primary)
                     )
                 }
             }
